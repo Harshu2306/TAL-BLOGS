@@ -1,0 +1,11 @@
+<div class="page-content">
+
+	<h1><center><%= @user.username%>'s profile</h1></center>
+	<br/><br/>
+
+</div>
+
+	<%= gravatar_for @user, size:300 %>
+
+	<%= render 'articles/article' %>
+<h3 class="text-center mt-4">Articles</h3>
