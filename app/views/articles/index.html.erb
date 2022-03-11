@@ -3,12 +3,22 @@
 
       </p>
 
+      <div class="flickr_pagination">
+        <%= will_paginate @articles, :container => false %>
+        </div>
+
+
       <%= render 'articles/article'%>
+
+        <div class="flickr_pagination">
+            <%= will_paginate @articles, :container => false %>
+        </div>
+
 
          <center>
           
-          <%= link_to 'New Article', new_article_path, class:"btn btn-primary text-white" %> &nbsp; &nbsp;
-          <%= link_to 'Back to home', root_path ,class:"btn btn-success text-white" %>
+          <%= link_to 'New Article', new_article_path, class:"btn btn-primary text-white mt-4" %> &nbsp; &nbsp;
+          <%= link_to 'Back to home', root_path ,class:"btn btn-success text-white mt-4" %>
         </center>
 
   </div>

@@ -7,6 +7,7 @@
         <div class="card text-center">
           <div class="card-header">
             <%= @article.user.username %>
+            <%= link_to gravatar_for(@article.user),user_path(@article.user) %>
           </div>
           <div class="card-body">
             <h3 class="card-title"><%= @article.title %></h3>
