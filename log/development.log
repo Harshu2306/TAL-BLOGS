@@ -56749,3 +56749,1063 @@ Processing by ArticlesController#edit as HTML
 Completed 200 OK in 18ms (Views: 11.1ms | ActiveRecord: 3.4ms | Allocations: 7736)
 
 
+Started GET "/" for 127.0.0.1 at 2022-03-14 19:38:55 +0530
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 1.2ms | Allocations: 448)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/helpers/application_helper.rb:16:in `current_user'
+  Rendered layouts/_navigation.html.erb (Duration: 16.8ms | Allocations: 7501)
+  Rendered layouts/_messages.html.erb (Duration: 0.5ms | Allocations: 202)
+  Rendered layouts/_footer.html.erb (Duration: 0.8ms | Allocations: 117)
+  Rendered layout layouts/application.html.erb (Duration: 62.9ms | Allocations: 28551)
+Completed 200 OK in 71ms (Views: 59.3ms | ActiveRecord: 5.5ms | Allocations: 31671)
+
+
+Started GET "/articles" for 127.0.0.1 at 2022-03-14 19:39:02 +0530
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  [1m[35m (1.8ms)[0m  [1m[34mSELECT COUNT(*) FROM `articles`[0m
+  ↳ app/views/articles/index.html.erb:7
+  [1m[36mArticle Load (1.1ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 4 OFFSET 0[0m
+  ↳ app/views/articles/_article.html.erb:2
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:8
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:8
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:8
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:8
+  Rendered articles/_article.html.erb (Duration: 17.8ms | Allocations: 9729)
+  Rendered articles/index.html.erb within layouts/application (Duration: 28.4ms | Allocations: 14179)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/helpers/application_helper.rb:16:in `current_user'
+  Rendered layouts/_navigation.html.erb (Duration: 1.0ms | Allocations: 627)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 52)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 38)
+  Rendered layout layouts/application.html.erb (Duration: 33.5ms | Allocations: 18295)
+Completed 200 OK in 39ms (Views: 26.8ms | ActiveRecord: 8.3ms | Allocations: 20347)
+
+
+Started GET "/articles" for 127.0.0.1 at 2022-03-14 19:55:21 +0530
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  [1m[35m (1.6ms)[0m  [1m[34mSELECT COUNT(*) FROM `articles`[0m
+  ↳ app/views/articles/index.html.erb:7
+  [1m[36mArticle Load (1.1ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 4 OFFSET 0[0m
+  ↳ app/views/articles/_article.html.erb:2
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:8
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:8
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:8
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:8
+  Rendered articles/_article.html.erb (Duration: 18.5ms | Allocations: 11111)
+  Rendered articles/index.html.erb within layouts/application (Duration: 26.3ms | Allocations: 14482)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 7.7ms | Allocations: 4374)
+  Rendered layout layouts/application.html.erb (Duration: 38.7ms | Allocations: 22138)
+Completed 500 Internal Server Error in 41ms (ActiveRecord: 4.7ms | Allocations: 23593)
+
+
+  
+ActionView::Template::Error (undefined method `logged_in?' for #<ActionView::Base:0x0000000000a028>
+Did you mean?  logger?):
+    22:             </ul>
+    23:           </li>
+    24: 
+    25:           <% if logged_in? %>
+    26: 
+    27:             <li class="nav-item">
+    28:               <%= link_to current_user.username, users_path , class:"nav-link" %>
+  
+app/views/layouts/_navigation.html.erb:25
+app/views/layouts/application.html.erb:32
+Started GET "/articles" for 127.0.0.1 at 2022-03-14 19:57:05 +0530
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  [1m[35m (1.5ms)[0m  [1m[34mSELECT COUNT(*) FROM `articles`[0m
+  ↳ app/views/articles/index.html.erb:7
+  [1m[36mArticle Load (0.9ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 4 OFFSET 0[0m
+  ↳ app/views/articles/_article.html.erb:2
+  [1m[36mUser Load (1.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:8
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:8
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:8
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:8
+  Rendered articles/_article.html.erb (Duration: 27.9ms | Allocations: 12380)
+  Rendered articles/index.html.erb within layouts/application (Duration: 37.1ms | Allocations: 15105)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 8.5ms | Allocations: 4037)
+  Rendered layout layouts/application.html.erb (Duration: 50.4ms | Allocations: 22438)
+Completed 500 Internal Server Error in 53ms (ActiveRecord: 15.9ms | Allocations: 23889)
+
+
+  
+ActionView::Template::Error (undefined method `logged_in?' for #<ActionView::Base:0x0000000000bb80>
+Did you mean?  logger?):
+    22:             </ul>
+    23:           </li>
+    24: 
+    25:           <% if logged_in? %>
+    26: 
+    27:             <li class="nav-item">
+    28:               <%= link_to current_user.username, users_path , class:"nav-link" %>
+  
+app/views/layouts/_navigation.html.erb:25
+app/views/layouts/application.html.erb:32
+Started GET "/articles" for 127.0.0.1 at 2022-03-14 19:57:06 +0530
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  [1m[35m (2.7ms)[0m  [1m[34mSELECT COUNT(*) FROM `articles`[0m
+  ↳ app/views/articles/index.html.erb:7
+  [1m[36mArticle Load (1.7ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 4 OFFSET 0[0m
+  ↳ app/views/articles/_article.html.erb:2
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:8
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:8
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:8
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:8
+  Rendered articles/_article.html.erb (Duration: 9.5ms | Allocations: 4419)
+  Rendered articles/index.html.erb within layouts/application (Duration: 16.9ms | Allocations: 6108)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 6.9ms | Allocations: 4023)
+  Rendered layout layouts/application.html.erb (Duration: 29.3ms | Allocations: 13464)
+Completed 500 Internal Server Error in 32ms (ActiveRecord: 5.4ms | Allocations: 13949)
+
+
+  
+ActionView::Template::Error (undefined method `logged_in?' for #<ActionView::Base:0x0000000000be78>
+Did you mean?  logger?):
+    22:             </ul>
+    23:           </li>
+    24: 
+    25:           <% if logged_in? %>
+    26: 
+    27:             <li class="nav-item">
+    28:               <%= link_to current_user.username, users_path , class:"nav-link" %>
+  
+app/views/layouts/_navigation.html.erb:25
+app/views/layouts/application.html.erb:32
+Started GET "/articles" for 127.0.0.1 at 2022-03-14 19:57:07 +0530
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  [1m[35m (1.5ms)[0m  [1m[34mSELECT COUNT(*) FROM `articles`[0m
+  ↳ app/views/articles/index.html.erb:7
+  [1m[36mArticle Load (1.2ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 4 OFFSET 0[0m
+  ↳ app/views/articles/_article.html.erb:2
+  [1m[36mUser Load (1.8ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:8
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:8
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:8
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:8
+  Rendered articles/_article.html.erb (Duration: 10.4ms | Allocations: 8445)
+  Rendered articles/index.html.erb within layouts/application (Duration: 16.4ms | Allocations: 14686)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 8.3ms | Allocations: 4023)
+  Rendered layout layouts/application.html.erb (Duration: 31.3ms | Allocations: 29087)
+Completed 500 Internal Server Error in 33ms (ActiveRecord: 5.4ms | Allocations: 29809)
+
+
+  
+ActionView::Template::Error (undefined method `logged_in?' for #<ActionView::Base:0x0000000000bf18>
+Did you mean?  logger?):
+    22:             </ul>
+    23:           </li>
+    24: 
+    25:           <% if logged_in? %>
+    26: 
+    27:             <li class="nav-item">
+    28:               <%= link_to current_user.username, users_path , class:"nav-link" %>
+  
+app/views/layouts/_navigation.html.erb:25
+app/views/layouts/application.html.erb:32
+Started GET "/articles" for 127.0.0.1 at 2022-03-14 19:57:07 +0530
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  [1m[35m (1.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `articles`[0m
+  ↳ app/views/articles/index.html.erb:7
+  [1m[36mArticle Load (1.1ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 4 OFFSET 0[0m
+  ↳ app/views/articles/_article.html.erb:2
+  [1m[36mUser Load (1.9ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:8
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:8
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:8
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:8
+  Rendered articles/_article.html.erb (Duration: 11.8ms | Allocations: 9869)
+  Rendered articles/index.html.erb within layouts/application (Duration: 19.1ms | Allocations: 15119)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 7.4ms | Allocations: 4023)
+  Rendered layout layouts/application.html.erb (Duration: 39.6ms | Allocations: 34597)
+Completed 500 Internal Server Error in 41ms (ActiveRecord: 6.0ms | Allocations: 35256)
+
+
+  
+ActionView::Template::Error (undefined method `logged_in?' for #<ActionView::Base:0x0000000000c008>
+Did you mean?  logger?):
+    22:             </ul>
+    23:           </li>
+    24: 
+    25:           <% if logged_in? %>
+    26: 
+    27:             <li class="nav-item">
+    28:               <%= link_to current_user.username, users_path , class:"nav-link" %>
+  
+app/views/layouts/_navigation.html.erb:25
+app/views/layouts/application.html.erb:32
+Started GET "/articles" for 127.0.0.1 at 2022-03-14 19:57:07 +0530
+Started GET "/articles" for 127.0.0.1 at 2022-03-14 19:57:07 +0530
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  [1m[35m (1.8ms)[0m  [1m[34mSELECT COUNT(*) FROM `articles`[0m
+  ↳ app/views/articles/index.html.erb:7
+  [1m[36mArticle Load (1.8ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 4 OFFSET 0[0m
+  ↳ app/views/articles/_article.html.erb:2
+  [1m[35m (2.9ms)[0m  [1m[34mSELECT COUNT(*) FROM `articles`[0m
+  ↳ app/views/articles/index.html.erb:7
+  [1m[36mUser Load (3.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  [1m[36mArticle Load (3.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 4 OFFSET 0[0m
+  ↳ app/views/articles/_article.html.erb:8
+  ↳ app/views/articles/_article.html.erb:2
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:8
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  [1m[36mUser Load (4.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:8
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:8
+  ↳ app/views/articles/_article.html.erb:8
+  Rendered articles/_article.html.erb (Duration: 34.7ms | Allocations: 22261)
+  Rendered articles/index.html.erb within layouts/application (Duration: 46.1ms | Allocations: 29156)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:8
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:8
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:8
+  Rendered articles/_article.html.erb (Duration: 45.5ms | Allocations: 26429)
+  Rendered articles/index.html.erb within layouts/application (Duration: 57.6ms | Allocations: 34901)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 7.0ms | Allocations: 4215)
+  Rendered layout layouts/application.html.erb (Duration: 99.8ms | Allocations: 67030)
+Completed 500 Internal Server Error in 102ms (ActiveRecord: 10.4ms | Allocations: 69120)
+
+
+  
+ActionView::Template::Error (undefined method `logged_in?' for #<ActionView::Base:0x0000000000c350>
+Did you mean?  logger?):
+    22:             </ul>
+    23:           </li>
+    24: 
+    25:           <% if logged_in? %>
+    26: 
+    27:             <li class="nav-item">
+    28:               <%= link_to current_user.username, users_path , class:"nav-link" %>
+  
+app/views/layouts/_navigation.html.erb:25
+app/views/layouts/application.html.erb:32
+Started GET "/articles" for 127.0.0.1 at 2022-03-14 19:57:08 +0530
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 6.6ms | Allocations: 4023)
+  Rendered layout layouts/application.html.erb (Duration: 327.9ms | Allocations: 214208)
+Processing by ArticlesController#index as HTML
+Completed 500 Internal Server Error in 332ms (ActiveRecord: 11.5ms | Allocations: 216847)
+
+
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  
+ActionView::Template::Error (undefined method `logged_in?' for #<ActionView::Base:0x0000000000c3a0>
+Did you mean?  logger?):
+    22:             </ul>
+    23:           </li>
+    24: 
+    25:           <% if logged_in? %>
+    26: 
+    27:             <li class="nav-item">
+    28:               <%= link_to current_user.username, users_path , class:"nav-link" %>
+  
+app/views/layouts/_navigation.html.erb:25
+app/views/layouts/application.html.erb:32
+  [1m[35m (208.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `articles`[0m
+  ↳ app/views/articles/index.html.erb:7
+  [1m[36mArticle Load (2.3ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 4 OFFSET 0[0m
+  ↳ app/views/articles/_article.html.erb:2
+  [1m[36mUser Load (1.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:8
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:8
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:8
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:8
+  Rendered articles/_article.html.erb (Duration: 13.0ms | Allocations: 7404)
+  Rendered articles/index.html.erb within layouts/application (Duration: 225.2ms | Allocations: 151753)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 6.7ms | Allocations: 4023)
+  Rendered layout layouts/application.html.erb (Duration: 277.2ms | Allocations: 200005)
+Completed 500 Internal Server Error in 281ms (ActiveRecord: 211.8ms | Allocations: 203075)
+
+
+  
+ActionView::Template::Error (undefined method `logged_in?' for #<ActionView::Base:0x0000000000c648>
+Did you mean?  logger?):
+    22:             </ul>
+    23:           </li>
+    24: 
+    25:           <% if logged_in? %>
+    26: 
+    27:             <li class="nav-item">
+    28:               <%= link_to current_user.username, users_path , class:"nav-link" %>
+  
+app/views/layouts/_navigation.html.erb:25
+app/views/layouts/application.html.erb:32
+Started GET "/articles" for 127.0.0.1 at 2022-03-14 19:57:08 +0530
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  [1m[35m (3.5ms)[0m  [1m[34mSELECT COUNT(*) FROM `articles`[0m
+  ↳ app/views/articles/index.html.erb:7
+  [1m[36mArticle Load (3.4ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 4 OFFSET 0[0m
+  ↳ app/views/articles/_article.html.erb:2
+  [1m[36mUser Load (2.1ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:8
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:8
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:8
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:8
+  Rendered articles/_article.html.erb (Duration: 20.4ms | Allocations: 12931)
+  Rendered articles/index.html.erb within layouts/application (Duration: 31.1ms | Allocations: 18151)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 9.7ms | Allocations: 4458)
+  Rendered layout layouts/application.html.erb (Duration: 71.9ms | Allocations: 55039)
+Completed 500 Internal Server Error in 76ms (ActiveRecord: 9.0ms | Allocations: 56691)
+
+
+  
+ActionView::Template::Error (undefined method `logged_in?' for #<ActionView::Base:0x0000000000c9e0>
+Did you mean?  logger?):
+    22:             </ul>
+    23:           </li>
+    24: 
+    25:           <% if logged_in? %>
+    26: 
+    27:             <li class="nav-item">
+    28:               <%= link_to current_user.username, users_path , class:"nav-link" %>
+  
+app/views/layouts/_navigation.html.erb:25
+app/views/layouts/application.html.erb:32
+Started GET "/articles" for 127.0.0.1 at 2022-03-14 19:57:09 +0530
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  [1m[35m (1.5ms)[0m  [1m[34mSELECT COUNT(*) FROM `articles`[0m
+  ↳ app/views/articles/index.html.erb:7
+  [1m[36mArticle Load (1.2ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 4 OFFSET 0[0m
+  ↳ app/views/articles/_article.html.erb:2
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:8
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:8
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:8
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:8
+  Rendered articles/_article.html.erb (Duration: 11.5ms | Allocations: 4417)
+  Rendered articles/index.html.erb within layouts/application (Duration: 15.9ms | Allocations: 6104)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 8.2ms | Allocations: 4023)
+  Rendered layout layouts/application.html.erb (Duration: 28.2ms | Allocations: 13460)
+Completed 500 Internal Server Error in 30ms (ActiveRecord: 4.0ms | Allocations: 13944)
+
+
+  
+ActionView::Template::Error (undefined method `logged_in?' for #<ActionView::Base:0x0000000000d368>
+Did you mean?  logger?):
+    22:             </ul>
+    23:           </li>
+    24: 
+    25:           <% if logged_in? %>
+    26: 
+    27:             <li class="nav-item">
+    28:               <%= link_to current_user.username, users_path , class:"nav-link" %>
+  
+app/views/layouts/_navigation.html.erb:25
+app/views/layouts/application.html.erb:32
+Started GET "/articles" for 127.0.0.1 at 2022-03-14 19:57:09 +0530
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  [1m[35m (1.4ms)[0m  [1m[34mSELECT COUNT(*) FROM `articles`[0m
+  ↳ app/views/articles/index.html.erb:7
+  [1m[36mArticle Load (1.4ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 4 OFFSET 0[0m
+  ↳ app/views/articles/_article.html.erb:2
+  [1m[36mUser Load (1.6ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:8
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:8
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:8
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:8
+  Rendered articles/_article.html.erb (Duration: 10.9ms | Allocations: 7415)
+  Rendered articles/index.html.erb within layouts/application (Duration: 15.6ms | Allocations: 11765)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 6.7ms | Allocations: 4023)
+  Rendered layout layouts/application.html.erb (Duration: 31.5ms | Allocations: 26155)
+Completed 500 Internal Server Error in 33ms (ActiveRecord: 4.4ms | Allocations: 26912)
+
+
+  
+ActionView::Template::Error (undefined method `logged_in?' for #<ActionView::Base:0x0000000000d408>
+Did you mean?  logger?):
+    22:             </ul>
+    23:           </li>
+    24: 
+    25:           <% if logged_in? %>
+    26: 
+    27:             <li class="nav-item">
+    28:               <%= link_to current_user.username, users_path , class:"nav-link" %>
+  
+app/views/layouts/_navigation.html.erb:25
+app/views/layouts/application.html.erb:32
+Started GET "/articles" for 127.0.0.1 at 2022-03-14 19:57:09 +0530
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  [1m[35m (1.4ms)[0m  [1m[34mSELECT COUNT(*) FROM `articles`[0m
+  ↳ app/views/articles/index.html.erb:7
+  [1m[36mArticle Load (2.3ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 4 OFFSET 0[0m
+  ↳ app/views/articles/_article.html.erb:2
+  [1m[36mUser Load (1.5ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:8
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:8
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:8
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:8
+  Rendered articles/_article.html.erb (Duration: 17.1ms | Allocations: 9560)
+  Rendered articles/index.html.erb within layouts/application (Duration: 23.0ms | Allocations: 13978)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 8.2ms | Allocations: 4023)
+  Rendered layout layouts/application.html.erb (Duration: 50.0ms | Allocations: 44326)
+Completed 500 Internal Server Error in 52ms (ActiveRecord: 5.3ms | Allocations: 45280)
+
+
+  
+ActionView::Template::Error (undefined method `logged_in?' for #<ActionView::Base:0x0000000000d4a8>
+Did you mean?  logger?):
+    22:             </ul>
+    23:           </li>
+    24: 
+    25:           <% if logged_in? %>
+    26: 
+    27:             <li class="nav-item">
+    28:               <%= link_to current_user.username, users_path , class:"nav-link" %>
+  
+app/views/layouts/_navigation.html.erb:25
+app/views/layouts/application.html.erb:32
+Started GET "/articles" for 127.0.0.1 at 2022-03-14 19:57:26 +0530
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  [1m[35m (1.6ms)[0m  [1m[34mSELECT COUNT(*) FROM `articles`[0m
+  ↳ app/views/articles/index.html.erb:7
+  [1m[36mArticle Load (0.9ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 4 OFFSET 0[0m
+  ↳ app/views/articles/_article.html.erb:2
+  [1m[36mUser Load (1.7ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:8
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:8
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:8
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:8
+  Rendered articles/_article.html.erb (Duration: 24.7ms | Allocations: 12397)
+  Rendered articles/index.html.erb within layouts/application (Duration: 32.3ms | Allocations: 15887)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 11.7ms | Allocations: 4037)
+  Rendered layout layouts/application.html.erb (Duration: 48.4ms | Allocations: 23218)
+Completed 500 Internal Server Error in 51ms (ActiveRecord: 12.3ms | Allocations: 24662)
+
+
+  
+ActionView::Template::Error (undefined method `logged_in?' for #<ActionView::Base:0x0000000000f1e0>
+Did you mean?  logger?):
+    22:             </ul>
+    23:           </li>
+    24: 
+    25:           <% if logged_in? %>
+    26: 
+    27:             <li class="nav-item">
+    28:               <%= link_to current_user.username, users_path , class:"nav-link" %>
+  
+app/views/layouts/_navigation.html.erb:25
+app/views/layouts/application.html.erb:32
+Started GET "/articles" for 127.0.0.1 at 2022-03-14 19:57:26 +0530
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  [1m[35m (1.7ms)[0m  [1m[34mSELECT COUNT(*) FROM `articles`[0m
+  ↳ app/views/articles/index.html.erb:7
+  [1m[36mArticle Load (1.7ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 4 OFFSET 0[0m
+  ↳ app/views/articles/_article.html.erb:2
+  [1m[36mUser Load (1.5ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:8
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:8
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:8
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:8
+  Rendered articles/_article.html.erb (Duration: 12.4ms | Allocations: 7573)
+  Rendered articles/index.html.erb within layouts/application (Duration: 17.5ms | Allocations: 11204)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 7.7ms | Allocations: 4023)
+  Rendered layout layouts/application.html.erb (Duration: 35.9ms | Allocations: 24525)
+Completed 500 Internal Server Error in 37ms (ActiveRecord: 5.0ms | Allocations: 25322)
+
+
+  
+ActionView::Template::Error (undefined method `logged_in?' for #<ActionView::Base:0x0000000000f2a8>
+Did you mean?  logger?):
+    22:             </ul>
+    23:           </li>
+    24: 
+    25:           <% if logged_in? %>
+    26: 
+    27:             <li class="nav-item">
+    28:               <%= link_to current_user.username, users_path , class:"nav-link" %>
+  
+app/views/layouts/_navigation.html.erb:25
+app/views/layouts/application.html.erb:32
+Started GET "/articles" for 127.0.0.1 at 2022-03-14 19:57:26 +0530
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  [1m[35m (1.6ms)[0m  [1m[34mSELECT COUNT(*) FROM `articles`[0m
+  ↳ app/views/articles/index.html.erb:7
+  [1m[36mArticle Load (4.6ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 4 OFFSET 0[0m
+  ↳ app/views/articles/_article.html.erb:2
+  [1m[36mUser Load (2.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:8
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:8
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:8
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:8
+  Rendered articles/_article.html.erb (Duration: 15.7ms | Allocations: 8423)
+  Rendered articles/index.html.erb within layouts/application (Duration: 20.3ms | Allocations: 12034)
+Started GET "/articles" for 127.0.0.1 at 2022-03-14 19:57:26 +0530
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 7.6ms | Allocations: 4023)
+  Rendered layout layouts/application.html.erb (Duration: 49.7ms | Allocations: 34654)
+Completed 500 Internal Server Error in 52ms (ActiveRecord: 8.2ms | Allocations: 35642)
+
+
+  [1m[35m (10.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `articles`[0m
+  
+ActionView::Template::Error (undefined method `logged_in?' for #<ActionView::Base:0x0000000000f398>
+Did you mean?  logger?):
+    22:             </ul>
+    23:           </li>
+    24: 
+    25:           <% if logged_in? %>
+    26: 
+    27:             <li class="nav-item">
+    28:               <%= link_to current_user.username, users_path , class:"nav-link" %>
+  
+app/views/layouts/_navigation.html.erb:25
+app/views/layouts/application.html.erb:32
+  ↳ app/views/articles/index.html.erb:7
+  [1m[36mArticle Load (123.7ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 4 OFFSET 0[0m
+  ↳ app/views/articles/_article.html.erb:2
+Started GET "/articles" for 127.0.0.1 at 2022-03-14 19:57:27 +0530
+  [1m[36mUser Load (1.7ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:8
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:8
+Processing by ArticlesController#index as HTML
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  Rendering layout layouts/application.html.erb
+  ↳ app/views/articles/_article.html.erb:8
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:8
+  Rendered articles/_article.html.erb (Duration: 142.5ms | Allocations: 87910)
+  Rendered articles/index.html.erb within layouts/application (Duration: 256.3ms | Allocations: 161590)
+  Rendering articles/index.html.erb within layouts/application
+  [1m[35m (3.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `articles`[0m
+  ↳ app/views/articles/index.html.erb:7
+  [1m[36mArticle Load (2.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 4 OFFSET 0[0m
+  ↳ app/views/articles/_article.html.erb:2
+  [1m[36mUser Load (2.6ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:8
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:8
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:8
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:8
+  Rendered articles/_article.html.erb (Duration: 25.0ms | Allocations: 17430)
+  Rendered articles/index.html.erb within layouts/application (Duration: 33.1ms | Allocations: 23589)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 9.1ms | Allocations: 4023)
+  Rendered layout layouts/application.html.erb (Duration: 332.6ms | Allocations: 211554)
+Completed 500 Internal Server Error in 335ms (ActiveRecord: 135.6ms | Allocations: 212306)
+
+
+  
+ActionView::Template::Error (undefined method `logged_in?' for #<ActionView::Base:0x0000000000f5f0>
+Did you mean?  logger?):
+    22:             </ul>
+    23:           </li>
+    24: 
+    25:           <% if logged_in? %>
+    26: 
+    27:             <li class="nav-item">
+    28:               <%= link_to current_user.username, users_path , class:"nav-link" %>
+  
+app/views/layouts/_navigation.html.erb:25
+app/views/layouts/application.html.erb:32
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 6.5ms | Allocations: 4023)
+  Rendered layout layouts/application.html.erb (Duration: 377.0ms | Allocations: 209284)
+Completed 500 Internal Server Error in 381ms (ActiveRecord: 8.0ms | Allocations: 211735)
+
+
+  
+ActionView::Template::Error (undefined method `logged_in?' for #<ActionView::Base:0x0000000000f870>
+Did you mean?  logger?):
+    22:             </ul>
+    23:           </li>
+    24: 
+    25:           <% if logged_in? %>
+    26: 
+    27:             <li class="nav-item">
+    28:               <%= link_to current_user.username, users_path , class:"nav-link" %>
+  
+app/views/layouts/_navigation.html.erb:25
+app/views/layouts/application.html.erb:32
+Started GET "/articles" for 127.0.0.1 at 2022-03-14 19:58:25 +0530
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `articles`[0m
+  ↳ app/views/articles/index.html.erb:7
+  [1m[36mArticle Load (1.3ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 4 OFFSET 0[0m
+  ↳ app/views/articles/_article.html.erb:2
+  [1m[36mUser Load (1.7ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:8
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:8
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:8
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:8
+  Rendered articles/_article.html.erb (Duration: 24.9ms | Allocations: 12376)
+  Rendered articles/index.html.erb within layouts/application (Duration: 31.1ms | Allocations: 15092)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 7.6ms | Allocations: 4037)
+  Rendered layout layouts/application.html.erb (Duration: 42.2ms | Allocations: 22423)
+Completed 500 Internal Server Error in 45ms (ActiveRecord: 12.4ms | Allocations: 23867)
+
+
+  
+ActionView::Template::Error (undefined method `logged_in?' for #<ActionView::Base:0x00000000011850>
+Did you mean?  logger?):
+    22:             </ul>
+    23:           </li>
+    24: 
+    25:           <% if logged_in? %>
+    26: 
+    27:             <li class="nav-item">
+    28:               <%= link_to current_user.username, users_path , class:"nav-link" %>
+  
+app/views/layouts/_navigation.html.erb:25
+app/views/layouts/application.html.erb:32
+Started GET "/articles" for 127.0.0.1 at 2022-03-14 19:58:26 +0530
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  [1m[35m (2.4ms)[0m  [1m[34mSELECT COUNT(*) FROM `articles`[0m
+  ↳ app/views/articles/index.html.erb:7
+  [1m[36mArticle Load (1.4ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 4 OFFSET 0[0m
+  ↳ app/views/articles/_article.html.erb:2
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:8
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:8
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:8
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:8
+  Rendered articles/_article.html.erb (Duration: 11.2ms | Allocations: 4418)
+  Rendered articles/index.html.erb within layouts/application (Duration: 17.6ms | Allocations: 6105)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 7.9ms | Allocations: 4023)
+  Rendered layout layouts/application.html.erb (Duration: 30.9ms | Allocations: 13461)
+Completed 500 Internal Server Error in 33ms (ActiveRecord: 5.0ms | Allocations: 13946)
+
+
+  
+ActionView::Template::Error (undefined method `logged_in?' for #<ActionView::Base:0x00000000011b48>
+Did you mean?  logger?):
+    22:             </ul>
+    23:           </li>
+    24: 
+    25:           <% if logged_in? %>
+    26: 
+    27:             <li class="nav-item">
+    28:               <%= link_to current_user.username, users_path , class:"nav-link" %>
+  
+app/views/layouts/_navigation.html.erb:25
+app/views/layouts/application.html.erb:32
+Started GET "/articles" for 127.0.0.1 at 2022-03-14 19:58:26 +0530
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  [1m[35m (3.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `articles`[0m
+  ↳ app/views/articles/index.html.erb:7
+  [1m[36mArticle Load (1.9ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 4 OFFSET 0[0m
+  ↳ app/views/articles/_article.html.erb:2
+  [1m[36mUser Load (2.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:8
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:8
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:8
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:8
+  Rendered articles/_article.html.erb (Duration: 19.8ms | Allocations: 7110)
+  Rendered articles/index.html.erb within layouts/application (Duration: 28.5ms | Allocations: 11038)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 12.6ms | Allocations: 4023)
+  Rendered layout layouts/application.html.erb (Duration: 49.8ms | Allocations: 19037)
+Completed 500 Internal Server Error in 51ms (ActiveRecord: 7.4ms | Allocations: 19680)
+
+
+  
+ActionView::Template::Error (undefined method `logged_in?' for #<ActionView::Base:0x00000000011e40>
+Did you mean?  logger?):
+    22:             </ul>
+    23:           </li>
+    24: 
+    25:           <% if logged_in? %>
+    26: 
+    27:             <li class="nav-item">
+    28:               <%= link_to current_user.username, users_path , class:"nav-link" %>
+  
+app/views/layouts/_navigation.html.erb:25
+app/views/layouts/application.html.erb:32
+Started GET "/articles" for 127.0.0.1 at 2022-03-14 19:58:26 +0530
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  [1m[35m (1.7ms)[0m  [1m[34mSELECT COUNT(*) FROM `articles`[0m
+  ↳ app/views/articles/index.html.erb:7
+  [1m[36mArticle Load (1.1ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 4 OFFSET 0[0m
+  ↳ app/views/articles/_article.html.erb:2
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:8
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:8
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:8
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:8
+  Rendered articles/_article.html.erb (Duration: 14.5ms | Allocations: 7392)
+  Rendered articles/index.html.erb within layouts/application (Duration: 18.5ms | Allocations: 11181)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 7.5ms | Allocations: 4023)
+  Rendered layout layouts/application.html.erb (Duration: 34.4ms | Allocations: 24549)
+Completed 500 Internal Server Error in 36ms (ActiveRecord: 3.9ms | Allocations: 25824)
+
+
+  
+ActionView::Template::Error (undefined method `logged_in?' for #<ActionView::Base:0x00000000011ee0>
+Did you mean?  logger?):
+    22:             </ul>
+    23:           </li>
+    24: 
+    25:           <% if logged_in? %>
+    26: 
+    27:             <li class="nav-item">
+    28:               <%= link_to current_user.username, users_path , class:"nav-link" %>
+  
+app/views/layouts/_navigation.html.erb:25
+app/views/layouts/application.html.erb:32
+Started GET "/articles" for 127.0.0.1 at 2022-03-14 19:58:27 +0530
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  [1m[35m (2.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `articles`[0m
+  ↳ app/views/articles/index.html.erb:7
+  [1m[36mArticle Load (1.8ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 4 OFFSET 0[0m
+  ↳ app/views/articles/_article.html.erb:2
+  [1m[36mUser Load (1.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:8
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:8
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:8
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:8
+  Rendered articles/_article.html.erb (Duration: 14.4ms | Allocations: 7797)
+  Rendered articles/index.html.erb within layouts/application (Duration: 23.0ms | Allocations: 11103)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 6.3ms | Allocations: 4023)
+  Rendered layout layouts/application.html.erb (Duration: 43.9ms | Allocations: 35801)
+Completed 500 Internal Server Error in 45ms (ActiveRecord: 5.4ms | Allocations: 36415)
+
+
+  
+ActionView::Template::Error (undefined method `logged_in?' for #<ActionView::Base:0x00000000011f80>
+Did you mean?  logger?):
+    22:             </ul>
+    23:           </li>
+    24: 
+    25:           <% if logged_in? %>
+    26: 
+    27:             <li class="nav-item">
+    28:               <%= link_to current_user.username, users_path , class:"nav-link" %>
+  
+app/views/layouts/_navigation.html.erb:25
+app/views/layouts/application.html.erb:32
+Started GET "/articles" for 127.0.0.1 at 2022-03-14 20:01:30 +0530
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  [1m[35m (1.8ms)[0m  [1m[34mSELECT COUNT(*) FROM `articles`[0m
+  ↳ app/views/articles/index.html.erb:7
+  [1m[36mArticle Load (0.9ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 4 OFFSET 0[0m
+  ↳ app/views/articles/_article.html.erb:2
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:8
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:8
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:8
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:8
+  Rendered articles/_article.html.erb (Duration: 31.2ms | Allocations: 12376)
+  Rendered articles/index.html.erb within layouts/application (Duration: 38.9ms | Allocations: 15092)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/application_controller.rb:8:in `current_user'
+  Rendered layouts/_navigation.html.erb (Duration: 1.2ms | Allocations: 778)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 52)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 38)
+  Rendered layout layouts/application.html.erb (Duration: 45.0ms | Allocations: 19373)
+Completed 200 OK in 49ms (Views: 32.8ms | ActiveRecord: 13.7ms | Allocations: 20850)
+
+
+Started GET "/" for 127.0.0.1 at 2022-03-14 20:01:34 +0530
+Processing by PagesController#home as HTML
+Redirected to http://127.0.0.1:3000/articles
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 321)
+
+
+Started GET "/articles" for 127.0.0.1 at 2022-03-14 20:01:34 +0530
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  [1m[35m (1.5ms)[0m  [1m[34mSELECT COUNT(*) FROM `articles`[0m
+  ↳ app/views/articles/index.html.erb:7
+  [1m[36mArticle Load (1.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 4 OFFSET 0[0m
+  ↳ app/views/articles/_article.html.erb:2
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:8
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:8
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:8
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:8
+  Rendered articles/_article.html.erb (Duration: 9.9ms | Allocations: 4418)
+  Rendered articles/index.html.erb within layouts/application (Duration: 14.8ms | Allocations: 6106)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/application_controller.rb:8:in `current_user'
+  Rendered layouts/_navigation.html.erb (Duration: 1.2ms | Allocations: 612)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 51)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 38)
+  Rendered layout layouts/application.html.erb (Duration: 21.5ms | Allocations: 10242)
+Completed 200 OK in 23ms (Views: 18.2ms | ActiveRecord: 3.8ms | Allocations: 10763)
+
+
+Started DELETE "/logout" for 127.0.0.1 at 2022-03-14 20:01:45 +0530
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]"}
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms | Allocations: 367)
+
+
+Started GET "/" for 127.0.0.1 at 2022-03-14 20:01:45 +0530
+Processing by PagesController#home as HTML
+Redirected to http://127.0.0.1:3000/articles
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 277)
+
+
+Started GET "/articles" for 127.0.0.1 at 2022-03-14 20:01:45 +0530
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  [1m[35m (1.5ms)[0m  [1m[34mSELECT COUNT(*) FROM `articles`[0m
+  ↳ app/views/articles/index.html.erb:7
+  [1m[36mArticle Load (1.1ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 4 OFFSET 0[0m
+  ↳ app/views/articles/_article.html.erb:2
+  [1m[36mUser Load (1.8ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:8
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:8
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:8
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:8
+  Rendered articles/_article.html.erb (Duration: 12.7ms | Allocations: 4417)
+  Rendered articles/index.html.erb within layouts/application (Duration: 17.8ms | Allocations: 6105)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 3.6ms | Allocations: 189)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 55)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 38)
+  Rendered layout layouts/application.html.erb (Duration: 27.4ms | Allocations: 9821)
+Completed 200 OK in 29ms (Views: 23.5ms | ActiveRecord: 4.4ms | Allocations: 10350)
+
+
+Started GET "/login" for 127.0.0.1 at 2022-03-14 20:01:50 +0530
+Processing by SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 3.7ms | Allocations: 1387)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 0.3ms | Allocations: 201)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 52)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 38)
+  Rendered layout layouts/application.html.erb (Duration: 10.1ms | Allocations: 5177)
+Completed 200 OK in 14ms (Views: 12.3ms | ActiveRecord: 0.0ms | Allocations: 6167)
+
+
+Started POST "/login" for 127.0.0.1 at 2022-03-14 20:02:02 +0530
+Processing by SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "sessions"=>{"email"=>"demouser@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Login"}
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`email` = 'demouser@gmail.com' LIMIT 1[0m
+  ↳ app/controllers/sessions_controller.rb:7:in `create'
+Redirected to http://127.0.0.1:3000/users
+Completed 302 Found in 284ms (ActiveRecord: 1.2ms | Allocations: 1071)
+
+
+Started GET "/users" for 127.0.0.1 at 2022-03-14 20:02:02 +0530
+Processing by UsersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[35m (1.6ms)[0m  [1m[34mSELECT COUNT(*) FROM `users`[0m
+  ↳ app/views/users/index.html.erb:4
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT `users`.* FROM `users` LIMIT 4 OFFSET 0[0m
+  ↳ app/views/users/index.html.erb:8
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT COUNT(*) FROM `articles` WHERE `articles`.`user_id` = 2[0m
+  ↳ app/views/users/index.html.erb:18
+  [1m[35m (1.5ms)[0m  [1m[34mSELECT COUNT(*) FROM `articles` WHERE `articles`.`user_id` = 4[0m
+  ↳ app/views/users/index.html.erb:18
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `articles` WHERE `articles`.`user_id` = 5[0m
+  ↳ app/views/users/index.html.erb:18
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT COUNT(*) FROM `articles` WHERE `articles`.`user_id` = 6[0m
+  ↳ app/views/users/index.html.erb:18
+  Rendered users/index.html.erb within layouts/application (Duration: 20.5ms | Allocations: 8536)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (1.6ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 5 LIMIT 1[0m
+  ↳ app/controllers/application_controller.rb:8:in `current_user'
+  Rendered layouts/_navigation.html.erb (Duration: 2.9ms | Allocations: 905)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 54)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 38)
+  Rendered layout layouts/application.html.erb (Duration: 28.2ms | Allocations: 12945)
+Completed 200 OK in 31ms (Views: 21.1ms | ActiveRecord: 8.6ms | Allocations: 14032)
+
+
+Started GET "/articles/new" for 127.0.0.1 at 2022-03-14 20:02:29 +0530
+Processing by ArticlesController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (Duration: 0.8ms | Allocations: 225)
+  Rendered articles/_form.html.erb (Duration: 4.1ms | Allocations: 1859)
+  Rendered articles/new.html.erb within layouts/application (Duration: 5.2ms | Allocations: 2173)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (1.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 5 LIMIT 1[0m
+  ↳ app/controllers/application_controller.rb:8:in `current_user'
+  Rendered layouts/_navigation.html.erb (Duration: 2.9ms | Allocations: 885)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 51)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 38)
+  Rendered layout layouts/application.html.erb (Duration: 13.7ms | Allocations: 6569)
+Completed 200 OK in 16ms (Views: 13.3ms | ActiveRecord: 1.3ms | Allocations: 7177)
+
+
+Started POST "/articles" for 127.0.0.1 at 2022-03-14 20:03:18 +0530
+Processing by ArticlesController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "article"=>{"title"=>"leg spin in cricket", "description"=>"Leg spin is a type of spin bowling in cricket. A leg spinner bowls right-arm with a wrist spin action. The leg spinner's normal delivery causes the ball to spin from right to left (from the bowler's perspective) when the ball bounces on the pitch. For a right-handed batsman, that is away from the leg side, and this is where it gets the name leg break.[1]\r\n\r\nLeg spinners bowl mostly leg breaks, varying them by adjusting the line and length, and amount of side spin versus topspin of the deliveries. Leg spinners also typically use variations of flight by sometimes looping the ball in the air, allowing any cross-breeze and the aerodynamic effects of the spinning ball to cause the ball to dip and drift before bouncing and spinning or \"turning\", sharply. Leg spinners also bowl other types of delivery, which spin differently, such as the googly."}, "commit"=>"Create Article"}
+  [1m[36mUser Load (1.5ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 5 LIMIT 1[0m
+  ↳ app/controllers/application_controller.rb:8:in `current_user'
+  [1m[36mTRANSACTION (1.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/articles_controller.rb:29:in `block in create'
+  [1m[36mArticle Create (0.9ms)[0m  [1m[32mINSERT INTO `articles` (`title`, `description`, `created_at`, `updated_at`, `user_id`) VALUES ('leg spin in cricket', 'Leg spin is a type of spin bowling in cricket. A leg spinner bowls right-arm with a wrist spin action. The leg spinner\'s normal delivery causes the ball to spin from right to left (from the bowler\'s perspective) when the ball bounces on the pitch. For a right-handed batsman, that is away from the leg side, and this is where it gets the name leg break.[1]\r\n\r\nLeg spinners bowl mostly leg breaks, varying them by adjusting the line and length, and amount of side spin versus topspin of the deliveries. Leg spinners also typically use variations of flight by sometimes looping the ball in the air, allowing any cross-breeze and the aerodynamic effects of the spinning ball to cause the ball to dip and drift before bouncing and spinning or \"turning\", sharply. Leg spinners also bowl other types of delivery, which spin differently, such as the googly.', '2022-03-14 14:33:18.529409', '2022-03-14 14:33:18.529409', 5)[0m
+  ↳ app/controllers/articles_controller.rb:29:in `block in create'
+  [1m[36mTRANSACTION (114.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/articles_controller.rb:29:in `block in create'
+Redirected to http://127.0.0.1:3000/articles/31
+Completed 302 Found in 129ms (ActiveRecord: 117.9ms | Allocations: 3813)
+
+
+Started GET "/articles/31" for 127.0.0.1 at 2022-03-14 20:03:18 +0530
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"31"}
+  [1m[36mArticle Load (1.5ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` WHERE `articles`.`id` = 31 LIMIT 1[0m
+  ↳ app/controllers/articles_controller.rb:65:in `set_article'
+  Rendering layout layouts/application.html.erb
+  Rendering articles/show.html.erb within layouts/application
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 5 LIMIT 1[0m
+  ↳ app/views/articles/show.html.erb:9
+  Rendered articles/show.html.erb within layouts/application (Duration: 21.4ms | Allocations: 1566)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 5 LIMIT 1[0m
+  ↳ app/controllers/application_controller.rb:8:in `current_user'
+  Rendered layouts/_navigation.html.erb (Duration: 8.3ms | Allocations: 613)
+  Rendered layouts/_messages.html.erb (Duration: 0.2ms | Allocations: 53)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 38)
+  Rendered layout layouts/application.html.erb (Duration: 101.2ms | Allocations: 5704)
+Completed 200 OK in 107ms (Views: 100.8ms | ActiveRecord: 2.5ms | Allocations: 7028)
+
+
