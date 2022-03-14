@@ -37,6 +37,7 @@ class UsersController < ApplicationController
 	def create
 		@user = User.new(user_params)
 		if @user.save
+			session[:user_id] = @user.id #(this line is written because we want to log the user in when he signup)
 			flash[:notice]="Welcome to TAL-BLOGS #{@user.username} , You have signed up successfully!!"
 			redirect_to articles_path
 
