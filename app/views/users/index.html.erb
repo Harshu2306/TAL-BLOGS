@@ -19,9 +19,19 @@
 
         <%= link_to 'View Profile',user_path(user) , class:"btn btn-outline-success" %>
 
-        <% if logged_in? && @user == current_user %>
+        <% if logged_in? %>
 
-        <%= link_to 'Edit Profile',edit_user_path(user) , class:"btn btn-outline-info" %>
+          <% if user==current_user %>
+
+          <%= link_to 'Edit Profile',edit_user_path(user) , class:"btn btn-outline-info" %>
+
+        <% end %>
+
+        <% if current_user.admin? %>
+
+          <%= link_to "Delete Profile",user_path(user),class:"btn btn-danger text-white",method: :delete,data:{confirm: "ARE YOU SURE YOU WANT TO DELTE THIS USER ACCOUNT"}%>
+
+        <% end %>
 
         <% end %>
       </div>
