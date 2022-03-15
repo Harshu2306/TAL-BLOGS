@@ -58954,3 +58954,1310 @@ Processing by UsersController#index as HTML
 Completed 200 OK in 26ms (Views: 17.3ms | ActiveRecord: 7.9ms | Allocations: 11554)
 
 
+Started GET "/users" for 127.0.0.1 at 2022-03-15 13:13:21 +0530
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by UsersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[35m (1.7ms)[0m  [1m[34mSELECT COUNT(*) FROM `users`[0m
+  ↳ app/views/users/index.html.erb:4
+  [1m[36mUser Load (1.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` LIMIT 4 OFFSET 0[0m
+  ↳ app/views/users/index.html.erb:8
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT COUNT(*) FROM `articles` WHERE `articles`.`user_id` = 2[0m
+  ↳ app/views/users/index.html.erb:18
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 5 LIMIT 1[0m
+  ↳ app/controllers/application_controller.rb:8:in `current_user'
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `articles` WHERE `articles`.`user_id` = 4[0m
+  ↳ app/views/users/index.html.erb:18
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT COUNT(*) FROM `articles` WHERE `articles`.`user_id` = 5[0m
+  ↳ app/views/users/index.html.erb:18
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT COUNT(*) FROM `articles` WHERE `articles`.`user_id` = 6[0m
+  ↳ app/views/users/index.html.erb:18
+  Rendered users/index.html.erb within layouts/application (Duration: 38.3ms | Allocations: 17790)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 1.0ms | Allocations: 579)
+  Rendered layouts/_messages.html.erb (Duration: 0.4ms | Allocations: 202)
+  Rendered layouts/_footer.html.erb (Duration: 0.3ms | Allocations: 117)
+  Rendered layout layouts/application.html.erb (Duration: 388.5ms | Allocations: 26566)
+Completed 200 OK in 401ms (Views: 376.2ms | ActiveRecord: 14.4ms | Allocations: 31874)
+
+
+Started GET "/users" for 127.0.0.1 at 2022-03-15 13:13:25 +0530
+Processing by UsersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[35m (1.6ms)[0m  [1m[34mSELECT COUNT(*) FROM `users`[0m
+  ↳ app/views/users/index.html.erb:4
+  [1m[36mUser Load (1.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` LIMIT 4 OFFSET 0[0m
+  ↳ app/views/users/index.html.erb:8
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `articles` WHERE `articles`.`user_id` = 2[0m
+  ↳ app/views/users/index.html.erb:18
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 5 LIMIT 1[0m
+  ↳ app/controllers/application_controller.rb:8:in `current_user'
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `articles` WHERE `articles`.`user_id` = 4[0m
+  ↳ app/views/users/index.html.erb:18
+  [1m[35m (1.6ms)[0m  [1m[34mSELECT COUNT(*) FROM `articles` WHERE `articles`.`user_id` = 5[0m
+  ↳ app/views/users/index.html.erb:18
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT COUNT(*) FROM `articles` WHERE `articles`.`user_id` = 6[0m
+  ↳ app/views/users/index.html.erb:18
+  Rendered users/index.html.erb within layouts/application (Duration: 21.1ms | Allocations: 7330)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 0.3ms | Allocations: 193)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 51)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 38)
+  Rendered layout layouts/application.html.erb (Duration: 27.3ms | Allocations: 11048)
+Completed 200 OK in 29ms (Views: 19.7ms | ActiveRecord: 8.1ms | Allocations: 11575)
+
+
+Started GET "/" for 127.0.0.1 at 2022-03-15 13:13:30 +0530
+Processing by PagesController#home as HTML
+Redirected to http://127.0.0.1:3000/articles
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 324)
+
+
+Started GET "/articles" for 127.0.0.1 at 2022-03-15 13:13:30 +0530
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  [1m[35m (1.4ms)[0m  [1m[34mSELECT COUNT(*) FROM `articles`[0m
+  ↳ app/views/articles/index.html.erb:7
+  [1m[36mArticle Load (1.6ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 4 OFFSET 0[0m
+  ↳ app/views/articles/_article.html.erb:2
+  [1m[36mUser Load (1.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:8
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 5 LIMIT 1[0m
+  ↳ app/controllers/application_controller.rb:8:in `current_user'
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:8
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:8
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:8
+  Rendered articles/_article.html.erb (Duration: 19.2ms | Allocations: 9109)
+  Rendered articles/index.html.erb within layouts/application (Duration: 23.8ms | Allocations: 11166)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 0.2ms | Allocations: 206)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 52)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 38)
+  Rendered layout layouts/application.html.erb (Duration: 27.7ms | Allocations: 14861)
+Completed 200 OK in 30ms (Views: 20.9ms | ActiveRecord: 7.8ms | Allocations: 16022)
+
+
+Started DELETE "/logout" for 127.0.0.1 at 2022-03-15 13:13:33 +0530
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]"}
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms | Allocations: 367)
+
+
+Started GET "/" for 127.0.0.1 at 2022-03-15 13:13:33 +0530
+Processing by PagesController#home as HTML
+Redirected to http://127.0.0.1:3000/articles
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 277)
+
+
+Started GET "/articles" for 127.0.0.1 at 2022-03-15 13:13:33 +0530
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  [1m[35m (1.6ms)[0m  [1m[34mSELECT COUNT(*) FROM `articles`[0m
+  ↳ app/views/articles/index.html.erb:7
+  [1m[36mArticle Load (1.2ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 4 OFFSET 0[0m
+  ↳ app/views/articles/_article.html.erb:2
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:8
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:8
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:8
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:8
+  Rendered articles/_article.html.erb (Duration: 9.3ms | Allocations: 4170)
+  Rendered articles/index.html.erb within layouts/application (Duration: 14.0ms | Allocations: 5858)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 0.3ms | Allocations: 188)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 55)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 38)
+  Rendered layout layouts/application.html.erb (Duration: 19.3ms | Allocations: 9573)
+Completed 200 OK in 21ms (Views: 15.9ms | ActiveRecord: 3.9ms | Allocations: 10101)
+
+
+Started GET "/login" for 127.0.0.1 at 2022-03-15 13:17:06 +0530
+Processing by SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 4.7ms | Allocations: 1386)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 1.1ms | Allocations: 543)
+  Rendered layouts/_messages.html.erb (Duration: 0.5ms | Allocations: 184)
+  Rendered layouts/_footer.html.erb (Duration: 0.4ms | Allocations: 112)
+  Rendered layout layouts/application.html.erb (Duration: 19.9ms | Allocations: 6308)
+Completed 200 OK in 22ms (Views: 21.2ms | ActiveRecord: 0.0ms | Allocations: 7550)
+
+
+Started POST "/login" for 127.0.0.1 at 2022-03-15 13:17:30 +0530
+Processing by SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "sessions"=>{"email"=>"shanewarne@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Login"}
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`email` = 'shanewarne@gmail.com' LIMIT 1[0m
+  ↳ app/controllers/sessions_controller.rb:7:in `create'
+Redirected to http://127.0.0.1:3000/users
+Completed 302 Found in 302ms (ActiveRecord: 8.2ms | Allocations: 5584)
+
+
+Started GET "/users" for 127.0.0.1 at 2022-03-15 13:17:31 +0530
+Processing by UsersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[35m (1.8ms)[0m  [1m[34mSELECT COUNT(*) FROM `users`[0m
+  ↳ app/views/users/index.html.erb:4
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT `users`.* FROM `users` LIMIT 4 OFFSET 0[0m
+  ↳ app/views/users/index.html.erb:8
+  [1m[35m (1.5ms)[0m  [1m[34mSELECT COUNT(*) FROM `articles` WHERE `articles`.`user_id` = 2[0m
+  ↳ app/views/users/index.html.erb:18
+  [1m[36mUser Load (1.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 5 LIMIT 1[0m
+  ↳ app/controllers/application_controller.rb:8:in `current_user'
+  [1m[35m (1.6ms)[0m  [1m[34mSELECT COUNT(*) FROM `articles` WHERE `articles`.`user_id` = 4[0m
+  ↳ app/views/users/index.html.erb:18
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT COUNT(*) FROM `articles` WHERE `articles`.`user_id` = 5[0m
+  ↳ app/views/users/index.html.erb:18
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `articles` WHERE `articles`.`user_id` = 6[0m
+  ↳ app/views/users/index.html.erb:18
+  Rendered users/index.html.erb within layouts/application (Duration: 28.5ms | Allocations: 10062)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 0.3ms | Allocations: 212)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 54)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 38)
+  Rendered layout layouts/application.html.erb (Duration: 33.5ms | Allocations: 13779)
+Completed 200 OK in 36ms (Views: 23.2ms | ActiveRecord: 11.6ms | Allocations: 14878)
+
+
+Started DELETE "/logout" for 127.0.0.1 at 2022-03-15 13:17:36 +0530
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]"}
+Completed 500 Internal Server Error in 44ms (ActiveRecord: 0.0ms | Allocations: 1456)
+
+
+  
+ActionView::MissingTemplate (Missing template pages/home with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}. Searched in:
+  * "/home/harsh/rails/TAL-BLOGS/app/views"
+  * "/home/harsh/.rvm/gems/ruby-3.0.0/gems/actiontext-6.1.4.6/app/views"
+  * "/home/harsh/.rvm/gems/ruby-3.0.0/gems/actionmailbox-6.1.4.6/app/views"
+):
+  
+app/controllers/sessions_controller.rb:24:in `destroy'
+Started DELETE "/logout" for 127.0.0.1 at 2022-03-15 13:18:36 +0530
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]"}
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 353)
+
+
+Started GET "/" for 127.0.0.1 at 2022-03-15 13:18:36 +0530
+Processing by PagesController#home as HTML
+Redirected to http://127.0.0.1:3000/articles
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 297)
+
+
+Started GET "/articles" for 127.0.0.1 at 2022-03-15 13:18:36 +0530
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  [1m[35m (1.8ms)[0m  [1m[34mSELECT COUNT(*) FROM `articles`[0m
+  ↳ app/views/articles/index.html.erb:7
+  [1m[36mArticle Load (1.3ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 4 OFFSET 0[0m
+  ↳ app/views/articles/_article.html.erb:2
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:8
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:8
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:8
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:8
+  Rendered articles/_article.html.erb (Duration: 34.1ms | Allocations: 12477)
+  Rendered articles/index.html.erb within layouts/application (Duration: 45.1ms | Allocations: 15510)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 0.2ms | Allocations: 196)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 54)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 38)
+  Rendered layout layouts/application.html.erb (Duration: 49.9ms | Allocations: 19222)
+Completed 200 OK in 54ms (Views: 35.8ms | ActiveRecord: 15.5ms | Allocations: 21085)
+
+
+Started GET "/login" for 127.0.0.1 at 2022-03-15 13:18:46 +0530
+Processing by SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 1.9ms | Allocations: 492)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 0.3ms | Allocations: 201)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 52)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 38)
+  Rendered layout layouts/application.html.erb (Duration: 8.3ms | Allocations: 4265)
+Completed 200 OK in 10ms (Views: 9.5ms | ActiveRecord: 0.0ms | Allocations: 4870)
+
+
+Started POST "/login" for 127.0.0.1 at 2022-03-15 13:18:57 +0530
+Processing by SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "sessions"=>{"email"=>"shanewarne@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Login"}
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`email` = 'shanewarne@gmail.com' LIMIT 1[0m
+  ↳ app/controllers/sessions_controller.rb:7:in `create'
+  Rendering layout layouts/application.html.erb
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 1.1ms | Allocations: 436)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 0.3ms | Allocations: 184)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 38)
+  Rendered layout layouts/application.html.erb (Duration: 5.7ms | Allocations: 4125)
+Completed 200 OK in 290ms (Views: 6.3ms | ActiveRecord: 1.1ms | Allocations: 5357)
+
+
+Started POST "/login" for 127.0.0.1 at 2022-03-15 13:19:12 +0530
+Processing by SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "sessions"=>{"email"=>"shanewarne@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Login"}
+  [1m[36mUser Load (1.7ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`email` = 'shanewarne@gmail.com' LIMIT 1[0m
+  ↳ app/controllers/sessions_controller.rb:7:in `create'
+Redirected to http://127.0.0.1:3000/users
+Completed 302 Found in 290ms (ActiveRecord: 1.7ms | Allocations: 924)
+
+
+Started GET "/users" for 127.0.0.1 at 2022-03-15 13:19:13 +0530
+Processing by UsersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[35m (1.5ms)[0m  [1m[34mSELECT COUNT(*) FROM `users`[0m
+  ↳ app/views/users/index.html.erb:4
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT `users`.* FROM `users` LIMIT 4 OFFSET 0[0m
+  ↳ app/views/users/index.html.erb:8
+  [1m[35m (1.4ms)[0m  [1m[34mSELECT COUNT(*) FROM `articles` WHERE `articles`.`user_id` = 2[0m
+  ↳ app/views/users/index.html.erb:18
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 5 LIMIT 1[0m
+  ↳ app/controllers/application_controller.rb:8:in `current_user'
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT COUNT(*) FROM `articles` WHERE `articles`.`user_id` = 4[0m
+  ↳ app/views/users/index.html.erb:18
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT COUNT(*) FROM `articles` WHERE `articles`.`user_id` = 5[0m
+  ↳ app/views/users/index.html.erb:18
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `articles` WHERE `articles`.`user_id` = 6[0m
+  ↳ app/views/users/index.html.erb:18
+  Rendered users/index.html.erb within layouts/application (Duration: 26.4ms | Allocations: 8203)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 0.3ms | Allocations: 212)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 54)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 38)
+  Rendered layout layouts/application.html.erb (Duration: 32.0ms | Allocations: 11931)
+Completed 200 OK in 34ms (Views: 24.7ms | ActiveRecord: 8.3ms | Allocations: 12641)
+
+
+Started DELETE "/logout" for 127.0.0.1 at 2022-03-15 13:19:37 +0530
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]"}
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms | Allocations: 310)
+
+
+Started GET "/" for 127.0.0.1 at 2022-03-15 13:19:37 +0530
+Processing by PagesController#home as HTML
+Redirected to http://127.0.0.1:3000/articles
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 277)
+
+
+Started GET "/articles" for 127.0.0.1 at 2022-03-15 13:19:37 +0530
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  [1m[35m (1.5ms)[0m  [1m[34mSELECT COUNT(*) FROM `articles`[0m
+  ↳ app/views/articles/index.html.erb:7
+  [1m[36mArticle Load (1.1ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 4 OFFSET 0[0m
+  ↳ app/views/articles/_article.html.erb:2
+  [1m[36mUser Load (1.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:8
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:8
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:8
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:8
+  Rendered articles/_article.html.erb (Duration: 10.1ms | Allocations: 4171)
+  Rendered articles/index.html.erb within layouts/application (Duration: 14.7ms | Allocations: 5859)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 0.3ms | Allocations: 182)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 53)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 38)
+  Rendered layout layouts/application.html.erb (Duration: 20.7ms | Allocations: 9566)
+Completed 200 OK in 22ms (Views: 17.2ms | ActiveRecord: 4.0ms | Allocations: 10095)
+
+
+Started GET "/articles" for 127.0.0.1 at 2022-03-15 13:20:39 +0530
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  [1m[35m (1.7ms)[0m  [1m[34mSELECT COUNT(*) FROM `articles`[0m
+  ↳ app/views/articles/index.html.erb:7
+  [1m[36mArticle Load (1.2ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 4 OFFSET 0[0m
+  ↳ app/views/articles/_article.html.erb:2
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:8
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:8
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:8
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:8
+  Rendered articles/_article.html.erb (Duration: 30.1ms | Allocations: 12124)
+  Rendered articles/index.html.erb within layouts/application (Duration: 36.9ms | Allocations: 14841)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 0.2ms | Allocations: 196)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 52)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 38)
+  Rendered layout layouts/application.html.erb (Duration: 41.4ms | Allocations: 18551)
+Completed 200 OK in 45ms (Views: 29.3ms | ActiveRecord: 12.9ms | Allocations: 20026)
+
+
+Started GET "/login" for 127.0.0.1 at 2022-03-15 13:20:41 +0530
+Processing by SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 0.9ms | Allocations: 493)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 0.4ms | Allocations: 201)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 52)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 38)
+  Rendered layout layouts/application.html.erb (Duration: 8.5ms | Allocations: 4228)
+Completed 200 OK in 10ms (Views: 9.4ms | ActiveRecord: 0.0ms | Allocations: 4850)
+
+
+Started POST "/login" for 127.0.0.1 at 2022-03-15 13:20:52 +0530
+Processing by SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "sessions"=>{"email"=>"shanewarne@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Login"}
+  [1m[36mUser Load (1.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`email` = 'shanewarne@gmail.com' LIMIT 1[0m
+  ↳ app/controllers/sessions_controller.rb:7:in `create'
+Redirected to http://127.0.0.1:3000/users
+Completed 302 Found in 301ms (ActiveRecord: 1.3ms | Allocations: 1096)
+
+
+Started GET "/users" for 127.0.0.1 at 2022-03-15 13:20:52 +0530
+Processing by UsersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[35m (2.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `users`[0m
+  ↳ app/views/users/index.html.erb:4
+  [1m[36mUser Load (1.7ms)[0m  [1m[34mSELECT `users`.* FROM `users` LIMIT 4 OFFSET 0[0m
+  ↳ app/views/users/index.html.erb:8
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `articles` WHERE `articles`.`user_id` = 2[0m
+  ↳ app/views/users/index.html.erb:18
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 5 LIMIT 1[0m
+  ↳ app/controllers/application_controller.rb:8:in `current_user'
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT COUNT(*) FROM `articles` WHERE `articles`.`user_id` = 4[0m
+  ↳ app/views/users/index.html.erb:18
+  [1m[35m (1.6ms)[0m  [1m[34mSELECT COUNT(*) FROM `articles` WHERE `articles`.`user_id` = 5[0m
+  ↳ app/views/users/index.html.erb:18
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `articles` WHERE `articles`.`user_id` = 6[0m
+  ↳ app/views/users/index.html.erb:18
+  Rendered users/index.html.erb within layouts/application (Duration: 23.8ms | Allocations: 8202)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 0.3ms | Allocations: 212)
+  Rendered layouts/_messages.html.erb (Duration: 5.3ms | Allocations: 54)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 38)
+  Rendered layout layouts/application.html.erb (Duration: 33.9ms | Allocations: 11903)
+Completed 200 OK in 36ms (Views: 25.2ms | ActiveRecord: 9.6ms | Allocations: 12613)
+
+
+Started DELETE "/logout" for 127.0.0.1 at 2022-03-15 13:20:57 +0530
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]"}
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 311)
+
+
+Started GET "/" for 127.0.0.1 at 2022-03-15 13:20:57 +0530
+Processing by PagesController#home as HTML
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms | Allocations: 292)
+
+
+Started GET "/" for 127.0.0.1 at 2022-03-15 13:20:57 +0530
+Processing by PagesController#home as HTML
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 273)
+
+
+Started GET "/" for 127.0.0.1 at 2022-03-15 13:20:57 +0530
+Processing by PagesController#home as HTML
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 273)
+
+
+Started GET "/" for 127.0.0.1 at 2022-03-15 13:20:57 +0530
+Processing by PagesController#home as HTML
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 273)
+
+
+Started GET "/" for 127.0.0.1 at 2022-03-15 13:20:57 +0530
+Processing by PagesController#home as HTML
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 273)
+
+
+Started GET "/" for 127.0.0.1 at 2022-03-15 13:20:57 +0530
+Processing by PagesController#home as HTML
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms | Allocations: 273)
+
+
+Started GET "/" for 127.0.0.1 at 2022-03-15 13:20:57 +0530
+Processing by PagesController#home as HTML
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 273)
+
+
+Started GET "/" for 127.0.0.1 at 2022-03-15 13:20:57 +0530
+Processing by PagesController#home as HTML
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 273)
+
+
+Started GET "/" for 127.0.0.1 at 2022-03-15 13:20:57 +0530
+Processing by PagesController#home as HTML
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 273)
+
+
+Started GET "/" for 127.0.0.1 at 2022-03-15 13:20:57 +0530
+Processing by PagesController#home as HTML
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 273)
+
+
+Started GET "/" for 127.0.0.1 at 2022-03-15 13:20:57 +0530
+Processing by PagesController#home as HTML
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 273)
+
+
+Started GET "/" for 127.0.0.1 at 2022-03-15 13:20:57 +0530
+Processing by PagesController#home as HTML
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 273)
+
+
+Started GET "/" for 127.0.0.1 at 2022-03-15 13:20:57 +0530
+Processing by PagesController#home as HTML
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 273)
+
+
+Started GET "/" for 127.0.0.1 at 2022-03-15 13:20:57 +0530
+Processing by PagesController#home as HTML
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 273)
+
+
+Started GET "/" for 127.0.0.1 at 2022-03-15 13:20:57 +0530
+Processing by PagesController#home as HTML
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 273)
+
+
+Started GET "/" for 127.0.0.1 at 2022-03-15 13:20:57 +0530
+Processing by PagesController#home as HTML
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms | Allocations: 273)
+
+
+Started GET "/" for 127.0.0.1 at 2022-03-15 13:20:57 +0530
+Processing by PagesController#home as HTML
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 273)
+
+
+Started GET "/" for 127.0.0.1 at 2022-03-15 13:20:57 +0530
+Processing by PagesController#home as HTML
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 273)
+
+
+Started GET "/" for 127.0.0.1 at 2022-03-15 13:20:57 +0530
+Processing by PagesController#home as HTML
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 273)
+
+
+Started GET "/" for 127.0.0.1 at 2022-03-15 13:20:58 +0530
+Processing by PagesController#home as HTML
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 273)
+
+
+Started GET "/" for 127.0.0.1 at 2022-03-15 13:20:58 +0530
+Processing by PagesController#home as HTML
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 273)
+
+
+Started GET "/" for 127.0.0.1 at 2022-03-15 13:20:58 +0530
+Processing by PagesController#home as HTML
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 273)
+
+
+Started GET "/" for 127.0.0.1 at 2022-03-15 13:20:58 +0530
+Processing by PagesController#home as HTML
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 273)
+
+
+Started GET "/" for 127.0.0.1 at 2022-03-15 13:20:58 +0530
+Processing by PagesController#home as HTML
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 273)
+
+
+Started GET "/" for 127.0.0.1 at 2022-03-15 13:20:58 +0530
+Processing by PagesController#home as HTML
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 273)
+
+
+Started GET "/" for 127.0.0.1 at 2022-03-15 13:20:58 +0530
+Processing by PagesController#home as HTML
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 273)
+
+
+Started GET "/" for 127.0.0.1 at 2022-03-15 13:20:58 +0530
+Processing by PagesController#home as HTML
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 273)
+
+
+Started GET "/" for 127.0.0.1 at 2022-03-15 13:20:58 +0530
+Processing by PagesController#home as HTML
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 273)
+
+
+Started GET "/" for 127.0.0.1 at 2022-03-15 13:20:58 +0530
+Processing by PagesController#home as HTML
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 273)
+
+
+Started GET "/" for 127.0.0.1 at 2022-03-15 13:20:58 +0530
+Processing by PagesController#home as HTML
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 273)
+
+
+Started GET "/" for 127.0.0.1 at 2022-03-15 13:20:58 +0530
+Processing by PagesController#home as HTML
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 273)
+
+
+Started GET "/" for 127.0.0.1 at 2022-03-15 13:20:58 +0530
+Processing by PagesController#home as HTML
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 273)
+
+
+Started GET "/" for 127.0.0.1 at 2022-03-15 13:20:58 +0530
+Processing by PagesController#home as HTML
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 273)
+
+
+Started GET "/" for 127.0.0.1 at 2022-03-15 13:20:58 +0530
+Processing by PagesController#home as HTML
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 273)
+
+
+Started GET "/" for 127.0.0.1 at 2022-03-15 13:20:58 +0530
+Processing by PagesController#home as HTML
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 273)
+
+
+Started GET "/" for 127.0.0.1 at 2022-03-15 13:20:58 +0530
+Processing by PagesController#home as HTML
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 273)
+
+
+Started GET "/" for 127.0.0.1 at 2022-03-15 13:20:58 +0530
+Processing by PagesController#home as HTML
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 273)
+
+
+Started GET "/" for 127.0.0.1 at 2022-03-15 13:20:58 +0530
+Processing by PagesController#home as HTML
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 273)
+
+
+Started GET "/" for 127.0.0.1 at 2022-03-15 13:20:58 +0530
+Processing by PagesController#home as HTML
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 273)
+
+
+Started GET "/" for 127.0.0.1 at 2022-03-15 13:21:03 +0530
+Processing by PagesController#home as HTML
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 273)
+
+
+Started GET "/" for 127.0.0.1 at 2022-03-15 13:21:03 +0530
+Processing by PagesController#home as HTML
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 273)
+
+
+Started GET "/" for 127.0.0.1 at 2022-03-15 13:21:05 +0530
+Processing by PagesController#home as HTML
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 273)
+
+
+Started GET "/" for 127.0.0.1 at 2022-03-15 13:21:05 +0530
+Processing by PagesController#home as HTML
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 273)
+
+
+Started GET "/" for 127.0.0.1 at 2022-03-15 13:21:05 +0530
+Processing by PagesController#home as HTML
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 273)
+
+
+Started GET "/" for 127.0.0.1 at 2022-03-15 13:21:05 +0530
+Processing by PagesController#home as HTML
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 273)
+
+
+Started GET "/" for 127.0.0.1 at 2022-03-15 13:21:05 +0530
+Processing by PagesController#home as HTML
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 273)
+
+
+Started GET "/" for 127.0.0.1 at 2022-03-15 13:21:05 +0530
+Processing by PagesController#home as HTML
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 273)
+
+
+Started GET "/" for 127.0.0.1 at 2022-03-15 13:21:05 +0530
+Processing by PagesController#home as HTML
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 273)
+
+
+Started GET "/" for 127.0.0.1 at 2022-03-15 13:21:05 +0530
+Processing by PagesController#home as HTML
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 273)
+
+
+Started GET "/" for 127.0.0.1 at 2022-03-15 13:21:05 +0530
+Processing by PagesController#home as HTML
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 273)
+
+
+Started GET "/" for 127.0.0.1 at 2022-03-15 13:21:05 +0530
+Processing by PagesController#home as HTML
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 273)
+
+
+Started GET "/" for 127.0.0.1 at 2022-03-15 13:21:05 +0530
+Processing by PagesController#home as HTML
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 273)
+
+
+Started GET "/" for 127.0.0.1 at 2022-03-15 13:21:05 +0530
+Processing by PagesController#home as HTML
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 273)
+
+
+Started GET "/" for 127.0.0.1 at 2022-03-15 13:21:05 +0530
+Processing by PagesController#home as HTML
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 273)
+
+
+Started GET "/" for 127.0.0.1 at 2022-03-15 13:21:05 +0530
+Processing by PagesController#home as HTML
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 273)
+
+
+Started GET "/" for 127.0.0.1 at 2022-03-15 13:21:05 +0530
+Processing by PagesController#home as HTML
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 273)
+
+
+Started GET "/" for 127.0.0.1 at 2022-03-15 13:21:05 +0530
+Processing by PagesController#home as HTML
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 273)
+
+
+Started GET "/" for 127.0.0.1 at 2022-03-15 13:21:05 +0530
+Processing by PagesController#home as HTML
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 273)
+
+
+Started GET "/" for 127.0.0.1 at 2022-03-15 13:21:05 +0530
+Processing by PagesController#home as HTML
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 273)
+
+
+Started GET "/" for 127.0.0.1 at 2022-03-15 13:21:24 +0530
+Processing by PagesController#home as HTML
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 273)
+
+
+Started GET "/" for 127.0.0.1 at 2022-03-15 13:21:24 +0530
+Processing by PagesController#home as HTML
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 273)
+
+
+Started GET "/" for 127.0.0.1 at 2022-03-15 13:21:24 +0530
+Processing by PagesController#home as HTML
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 273)
+
+
+Started GET "/" for 127.0.0.1 at 2022-03-15 13:21:24 +0530
+Processing by PagesController#home as HTML
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 273)
+
+
+Started GET "/" for 127.0.0.1 at 2022-03-15 13:21:24 +0530
+Processing by PagesController#home as HTML
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 273)
+
+
+Started GET "/" for 127.0.0.1 at 2022-03-15 13:21:24 +0530
+Processing by PagesController#home as HTML
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 273)
+
+
+Started GET "/" for 127.0.0.1 at 2022-03-15 13:21:24 +0530
+Processing by PagesController#home as HTML
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 273)
+
+
+Started GET "/" for 127.0.0.1 at 2022-03-15 13:21:24 +0530
+Processing by PagesController#home as HTML
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 273)
+
+
+Started GET "/" for 127.0.0.1 at 2022-03-15 13:21:24 +0530
+Processing by PagesController#home as HTML
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 273)
+
+
+Started GET "/" for 127.0.0.1 at 2022-03-15 13:21:24 +0530
+Processing by PagesController#home as HTML
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 273)
+
+
+Started GET "/" for 127.0.0.1 at 2022-03-15 13:21:24 +0530
+Processing by PagesController#home as HTML
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 273)
+
+
+Started GET "/" for 127.0.0.1 at 2022-03-15 13:21:24 +0530
+Processing by PagesController#home as HTML
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 273)
+
+
+Started GET "/" for 127.0.0.1 at 2022-03-15 13:21:24 +0530
+Processing by PagesController#home as HTML
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 273)
+
+
+Started GET "/" for 127.0.0.1 at 2022-03-15 13:21:24 +0530
+Processing by PagesController#home as HTML
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 273)
+
+
+Started GET "/" for 127.0.0.1 at 2022-03-15 13:21:24 +0530
+Processing by PagesController#home as HTML
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 273)
+
+
+Started GET "/" for 127.0.0.1 at 2022-03-15 13:21:24 +0530
+Processing by PagesController#home as HTML
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 273)
+
+
+Started GET "/" for 127.0.0.1 at 2022-03-15 13:21:24 +0530
+Processing by PagesController#home as HTML
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 273)
+
+
+Started GET "/" for 127.0.0.1 at 2022-03-15 13:21:24 +0530
+Processing by PagesController#home as HTML
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 273)
+
+
+Started GET "/" for 127.0.0.1 at 2022-03-15 13:21:24 +0530
+Processing by PagesController#home as HTML
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 273)
+
+
+Started GET "/" for 127.0.0.1 at 2022-03-15 13:21:24 +0530
+Processing by PagesController#home as HTML
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 273)
+
+
+Started GET "/" for 127.0.0.1 at 2022-03-15 13:21:34 +0530
+Processing by PagesController#home as HTML
+Redirected to http://127.0.0.1:3000/articles
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms | Allocations: 303)
+
+
+Started GET "/articles" for 127.0.0.1 at 2022-03-15 13:21:34 +0530
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  [1m[35m (1.4ms)[0m  [1m[34mSELECT COUNT(*) FROM `articles`[0m
+  ↳ app/views/articles/index.html.erb:7
+  [1m[36mArticle Load (1.2ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 4 OFFSET 0[0m
+  ↳ app/views/articles/_article.html.erb:2
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:8
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:8
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:8
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:8
+  Rendered articles/_article.html.erb (Duration: 27.4ms | Allocations: 12145)
+  Rendered articles/index.html.erb within layouts/application (Duration: 36.1ms | Allocations: 14861)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 0.4ms | Allocations: 196)
+  Rendered layouts/_messages.html.erb (Duration: 0.3ms | Allocations: 54)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 38)
+  Rendered layout layouts/application.html.erb (Duration: 43.0ms | Allocations: 18573)
+Completed 200 OK in 46ms (Views: 30.0ms | ActiveRecord: 13.8ms | Allocations: 20051)
+
+
+Started GET "/login" for 127.0.0.1 at 2022-03-15 13:21:44 +0530
+Processing by SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 1.2ms | Allocations: 493)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 0.4ms | Allocations: 201)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 52)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 38)
+  Rendered layout layouts/application.html.erb (Duration: 7.1ms | Allocations: 4228)
+Completed 200 OK in 9ms (Views: 8.6ms | ActiveRecord: 0.0ms | Allocations: 4851)
+
+
+Started POST "/login" for 127.0.0.1 at 2022-03-15 13:21:53 +0530
+Processing by SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "sessions"=>{"email"=>"shanewarne@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Login"}
+  [1m[36mUser Load (1.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`email` = 'shanewarne@gmail.com' LIMIT 1[0m
+  ↳ app/controllers/sessions_controller.rb:7:in `create'
+Redirected to http://127.0.0.1:3000/users
+Completed 302 Found in 291ms (ActiveRecord: 1.4ms | Allocations: 1110)
+
+
+Started GET "/users" for 127.0.0.1 at 2022-03-15 13:21:53 +0530
+Processing by UsersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[35m (1.4ms)[0m  [1m[34mSELECT COUNT(*) FROM `users`[0m
+  ↳ app/views/users/index.html.erb:4
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT `users`.* FROM `users` LIMIT 4 OFFSET 0[0m
+  ↳ app/views/users/index.html.erb:8
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT COUNT(*) FROM `articles` WHERE `articles`.`user_id` = 2[0m
+  ↳ app/views/users/index.html.erb:18
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 5 LIMIT 1[0m
+  ↳ app/controllers/application_controller.rb:8:in `current_user'
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT COUNT(*) FROM `articles` WHERE `articles`.`user_id` = 4[0m
+  ↳ app/views/users/index.html.erb:18
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT COUNT(*) FROM `articles` WHERE `articles`.`user_id` = 5[0m
+  ↳ app/views/users/index.html.erb:18
+  [1m[35m (1.5ms)[0m  [1m[34mSELECT COUNT(*) FROM `articles` WHERE `articles`.`user_id` = 6[0m
+  ↳ app/views/users/index.html.erb:18
+  Rendered users/index.html.erb within layouts/application (Duration: 22.6ms | Allocations: 8205)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 0.4ms | Allocations: 212)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 54)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 38)
+  Rendered layout layouts/application.html.erb (Duration: 28.5ms | Allocations: 11908)
+Completed 200 OK in 30ms (Views: 21.1ms | ActiveRecord: 8.4ms | Allocations: 12619)
+
+
+Started DELETE "/logout" for 127.0.0.1 at 2022-03-15 13:21:58 +0530
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]"}
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms | Allocations: 311)
+
+
+Started GET "/" for 127.0.0.1 at 2022-03-15 13:21:58 +0530
+Processing by PagesController#home as HTML
+Redirected to http://127.0.0.1:3000/articles
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms | Allocations: 277)
+
+
+Started GET "/articles" for 127.0.0.1 at 2022-03-15 13:21:58 +0530
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  [1m[35m (1.5ms)[0m  [1m[34mSELECT COUNT(*) FROM `articles`[0m
+  ↳ app/views/articles/index.html.erb:7
+  [1m[36mArticle Load (1.1ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 4 OFFSET 0[0m
+  ↳ app/views/articles/_article.html.erb:2
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:8
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:8
+  [1m[36mCACHE User Load (0.1ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:8
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:8
+  Rendered articles/_article.html.erb (Duration: 11.6ms | Allocations: 4171)
+  Rendered articles/index.html.erb within layouts/application (Duration: 15.6ms | Allocations: 5859)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 0.2ms | Allocations: 182)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 53)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 38)
+  Rendered layout layouts/application.html.erb (Duration: 20.2ms | Allocations: 9566)
+Completed 200 OK in 22ms (Views: 16.8ms | ActiveRecord: 3.9ms | Allocations: 10094)
+
+
+Started GET "/articles" for 127.0.0.1 at 2022-03-15 13:22:56 +0530
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  [1m[35m (1.7ms)[0m  [1m[34mSELECT COUNT(*) FROM `articles`[0m
+  ↳ app/views/articles/index.html.erb:7
+  [1m[36mArticle Load (1.2ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 4 OFFSET 0[0m
+  ↳ app/views/articles/_article.html.erb:2
+  [1m[36mUser Load (1.6ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:8
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:8
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:8
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:8
+  Rendered articles/_article.html.erb (Duration: 17.8ms | Allocations: 4524)
+  Rendered articles/index.html.erb within layouts/application (Duration: 23.3ms | Allocations: 6563)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 0.8ms | Allocations: 551)
+  Rendered layouts/_messages.html.erb (Duration: 0.4ms | Allocations: 184)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 112)
+  Rendered layout layouts/application.html.erb (Duration: 32.6ms | Allocations: 11570)
+Completed 200 OK in 36ms (Views: 30.2ms | ActiveRecord: 4.6ms | Allocations: 12858)
+
+
+Started GET "/articles" for 127.0.0.1 at 2022-03-15 13:23:00 +0530
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  [1m[35m (1.8ms)[0m  [1m[34mSELECT COUNT(*) FROM `articles`[0m
+  ↳ app/views/articles/index.html.erb:7
+  [1m[36mArticle Load (1.4ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 4 OFFSET 0[0m
+  ↳ app/views/articles/_article.html.erb:2
+  [1m[36mUser Load (1.7ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:8
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:8
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:8
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:8
+  Rendered articles/_article.html.erb (Duration: 13.1ms | Allocations: 4170)
+  Rendered articles/index.html.erb within layouts/application (Duration: 20.0ms | Allocations: 5858)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 0.4ms | Allocations: 163)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 51)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 38)
+  Rendered layout layouts/application.html.erb (Duration: 26.8ms | Allocations: 9571)
+Completed 200 OK in 28ms (Views: 22.1ms | ActiveRecord: 5.0ms | Allocations: 10093)
+
+
+Started GET "/login" for 127.0.0.1 at 2022-03-15 13:23:03 +0530
+Processing by SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 2.5ms | Allocations: 753)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 0.5ms | Allocations: 179)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 52)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 38)
+  Rendered layout layouts/application.html.erb (Duration: 10.2ms | Allocations: 4504)
+Completed 200 OK in 14ms (Views: 12.9ms | ActiveRecord: 0.0ms | Allocations: 5486)
+
+
+Started POST "/login" for 127.0.0.1 at 2022-03-15 13:23:18 +0530
+Processing by SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "sessions"=>{"email"=>"shanewarne@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Login"}
+  [1m[36mUser Load (1.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`email` = 'shanewarne@gmail.com' LIMIT 1[0m
+  ↳ app/controllers/sessions_controller.rb:7:in `create'
+Redirected to http://127.0.0.1:3000/users
+Completed 302 Found in 289ms (ActiveRecord: 1.4ms | Allocations: 922)
+
+
+Started GET "/users" for 127.0.0.1 at 2022-03-15 13:23:18 +0530
+Processing by UsersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[35m (1.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `users`[0m
+  ↳ app/views/users/index.html.erb:4
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT `users`.* FROM `users` LIMIT 4 OFFSET 0[0m
+  ↳ app/views/users/index.html.erb:8
+  [1m[35m (1.4ms)[0m  [1m[34mSELECT COUNT(*) FROM `articles` WHERE `articles`.`user_id` = 2[0m
+  ↳ app/views/users/index.html.erb:18
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 5 LIMIT 1[0m
+  ↳ app/controllers/application_controller.rb:8:in `current_user'
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT COUNT(*) FROM `articles` WHERE `articles`.`user_id` = 4[0m
+  ↳ app/views/users/index.html.erb:18
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT COUNT(*) FROM `articles` WHERE `articles`.`user_id` = 5[0m
+  ↳ app/views/users/index.html.erb:18
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT COUNT(*) FROM `articles` WHERE `articles`.`user_id` = 6[0m
+  ↳ app/views/users/index.html.erb:18
+  Rendered users/index.html.erb within layouts/application (Duration: 20.5ms | Allocations: 7681)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 0.4ms | Allocations: 216)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 54)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 38)
+  Rendered layout layouts/application.html.erb (Duration: 27.5ms | Allocations: 11485)
+Completed 200 OK in 29ms (Views: 21.1ms | ActiveRecord: 7.4ms | Allocations: 12546)
+
+
+Started DELETE "/logout" for 127.0.0.1 at 2022-03-15 13:23:29 +0530
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]"}
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms | Allocations: 310)
+
+
+Started GET "/" for 127.0.0.1 at 2022-03-15 13:23:29 +0530
+Processing by PagesController#home as HTML
+Redirected to http://127.0.0.1:3000/articles
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 277)
+
+
+Started GET "/articles" for 127.0.0.1 at 2022-03-15 13:23:29 +0530
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  [1m[35m (1.4ms)[0m  [1m[34mSELECT COUNT(*) FROM `articles`[0m
+  ↳ app/views/articles/index.html.erb:7
+  [1m[36mArticle Load (1.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 4 OFFSET 0[0m
+  ↳ app/views/articles/_article.html.erb:2
+  [1m[36mUser Load (1.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:8
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:8
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:8
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:8
+  Rendered articles/_article.html.erb (Duration: 10.5ms | Allocations: 4170)
+  Rendered articles/index.html.erb within layouts/application (Duration: 14.5ms | Allocations: 5858)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 0.3ms | Allocations: 163)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 53)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 38)
+  Rendered layout layouts/application.html.erb (Duration: 19.3ms | Allocations: 9546)
+Completed 200 OK in 21ms (Views: 16.1ms | ActiveRecord: 3.8ms | Allocations: 10075)
+
+
+Started GET "/articles" for 127.0.0.1 at 2022-03-15 13:24:28 +0530
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  [1m[35m (1.5ms)[0m  [1m[34mSELECT COUNT(*) FROM `articles`[0m
+  ↳ app/views/articles/index.html.erb:7
+  [1m[36mArticle Load (0.9ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 4 OFFSET 0[0m
+  ↳ app/views/articles/_article.html.erb:2
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:8
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:8
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:8
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:8
+  Rendered articles/_article.html.erb (Duration: 11.8ms | Allocations: 4524)
+  Rendered articles/index.html.erb within layouts/application (Duration: 17.4ms | Allocations: 6558)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 1.1ms | Allocations: 668)
+  Rendered layouts/_messages.html.erb (Duration: 0.5ms | Allocations: 184)
+  Rendered layouts/_footer.html.erb (Duration: 0.3ms | Allocations: 112)
+  Rendered layout layouts/application.html.erb (Duration: 27.1ms | Allocations: 11648)
+Completed 200 OK in 31ms (Views: 25.6ms | ActiveRecord: 3.6ms | Allocations: 12935)
+
+
+Started GET "/articles" for 127.0.0.1 at 2022-03-15 13:24:58 +0530
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  [1m[35m (2.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `articles`[0m
+  ↳ app/views/articles/index.html.erb:7
+  [1m[36mArticle Load (1.3ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 4 OFFSET 0[0m
+  ↳ app/views/articles/_article.html.erb:2
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:8
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:8
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:8
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:8
+  Rendered articles/_article.html.erb (Duration: 12.4ms | Allocations: 4524)
+  Rendered articles/index.html.erb within layouts/application (Duration: 19.0ms | Allocations: 6563)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 2.4ms | Allocations: 1999)
+  Rendered layout layouts/application.html.erb (Duration: 27.1ms | Allocations: 12345)
+Completed 500 Internal Server Error in 31ms (ActiveRecord: 4.8ms | Allocations: 13605)
+
+
+  
+ActionView::Template::Error (undefined method `username' for nil:NilClass):
+    31: 
+    32:           <li class="nav-item dropdown">
+    33:             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    34:               Profile [<%=current_user.username %>]
+    35:             </a>
+    36:             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+    37: 
+  
+app/views/layouts/_navigation.html.erb:34
+app/views/layouts/application.html.erb:32
+Started GET "/articles" for 127.0.0.1 at 2022-03-15 13:37:59 +0530
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  [1m[35m (1.7ms)[0m  [1m[34mSELECT COUNT(*) FROM `articles`[0m
+  ↳ app/views/articles/index.html.erb:7
+  [1m[36mArticle Load (1.1ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 4 OFFSET 0[0m
+  ↳ app/views/articles/_article.html.erb:2
+  [1m[36mUser Load (1.8ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:8
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:8
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:8
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/views/articles/_article.html.erb:8
+  Rendered articles/_article.html.erb (Duration: 12.0ms | Allocations: 4524)
+  Rendered articles/index.html.erb within layouts/application (Duration: 23.5ms | Allocations: 6850)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 0.9ms | Allocations: 593)
+  Rendered layouts/_messages.html.erb (Duration: 0.4ms | Allocations: 184)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 112)
+  Rendered layout layouts/application.html.erb (Duration: 32.8ms | Allocations: 11895)
+Completed 200 OK in 39ms (Views: 36.6ms | ActiveRecord: 6.4ms | Allocations: 13181)
+
+
+Started GET "/login" for 127.0.0.1 at 2022-03-15 13:38:23 +0530
+Processing by SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 2.1ms | Allocations: 753)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 0.3ms | Allocations: 179)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 52)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 38)
+  Rendered layout layouts/application.html.erb (Duration: 9.3ms | Allocations: 4504)
+Completed 200 OK in 12ms (Views: 11.1ms | ActiveRecord: 0.0ms | Allocations: 5487)
+
+
+Started POST "/login" for 127.0.0.1 at 2022-03-15 13:38:34 +0530
+Processing by SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "sessions"=>{"email"=>"shanewarne@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Login"}
+  [1m[36mUser Load (2.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`email` = 'shanewarne@gmail.com' LIMIT 1[0m
+  ↳ app/controllers/sessions_controller.rb:7:in `create'
+Redirected to http://127.0.0.1:3000/users
+Completed 302 Found in 297ms (ActiveRecord: 2.0ms | Allocations: 922)
+
+
+Started GET "/users" for 127.0.0.1 at 2022-03-15 13:38:35 +0530
+Processing by UsersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[35m (1.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `users`[0m
+  ↳ app/views/users/index.html.erb:4
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT `users`.* FROM `users` LIMIT 4 OFFSET 0[0m
+  ↳ app/views/users/index.html.erb:8
+  [1m[35m (1.6ms)[0m  [1m[34mSELECT COUNT(*) FROM `articles` WHERE `articles`.`user_id` = 2[0m
+  ↳ app/views/users/index.html.erb:18
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 5 LIMIT 1[0m
+  ↳ app/controllers/application_controller.rb:8:in `current_user'
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT COUNT(*) FROM `articles` WHERE `articles`.`user_id` = 4[0m
+  ↳ app/views/users/index.html.erb:18
+  [1m[35m (1.4ms)[0m  [1m[34mSELECT COUNT(*) FROM `articles` WHERE `articles`.`user_id` = 5[0m
+  ↳ app/views/users/index.html.erb:18
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `articles` WHERE `articles`.`user_id` = 6[0m
+  ↳ app/views/users/index.html.erb:18
+  Rendered users/index.html.erb within layouts/application (Duration: 21.1ms | Allocations: 7681)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 0.7ms | Allocations: 259)
+  Rendered layouts/_messages.html.erb (Duration: 0.2ms | Allocations: 54)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 38)
+  Rendered layout layouts/application.html.erb (Duration: 28.4ms | Allocations: 11528)
+Completed 200 OK in 30ms (Views: 21.0ms | ActiveRecord: 8.5ms | Allocations: 12588)
+
+
+Started GET "/users/5/edit" for 127.0.0.1 at 2022-03-15 13:38:41 +0530
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mUser Load (1.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 5 LIMIT 1[0m
+  ↳ app/controllers/users_controller.rb:19:in `edit'
+  Rendering layout layouts/application.html.erb
+  Rendering users/edit.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (Duration: 1.0ms | Allocations: 225)
+  Rendered users/_form.html.erb (Duration: 6.9ms | Allocations: 1931)
+  Rendered users/edit.html.erb within layouts/application (Duration: 8.4ms | Allocations: 2244)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 5 LIMIT 1[0m
+  ↳ app/controllers/application_controller.rb:8:in `current_user'
+  Rendered layouts/_navigation.html.erb (Duration: 1.1ms | Allocations: 655)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 51)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 38)
+  Rendered layout layouts/application.html.erb (Duration: 15.0ms | Allocations: 6410)
+Completed 200 OK in 20ms (Views: 15.7ms | ActiveRecord: 1.4ms | Allocations: 7565)
+
+
