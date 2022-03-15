@@ -6,7 +6,11 @@
 
 <div class="text-center mt-4">
 
+  <% if logged_in? && @user==current_user %>
+
 	<%= link_to "Edit your Profile" , edit_user_path,class:"btn btn btn-outline-info"%>
+
+  <% end %>
 	</div>
 
 
