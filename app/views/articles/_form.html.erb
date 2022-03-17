@@ -13,12 +13,21 @@
     <div class="form-group row">
       <%= form.label :description,class:"col-sm-2 col-form-label text-black" %>
         <div class="col-sm-10">
-      <%= form.text_area :description, rows: 10 ,class:"form-control shadow rounded",placeholder: "ADD DESCRIPTION HERE" %>
+      <%= form.text_area :description, rows: 10 ,class:"form-control shadow rounded",placeholder: "ADD DESCRIPTION HERE" %><br/>
         </div>
     </div><br/>
 
+      <div class="form-group row">
+        <%= form.label :Category,class:"col-sm-2 col-form-label text-black" %>
+        <div class="col-sm-10">
+
+        <%= form.collection_select(:category_ids,Category.all, :id, :name,class:"mt-4")%>
+
+        </div><br/>
+    </div>
+
     <div class="actions d-flex justify-content-center">
-      <%= form.submit class:"btn btn-secondary btn-lg " %> &nbsp; &nbsp; &nbsp;
+      <%= form.submit class:"btn btn-secondary btn-lg mt-4" %> &nbsp; &nbsp; &nbsp;
     </div>
   <% end %>
     </div>

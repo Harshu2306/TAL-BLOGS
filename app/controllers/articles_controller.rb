@@ -23,6 +23,7 @@
 
   # POST /articles or /articles.json
   def create
+    byebug
     @article = Article.new(article_params)
     @article.user=current_user
 
@@ -68,7 +69,7 @@
 
     # Only allow a list of trusted parameters through.
     def article_params
-      params.require(:article).permit(:title, :description)
+      params.require(:article).permit(:title, :description, :category_ids )
     end
 
 

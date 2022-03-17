@@ -7304,3 +7304,39 @@ TRUNCATE TABLE `active_storage_variant_records`;
 TRUNCATE TABLE `articles`;
 TRUNCATE TABLE `categories`;
 TRUNCATE TABLE `users`[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mFixtures Load (0.9ms)[0m  [1m[31mDELETE FROM `articles`;
+INSERT INTO `articles` (`id`, `title`, `description`, `created_at`, `updated_at`, `user_id`) VALUES (980190962, 'MyString', 'MyText', '2022-03-17 08:36:31.671436', '2022-03-17 08:36:31.671436', DEFAULT), (298486374, 'MyString', 'MyText', '2022-03-17 08:36:31.671436', '2022-03-17 08:36:31.671436', DEFAULT)[0m
+  [1m[36mTRANSACTION (264.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+--------------------------------------------------------
+ListCategoriesTest: test_should_show_categoriees_listing
+--------------------------------------------------------
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCategory Exists? (0.6ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` WHERE `categories`.`name` = 'Sports' LIMIT 1[0m
+  [1m[36mCategory Create (0.3ms)[0m  [1m[32mINSERT INTO `categories` (`name`, `created_at`, `updated_at`) VALUES ('Sports', '2022-03-17 08:36:31.987741', '2022-03-17 08:36:31.987741')[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCategory Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` WHERE `categories`.`name` = 'Travel' LIMIT 1[0m
+  [1m[36mCategory Create (0.2ms)[0m  [1m[32mINSERT INTO `categories` (`name`, `created_at`, `updated_at`) VALUES ('Travel', '2022-03-17 08:36:31.990328', '2022-03-17 08:36:31.990328')[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/categories" for 127.0.0.1 at 2022-03-17 14:06:31 +0530
+Processing by CategoriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering categories/index.html.erb within layouts/application
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT `categories`.* FROM `categories`[0m
+  Rendered categories/index.html.erb within layouts/application (Duration: 3.3ms | Allocations: 1949)
+  [1m[35m (0.2ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 1[0m
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 3.0ms | Allocations: 749)
+  Rendered layouts/_messages.html.erb (Duration: 0.4ms | Allocations: 191)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 84)
+  Rendered layout layouts/application.html.erb (Duration: 837.2ms | Allocations: 34029)
+Completed 200 OK in 843ms (Views: 838.6ms | ActiveRecord: 0.3ms | Allocations: 37050)
+  [1m[36mTRANSACTION (94.3ms)[0m  [1m[31mROLLBACK[0m
