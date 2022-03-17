@@ -4963,3 +4963,2344 @@ Completed 500 Internal Server Error in 22ms (ActiveRecord: 0.0ms | Allocations: 
   [1m[36mTRANSACTION (114.3ms)[0m  [1m[31mROLLBACK[0m
   [1m[35m (0.2ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 1[0m
   [1m[35m (0.1ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[35m (30.8ms)[0m  [1m[34mSELECT `ar_internal_metadata`.`value` FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'schema_sha1'[0m
+  [1m[35m (34.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[35m (67.2ms)[0m  [1m[34mSELECT `ar_internal_metadata`.`value` FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'schema_sha1'[0m
+  [1m[35m (73.0ms)[0m  [1m[34mSELECT `ar_internal_metadata`.`value` FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'schema_sha1'[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[35m (80.9ms)[0m  [1m[34mSELECT `ar_internal_metadata`.`value` FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'schema_sha1'[0m
+  [1m[35m (81.9ms)[0m  [1m[34mSELECT `ar_internal_metadata`.`value` FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'schema_sha1'[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[36mTruncate Tables (2925.1ms)[0m  [1m[35mTRUNCATE TABLE `action_text_rich_texts`;
+TRUNCATE TABLE `active_storage_attachments`;
+TRUNCATE TABLE `active_storage_blobs`;
+TRUNCATE TABLE `active_storage_variant_records`;
+TRUNCATE TABLE `articles`;
+TRUNCATE TABLE `categories`;
+TRUNCATE TABLE `users`[0m
+  [1m[36mTruncate Tables (3201.9ms)[0m  [1m[35mTRUNCATE TABLE `action_text_rich_texts`;
+TRUNCATE TABLE `active_storage_attachments`;
+TRUNCATE TABLE `active_storage_blobs`;
+TRUNCATE TABLE `active_storage_variant_records`;
+TRUNCATE TABLE `articles`;
+TRUNCATE TABLE `categories`;
+TRUNCATE TABLE `users`[0m
+  [1m[36mTruncate Tables (3189.8ms)[0m  [1m[35mTRUNCATE TABLE `action_text_rich_texts`;
+TRUNCATE TABLE `active_storage_attachments`;
+TRUNCATE TABLE `active_storage_blobs`;
+TRUNCATE TABLE `active_storage_variant_records`;
+TRUNCATE TABLE `articles`;
+TRUNCATE TABLE `categories`;
+TRUNCATE TABLE `users`[0m
+  [1m[36mTruncate Tables (3391.8ms)[0m  [1m[35mTRUNCATE TABLE `action_text_rich_texts`;
+TRUNCATE TABLE `active_storage_attachments`;
+TRUNCATE TABLE `active_storage_blobs`;
+TRUNCATE TABLE `active_storage_variant_records`;
+TRUNCATE TABLE `articles`;
+TRUNCATE TABLE `categories`;
+TRUNCATE TABLE `users`[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.4ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mFixtures Load (1.2ms)[0m  [1m[31mDELETE FROM `articles`;
+INSERT INTO `articles` (`id`, `title`, `description`, `created_at`, `updated_at`, `user_id`) VALUES (980190962, 'MyString', 'MyText', '2022-03-17 06:42:19.677686', '2022-03-17 06:42:19.677686', DEFAULT), (298486374, 'MyString', 'MyText', '2022-03-17 06:42:19.677686', '2022-03-17 06:42:19.677686', DEFAULT)[0m
+  [1m[35m (0.4ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.9ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mFixtures Load (0.6ms)[0m  [1m[31mDELETE FROM `articles`;
+INSERT INTO `articles` (`id`, `title`, `description`, `created_at`, `updated_at`, `user_id`) VALUES (980190962, 'MyString', 'MyText', '2022-03-17 06:42:20.178450', '2022-03-17 06:42:20.178450', DEFAULT), (298486374, 'MyString', 'MyText', '2022-03-17 06:42:20.178450', '2022-03-17 06:42:20.178450', DEFAULT)[0m
+  [1m[36mTRANSACTION (1331.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+-----------------------------------------------------
+CategoriesControllerTest: test_should_create_category
+-----------------------------------------------------
+  [1m[36mTRANSACTION (1283.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+---------------------------------------------
+CategoriesControllerTest: test_should_get_new
+---------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mFixtures Load (0.7ms)[0m  [1m[31mDELETE FROM `articles`;
+INSERT INTO `articles` (`id`, `title`, `description`, `created_at`, `updated_at`, `user_id`) VALUES (980190962, 'MyString', 'MyText', '2022-03-17 06:42:21.494350', '2022-03-17 06:42:21.494350', DEFAULT), (298486374, 'MyString', 'MyText', '2022-03-17 06:42:21.494350', '2022-03-17 06:42:21.494350', DEFAULT)[0m
+  [1m[36mTRANSACTION (300.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+----------------------------------------------------------------------
+CategoriesControllerTest: test_should_not_create_category_if_not_admin
+----------------------------------------------------------------------
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mFixtures Load (1.3ms)[0m  [1m[31mDELETE FROM `articles`;
+INSERT INTO `articles` (`id`, `title`, `description`, `created_at`, `updated_at`, `user_id`) VALUES (980190962, 'MyString', 'MyText', '2022-03-17 06:42:21.812330', '2022-03-17 06:42:21.812330', DEFAULT), (298486374, 'MyString', 'MyText', '2022-03-17 06:42:21.812330', '2022-03-17 06:42:21.812330', DEFAULT)[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCategory Exists? (0.9ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` WHERE `categories`.`name` = 'Sports' LIMIT 1[0m
+  [1m[36mCategory Exists? (0.8ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` WHERE `categories`.`name` = 'Sports' LIMIT 1[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCategory Exists? (1.3ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` WHERE `categories`.`name` = 'Sports' LIMIT 1[0m
+  [1m[36mCategory Create (0.6ms)[0m  [1m[32mINSERT INTO `categories` (`name`, `created_at`, `updated_at`) VALUES ('Sports', '2022-03-17 06:42:22.002729', '2022-03-17 06:42:22.002729')[0m
+  [1m[36mCategory Create (0.6ms)[0m  [1m[32mINSERT INTO `categories` (`name`, `created_at`, `updated_at`) VALUES ('Sports', '2022-03-17 06:42:22.002729', '2022-03-17 06:42:22.002729')[0m
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT COUNT(*) FROM `categories`[0m
+  [1m[36mCategory Create (0.4ms)[0m  [1m[32mINSERT INTO `categories` (`name`, `created_at`, `updated_at`) VALUES ('Sports', '2022-03-17 06:42:22.004996', '2022-03-17 06:42:22.004996')[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT COUNT(*) FROM `categories`[0m
+Started GET "/categories/new" for 127.0.0.1 at 2022-03-17 12:12:22 +0530
+Started POST "/categories" for 127.0.0.1 at 2022-03-17 12:12:22 +0530
+Started POST "/categories" for 127.0.0.1 at 2022-03-17 12:12:22 +0530
+  [1m[36mTRANSACTION (201.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (1.0ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+-----------------------------------------------
+CategoriesControllerTest: test_should_get_index
+-----------------------------------------------
+Processing by CategoriesController#new as HTML
+Redirected to http://www.example.com/categories
+Filter chain halted as :require_admin rendered or redirected
+Completed 302 Found in 12ms (ActiveRecord: 0.0ms | Allocations: 1371)
+Processing by CategoriesController#create as HTML
+  Parameters: {"category"=>{"name"=>"Travel"}}
+Processing by CategoriesController#create as HTML
+  Parameters: {"category"=>{"name"=>"Travel"}}
+Redirected to http://www.example.com/categories
+Filter chain halted as :require_admin rendered or redirected
+Completed 302 Found in 10ms (ActiveRecord: 0.0ms | Allocations: 1372)
+Redirected to http://www.example.com/categories
+Filter chain halted as :require_admin rendered or redirected
+Completed 302 Found in 17ms (ActiveRecord: 0.0ms | Allocations: 1372)
+  [1m[35m (3.4ms)[0m  [1m[34mSELECT COUNT(*) FROM `categories`[0m
+  [1m[35m (2.8ms)[0m  [1m[34mSELECT COUNT(*) FROM `categories`[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCategory Exists? (1.4ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` WHERE `categories`.`name` = 'Sports' LIMIT 1[0m
+  [1m[36mCategory Create (0.6ms)[0m  [1m[32mINSERT INTO `categories` (`name`, `created_at`, `updated_at`) VALUES ('Sports', '2022-03-17 06:42:22.144495', '2022-03-17 06:42:22.144495')[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/categories" for 127.0.0.1 at 2022-03-17 12:12:22 +0530
+Processing by CategoriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering categories/index.html.erb within layouts/application
+  [1m[36mCategory Load (0.5ms)[0m  [1m[34mSELECT `categories`.* FROM `categories`[0m
+  Rendered categories/index.html.erb within layouts/application (Duration: 8.6ms | Allocations: 1801)
+  [1m[36mTRANSACTION (203.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (251.8ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (203.6ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+---------------------------------------------------
+CategoriesControllerTest: test_should_show_category
+---------------------------------------------------
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCategory Exists? (0.8ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` WHERE `categories`.`name` = 'Sports' LIMIT 1[0m
+  [1m[36mCategory Create (1.4ms)[0m  [1m[32mINSERT INTO `categories` (`name`, `created_at`, `updated_at`) VALUES ('Sports', '2022-03-17 06:42:22.387006', '2022-03-17 06:42:22.387006')[0m
+  [1m[36mTRANSACTION (1.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/categories/2" for 127.0.0.1 at 2022-03-17 12:12:22 +0530
+Processing by CategoriesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mCategory Load (0.4ms)[0m  [1m[34mSELECT `categories`.* FROM `categories` WHERE `categories`.`id` = 2 LIMIT 1[0m
+  Rendering layout layouts/application.html.erb
+  Rendering categories/show.html.erb within layouts/application
+  Rendered categories/show.html.erb within layouts/application (Duration: 4.7ms | Allocations: 1494)
+[Webpacker] Everything's up-to-date. Nothing to do
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 1.7ms | Allocations: 659)
+  Rendered layouts/_navigation.html.erb (Duration: 1.6ms | Allocations: 633)
+  Rendered layouts/_messages.html.erb (Duration: 1.4ms | Allocations: 191)
+  Rendered layouts/_messages.html.erb (Duration: 1.8ms | Allocations: 181)
+  Rendered layouts/_footer.html.erb (Duration: 0.5ms | Allocations: 84)
+  Rendered layouts/_footer.html.erb (Duration: 0.5ms | Allocations: 84)
+  Rendered layout layouts/application.html.erb (Duration: 3720.8ms | Allocations: 32083)
+  Rendered layout layouts/application.html.erb (Duration: 3938.4ms | Allocations: 32395)
+Completed 200 OK in 3728ms (Views: 3724.0ms | ActiveRecord: 0.4ms | Allocations: 34362)
+Completed 200 OK in 3951ms (Views: 3940.9ms | ActiveRecord: 0.5ms | Allocations: 35416)
+  [1m[36mTRANSACTION (74.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (90.6ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT `ar_internal_metadata`.`value` FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'schema_sha1'[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `ar_internal_metadata`.`value` FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'schema_sha1'[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT `ar_internal_metadata`.`value` FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'schema_sha1'[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT `ar_internal_metadata`.`value` FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'schema_sha1'[0m
+  [1m[35m (1.6ms)[0m  [1m[34mSELECT `ar_internal_metadata`.`value` FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'schema_sha1'[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[36mTruncate Tables (2875.0ms)[0m  [1m[35mTRUNCATE TABLE `action_text_rich_texts`;
+TRUNCATE TABLE `active_storage_attachments`;
+TRUNCATE TABLE `active_storage_blobs`;
+TRUNCATE TABLE `active_storage_variant_records`;
+TRUNCATE TABLE `articles`;
+TRUNCATE TABLE `categories`;
+TRUNCATE TABLE `users`[0m
+  [1m[36mTruncate Tables (3151.7ms)[0m  [1m[35mTRUNCATE TABLE `action_text_rich_texts`;
+TRUNCATE TABLE `active_storage_attachments`;
+TRUNCATE TABLE `active_storage_blobs`;
+TRUNCATE TABLE `active_storage_variant_records`;
+TRUNCATE TABLE `articles`;
+TRUNCATE TABLE `categories`;
+TRUNCATE TABLE `users`[0m
+  [1m[36mTruncate Tables (3465.6ms)[0m  [1m[35mTRUNCATE TABLE `action_text_rich_texts`;
+TRUNCATE TABLE `active_storage_attachments`;
+TRUNCATE TABLE `active_storage_blobs`;
+TRUNCATE TABLE `active_storage_variant_records`;
+TRUNCATE TABLE `articles`;
+TRUNCATE TABLE `categories`;
+TRUNCATE TABLE `users`[0m
+  [1m[36mTruncate Tables (4897.1ms)[0m  [1m[35mTRUNCATE TABLE `action_text_rich_texts`;
+TRUNCATE TABLE `active_storage_attachments`;
+TRUNCATE TABLE `active_storage_blobs`;
+TRUNCATE TABLE `active_storage_variant_records`;
+TRUNCATE TABLE `articles`;
+TRUNCATE TABLE `categories`;
+TRUNCATE TABLE `users`[0m
+  [1m[35m (1.5ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[35m (1.0ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[35m (0.9ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[35m (0.9ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT `ar_internal_metadata`.`value` FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'schema_sha1'[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT `ar_internal_metadata`.`value` FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'schema_sha1'[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT `ar_internal_metadata`.`value` FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'schema_sha1'[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `ar_internal_metadata`.`value` FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'schema_sha1'[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT `ar_internal_metadata`.`value` FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'schema_sha1'[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[36mTruncate Tables (3298.5ms)[0m  [1m[35mTRUNCATE TABLE `action_text_rich_texts`;
+TRUNCATE TABLE `active_storage_attachments`;
+TRUNCATE TABLE `active_storage_blobs`;
+TRUNCATE TABLE `active_storage_variant_records`;
+TRUNCATE TABLE `articles`;
+TRUNCATE TABLE `categories`;
+TRUNCATE TABLE `users`[0m
+  [1m[36mTruncate Tables (3483.2ms)[0m  [1m[35mTRUNCATE TABLE `action_text_rich_texts`;
+TRUNCATE TABLE `active_storage_attachments`;
+TRUNCATE TABLE `active_storage_blobs`;
+TRUNCATE TABLE `active_storage_variant_records`;
+TRUNCATE TABLE `articles`;
+TRUNCATE TABLE `categories`;
+TRUNCATE TABLE `users`[0m
+  [1m[36mTruncate Tables (3592.5ms)[0m  [1m[35mTRUNCATE TABLE `action_text_rich_texts`;
+TRUNCATE TABLE `active_storage_attachments`;
+TRUNCATE TABLE `active_storage_blobs`;
+TRUNCATE TABLE `active_storage_variant_records`;
+TRUNCATE TABLE `articles`;
+TRUNCATE TABLE `categories`;
+TRUNCATE TABLE `users`[0m
+  [1m[36mTruncate Tables (3879.2ms)[0m  [1m[35mTRUNCATE TABLE `action_text_rich_texts`;
+TRUNCATE TABLE `active_storage_attachments`;
+TRUNCATE TABLE `active_storage_blobs`;
+TRUNCATE TABLE `active_storage_variant_records`;
+TRUNCATE TABLE `articles`;
+TRUNCATE TABLE `categories`;
+TRUNCATE TABLE `users`[0m
+  [1m[35m (0.5ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mFixtures Load (0.6ms)[0m  [1m[31mDELETE FROM `articles`;
+INSERT INTO `articles` (`id`, `title`, `description`, `created_at`, `updated_at`, `user_id`) VALUES (980190962, 'MyString', 'MyText', '2022-03-17 06:45:43.700168', '2022-03-17 06:45:43.700168', DEFAULT), (298486374, 'MyString', 'MyText', '2022-03-17 06:45:43.700168', '2022-03-17 06:45:43.700168', DEFAULT)[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mFixtures Load (0.6ms)[0m  [1m[31mDELETE FROM `articles`;
+INSERT INTO `articles` (`id`, `title`, `description`, `created_at`, `updated_at`, `user_id`) VALUES (980190962, 'MyString', 'MyText', '2022-03-17 06:45:43.888737', '2022-03-17 06:45:43.888737', DEFAULT), (298486374, 'MyString', 'MyText', '2022-03-17 06:45:43.888737', '2022-03-17 06:45:43.888737', DEFAULT)[0m
+  [1m[36mTRANSACTION (229.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+-----------------------------------------------
+CategoriesControllerTest: test_should_get_index
+-----------------------------------------------
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCategory Exists? (0.6ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` WHERE `categories`.`name` = 'Sports' LIMIT 1[0m
+  [1m[36mCategory Create (0.4ms)[0m  [1m[32mINSERT INTO `categories` (`name`, `created_at`, `updated_at`) VALUES ('Sports', '2022-03-17 06:45:43.980440', '2022-03-17 06:45:43.980440')[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/categories" for 127.0.0.1 at 2022-03-17 12:15:43 +0530
+Processing by CategoriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering categories/index.html.erb within layouts/application
+  [1m[36mCategory Load (0.4ms)[0m  [1m[34mSELECT `categories`.* FROM `categories`[0m
+  Rendered categories/index.html.erb within layouts/application (Duration: 3.4ms | Allocations: 1801)
+  [1m[36mTRANSACTION (233.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+-----------------------------------------------------
+CategoriesControllerTest: test_should_create_category
+-----------------------------------------------------
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mFixtures Load (0.8ms)[0m  [1m[31mDELETE FROM `articles`;
+INSERT INTO `articles` (`id`, `title`, `description`, `created_at`, `updated_at`, `user_id`) VALUES (980190962, 'MyString', 'MyText', '2022-03-17 06:45:44.139654', '2022-03-17 06:45:44.139654', DEFAULT), (298486374, 'MyString', 'MyText', '2022-03-17 06:45:44.139654', '2022-03-17 06:45:44.139654', DEFAULT)[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCategory Exists? (0.7ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` WHERE `categories`.`name` = 'Sports' LIMIT 1[0m
+  [1m[36mCategory Create (0.4ms)[0m  [1m[32mINSERT INTO `categories` (`name`, `created_at`, `updated_at`) VALUES ('Sports', '2022-03-17 06:45:44.172863', '2022-03-17 06:45:44.172863')[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT COUNT(*) FROM `categories`[0m
+Started POST "/categories" for 127.0.0.1 at 2022-03-17 12:15:44 +0530
+Processing by CategoriesController#create as HTML
+  Parameters: {"category"=>{"name"=>"Travel"}}
+Redirected to http://www.example.com/categories
+Filter chain halted as :require_admin rendered or redirected
+Completed 302 Found in 4ms (ActiveRecord: 0.0ms | Allocations: 1372)
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT COUNT(*) FROM `categories`[0m
+  [1m[36mTRANSACTION (172.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (127.0ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+---------------------------------------------
+CategoriesControllerTest: test_should_get_new
+---------------------------------------------
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+----------------------------------------------------------------------
+CategoriesControllerTest: test_should_not_create_category_if_not_admin
+----------------------------------------------------------------------
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCategory Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` WHERE `categories`.`name` = 'Sports' LIMIT 1[0m
+  [1m[36mCategory Create (0.4ms)[0m  [1m[32mINSERT INTO `categories` (`name`, `created_at`, `updated_at`) VALUES ('Sports', '2022-03-17 06:45:44.327755', '2022-03-17 06:45:44.327755')[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT COUNT(*) FROM `categories`[0m
+Started POST "/categories" for 127.0.0.1 at 2022-03-17 12:15:44 +0530
+Processing by CategoriesController#create as HTML
+  Parameters: {"category"=>{"name"=>"Travel"}}
+Redirected to http://www.example.com/categories
+Filter chain halted as :require_admin rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 219)
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT COUNT(*) FROM `categories`[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mFixtures Load (0.8ms)[0m  [1m[31mDELETE FROM `articles`;
+INSERT INTO `articles` (`id`, `title`, `description`, `created_at`, `updated_at`, `user_id`) VALUES (980190962, 'MyString', 'MyText', '2022-03-17 06:45:44.331686', '2022-03-17 06:45:44.331686', DEFAULT), (298486374, 'MyString', 'MyText', '2022-03-17 06:45:44.331686', '2022-03-17 06:45:44.331686', DEFAULT)[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCategory Exists? (0.7ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` WHERE `categories`.`name` = 'Sports' LIMIT 1[0m
+  [1m[36mCategory Create (0.4ms)[0m  [1m[32mINSERT INTO `categories` (`name`, `created_at`, `updated_at`) VALUES ('Sports', '2022-03-17 06:45:44.371439', '2022-03-17 06:45:44.371439')[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/categories/new" for 127.0.0.1 at 2022-03-17 12:15:44 +0530
+Processing by CategoriesController#new as HTML
+Redirected to http://www.example.com/categories
+Filter chain halted as :require_admin rendered or redirected
+Completed 302 Found in 5ms (ActiveRecord: 0.0ms | Allocations: 1371)
+  [1m[36mTRANSACTION (83.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (135.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (380.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+---------------------------------------------------
+CategoriesControllerTest: test_should_show_category
+---------------------------------------------------
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCategory Exists? (0.7ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` WHERE `categories`.`name` = 'Sports' LIMIT 1[0m
+  [1m[36mCategory Create (0.3ms)[0m  [1m[32mINSERT INTO `categories` (`name`, `created_at`, `updated_at`) VALUES ('Sports', '2022-03-17 06:45:44.758620', '2022-03-17 06:45:44.758620')[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/categories/1" for 127.0.0.1 at 2022-03-17 12:15:44 +0530
+Processing by CategoriesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mCategory Load (0.4ms)[0m  [1m[34mSELECT `categories`.* FROM `categories` WHERE `categories`.`id` = 1 LIMIT 1[0m
+  Rendering layout layouts/application.html.erb
+  Rendering categories/show.html.erb within layouts/application
+  Rendered categories/show.html.erb within layouts/application (Duration: 2.0ms | Allocations: 1499)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 0.8ms | Allocations: 633)
+  Rendered layouts/_messages.html.erb (Duration: 0.3ms | Allocations: 191)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 84)
+  Rendered layout layouts/application.html.erb (Duration: 1918.1ms | Allocations: 32491)
+Completed 200 OK in 1924ms (Views: 1919.2ms | ActiveRecord: 0.4ms | Allocations: 35512)
+  [1m[36mTRANSACTION (118.2ms)[0m  [1m[31mROLLBACK[0m
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 1.6ms | Allocations: 694)
+  Rendered layouts/_messages.html.erb (Duration: 0.6ms | Allocations: 191)
+  Rendered layouts/_footer.html.erb (Duration: 0.4ms | Allocations: 84)
+  Rendered layout layouts/application.html.erb (Duration: 1604.5ms | Allocations: 32284)
+Completed 200 OK in 1613ms (Views: 1606.5ms | ActiveRecord: 0.4ms | Allocations: 35627)
+  [1m[36mTRANSACTION (164.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT `ar_internal_metadata`.`value` FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'schema_sha1'[0m
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT `ar_internal_metadata`.`value` FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'schema_sha1'[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `ar_internal_metadata`.`value` FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'schema_sha1'[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT `ar_internal_metadata`.`value` FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'schema_sha1'[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT `ar_internal_metadata`.`value` FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'schema_sha1'[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[36mTruncate Tables (3085.8ms)[0m  [1m[35mTRUNCATE TABLE `action_text_rich_texts`;
+TRUNCATE TABLE `active_storage_attachments`;
+TRUNCATE TABLE `active_storage_blobs`;
+TRUNCATE TABLE `active_storage_variant_records`;
+TRUNCATE TABLE `articles`;
+TRUNCATE TABLE `categories`;
+TRUNCATE TABLE `users`[0m
+  [1m[36mTruncate Tables (3536.0ms)[0m  [1m[35mTRUNCATE TABLE `action_text_rich_texts`;
+TRUNCATE TABLE `active_storage_attachments`;
+TRUNCATE TABLE `active_storage_blobs`;
+TRUNCATE TABLE `active_storage_variant_records`;
+TRUNCATE TABLE `articles`;
+TRUNCATE TABLE `categories`;
+TRUNCATE TABLE `users`[0m
+  [1m[36mTruncate Tables (4505.1ms)[0m  [1m[35mTRUNCATE TABLE `action_text_rich_texts`;
+TRUNCATE TABLE `active_storage_attachments`;
+TRUNCATE TABLE `active_storage_blobs`;
+TRUNCATE TABLE `active_storage_variant_records`;
+TRUNCATE TABLE `articles`;
+TRUNCATE TABLE `categories`;
+TRUNCATE TABLE `users`[0m
+  [1m[36mTruncate Tables (5094.3ms)[0m  [1m[35mTRUNCATE TABLE `action_text_rich_texts`;
+TRUNCATE TABLE `active_storage_attachments`;
+TRUNCATE TABLE `active_storage_blobs`;
+TRUNCATE TABLE `active_storage_variant_records`;
+TRUNCATE TABLE `articles`;
+TRUNCATE TABLE `categories`;
+TRUNCATE TABLE `users`[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mFixtures Load (1.0ms)[0m  [1m[31mDELETE FROM `articles`;
+INSERT INTO `articles` (`id`, `title`, `description`, `created_at`, `updated_at`, `user_id`) VALUES (980190962, 'MyString', 'MyText', '2022-03-17 06:58:02.855060', '2022-03-17 06:58:02.855060', DEFAULT), (298486374, 'MyString', 'MyText', '2022-03-17 06:58:02.855060', '2022-03-17 06:58:02.855060', DEFAULT)[0m
+  [1m[36mTRANSACTION (441.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+-----------------------------------------------
+CategoriesControllerTest: test_should_get_index
+-----------------------------------------------
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mFixtures Load (0.6ms)[0m  [1m[31mDELETE FROM `articles`;
+INSERT INTO `articles` (`id`, `title`, `description`, `created_at`, `updated_at`, `user_id`) VALUES (980190962, 'MyString', 'MyText', '2022-03-17 06:58:03.340574', '2022-03-17 06:58:03.340574', DEFAULT), (298486374, 'MyString', 'MyText', '2022-03-17 06:58:03.340574', '2022-03-17 06:58:03.340574', DEFAULT)[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCategory Exists? (0.6ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` WHERE `categories`.`name` = 'Sports' LIMIT 1[0m
+  [1m[36mCategory Create (0.6ms)[0m  [1m[32mINSERT INTO `categories` (`name`, `created_at`, `updated_at`) VALUES ('Sports', '2022-03-17 06:58:03.376163', '2022-03-17 06:58:03.376163')[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists? (0.7ms)[0m  [1m[34mSELECT 1 AS one FROM `users` WHERE `users`.`username` = 'Harsh' LIMIT 1[0m
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO `users` (`username`, `email`, `created_at`, `updated_at`, `password_digest`, `admin`) VALUES ('Harsh', 'harshpatelvi.dev@gmail.com', '2022-03-17 06:58:03.392491', '2022-03-17 06:58:03.392491', '$2a$04$CKSaRmqtqEqQp5tV7c56cufeI2RPReT3Bv3vIPA2V1dBIeC3vfyBW', TRUE)[0m
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/categories" for 127.0.0.1 at 2022-03-17 12:28:03 +0530
+Processing by CategoriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering categories/index.html.erb within layouts/application
+  [1m[36mCategory Load (0.4ms)[0m  [1m[34mSELECT `categories`.* FROM `categories`[0m
+  Rendered categories/index.html.erb within layouts/application (Duration: 4.3ms | Allocations: 1802)
+  [1m[36mTRANSACTION (189.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+---------------------------------------------
+CategoriesControllerTest: test_should_get_new
+---------------------------------------------
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mFixtures Load (1.0ms)[0m  [1m[31mDELETE FROM `articles`;
+INSERT INTO `articles` (`id`, `title`, `description`, `created_at`, `updated_at`, `user_id`) VALUES (980190962, 'MyString', 'MyText', '2022-03-17 06:58:03.552005', '2022-03-17 06:58:03.552005', DEFAULT), (298486374, 'MyString', 'MyText', '2022-03-17 06:58:03.552005', '2022-03-17 06:58:03.552005', DEFAULT)[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCategory Exists? (1.2ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` WHERE `categories`.`name` = 'Sports' LIMIT 1[0m
+  [1m[36mCategory Create (0.6ms)[0m  [1m[32mINSERT INTO `categories` (`name`, `created_at`, `updated_at`) VALUES ('Sports', '2022-03-17 06:58:03.595478', '2022-03-17 06:58:03.595478')[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists? (1.1ms)[0m  [1m[34mSELECT 1 AS one FROM `users` WHERE `users`.`username` = 'Harsh' LIMIT 1[0m
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO `users` (`username`, `email`, `created_at`, `updated_at`, `password_digest`, `admin`) VALUES ('Harsh', 'harshpatelvi.dev@gmail.com', '2022-03-17 06:58:03.613890', '2022-03-17 06:58:03.613890', '$2a$04$6acuRg8nMHYD5zLrIAMzJOMT4HCDVoNq3pWXyg0VFSmvoBUccOgJu', TRUE)[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started POST "/login" for 127.0.0.1 at 2022-03-17 12:28:03 +0530
+Processing by SessionsController#create as HTML
+  Parameters: {"session"=>{"email"=>"harshpatelvi.dev@gmail.com", "password"=>"[FILTERED]"}}
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms | Allocations: 1824)
+  [1m[36mTRANSACTION (103.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (199.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+----------------------------------------------------------------------
+CategoriesControllerTest: test_should_not_create_category_if_not_admin
+----------------------------------------------------------------------
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+-----------------------------------------------------
+CategoriesControllerTest: test_should_create_category
+-----------------------------------------------------
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCategory Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` WHERE `categories`.`name` = 'Sports' LIMIT 1[0m
+  [1m[36mCategory Create (0.3ms)[0m  [1m[32mINSERT INTO `categories` (`name`, `created_at`, `updated_at`) VALUES ('Sports', '2022-03-17 06:58:03.769042', '2022-03-17 06:58:03.769042')[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists? (0.7ms)[0m  [1m[34mSELECT 1 AS one FROM `users` WHERE `users`.`username` = 'Harsh' LIMIT 1[0m
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO `users` (`username`, `email`, `created_at`, `updated_at`, `password_digest`, `admin`) VALUES ('Harsh', 'harshpatelvi.dev@gmail.com', '2022-03-17 06:58:03.776982', '2022-03-17 06:58:03.776982', '$2a$04$T5BqO0MRRV4Ha./01zLlseDfT3gbMUxayNX1dawdTUqbGJW442EW.', TRUE)[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started POST "/login" for 127.0.0.1 at 2022-03-17 12:28:03 +0530
+Processing by SessionsController#create as HTML
+  Parameters: {"session"=>{"email"=>"harshpatelvi.dev@gmail.com", "password"=>"[FILTERED]"}}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 710)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCategory Exists? (0.5ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` WHERE `categories`.`name` = 'Sports' LIMIT 1[0m
+  [1m[36mCategory Create (0.3ms)[0m  [1m[32mINSERT INTO `categories` (`name`, `created_at`, `updated_at`) VALUES ('Sports', '2022-03-17 06:58:03.822308', '2022-03-17 06:58:03.822308')[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists? (0.9ms)[0m  [1m[34mSELECT 1 AS one FROM `users` WHERE `users`.`username` = 'Harsh' LIMIT 1[0m
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO `users` (`username`, `email`, `created_at`, `updated_at`, `password_digest`, `admin`) VALUES ('Harsh', 'harshpatelvi.dev@gmail.com', '2022-03-17 06:58:03.840218', '2022-03-17 06:58:03.840218', '$2a$04$51fi5Txe1reAL8HsHMoCDOAYbJQnRk/Br8ZjZPMXTpc3c0XIR14oW', TRUE)[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT COUNT(*) FROM `categories`[0m
+Started POST "/categories" for 127.0.0.1 at 2022-03-17 12:28:03 +0530
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mFixtures Load (0.7ms)[0m  [1m[31mDELETE FROM `articles`;
+INSERT INTO `articles` (`id`, `title`, `description`, `created_at`, `updated_at`, `user_id`) VALUES (980190962, 'MyString', 'MyText', '2022-03-17 06:58:03.841867', '2022-03-17 06:58:03.841867', DEFAULT), (298486374, 'MyString', 'MyText', '2022-03-17 06:58:03.841867', '2022-03-17 06:58:03.841867', DEFAULT)[0m
+Processing by CategoriesController#create as HTML
+  Parameters: {"category"=>{"name"=>"Travel"}}
+Redirected to http://www.example.com/categories
+Filter chain halted as :require_admin rendered or redirected
+Completed 302 Found in 10ms (ActiveRecord: 0.0ms | Allocations: 1365)
+  [1m[35m (1.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `categories`[0m
+  [1m[36mTRANSACTION (115.0ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (76.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (187.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+---------------------------------------------------
+CategoriesControllerTest: test_should_show_category
+---------------------------------------------------
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCategory Exists? (0.6ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` WHERE `categories`.`name` = 'Sports' LIMIT 1[0m
+  [1m[36mCategory Create (0.3ms)[0m  [1m[32mINSERT INTO `categories` (`name`, `created_at`, `updated_at`) VALUES ('Sports', '2022-03-17 06:58:04.085595', '2022-03-17 06:58:04.085595')[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists? (0.7ms)[0m  [1m[34mSELECT 1 AS one FROM `users` WHERE `users`.`username` = 'Harsh' LIMIT 1[0m
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO `users` (`username`, `email`, `created_at`, `updated_at`, `password_digest`, `admin`) VALUES ('Harsh', 'harshpatelvi.dev@gmail.com', '2022-03-17 06:58:04.098539', '2022-03-17 06:58:04.098539', '$2a$04$q40IWNcCeWc.ftPVAMJD9OHLwdR10YCsufs2IweZRS2hZ3sV5UPWO', TRUE)[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/categories/1" for 127.0.0.1 at 2022-03-17 12:28:04 +0530
+Processing by CategoriesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mCategory Load (0.4ms)[0m  [1m[34mSELECT `categories`.* FROM `categories` WHERE `categories`.`id` = 1 LIMIT 1[0m
+  Rendering layout layouts/application.html.erb
+  Rendering categories/show.html.erb within layouts/application
+  Rendered categories/show.html.erb within layouts/application (Duration: 2.4ms | Allocations: 1499)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 1.3ms | Allocations: 633)
+  Rendered layouts/_messages.html.erb (Duration: 0.5ms | Allocations: 191)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 84)
+  Rendered layout layouts/application.html.erb (Duration: 1232.7ms | Allocations: 32626)
+Completed 200 OK in 1242ms (Views: 1235.6ms | ActiveRecord: 0.4ms | Allocations: 35643)
+  [1m[36mTRANSACTION (645.5ms)[0m  [1m[31mROLLBACK[0m
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 2.2ms | Allocations: 694)
+  Rendered layouts/_messages.html.erb (Duration: 0.6ms | Allocations: 191)
+  Rendered layouts/_footer.html.erb (Duration: 0.4ms | Allocations: 84)
+  Rendered layout layouts/application.html.erb (Duration: 2190.3ms | Allocations: 32433)
+Completed 200 OK in 2200ms (Views: 2192.9ms | ActiveRecord: 0.4ms | Allocations: 35773)
+  [1m[36mTRANSACTION (457.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT `ar_internal_metadata`.`value` FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'schema_sha1'[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT `ar_internal_metadata`.`value` FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'schema_sha1'[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT `ar_internal_metadata`.`value` FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'schema_sha1'[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `ar_internal_metadata`.`value` FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'schema_sha1'[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `ar_internal_metadata`.`value` FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'schema_sha1'[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[35m (0.5ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[36mTruncate Tables (3215.7ms)[0m  [1m[35mTRUNCATE TABLE `action_text_rich_texts`;
+TRUNCATE TABLE `active_storage_attachments`;
+TRUNCATE TABLE `active_storage_blobs`;
+TRUNCATE TABLE `active_storage_variant_records`;
+TRUNCATE TABLE `articles`;
+TRUNCATE TABLE `categories`;
+TRUNCATE TABLE `users`[0m
+  [1m[36mTruncate Tables (4472.3ms)[0m  [1m[35mTRUNCATE TABLE `action_text_rich_texts`;
+TRUNCATE TABLE `active_storage_attachments`;
+TRUNCATE TABLE `active_storage_blobs`;
+TRUNCATE TABLE `active_storage_variant_records`;
+TRUNCATE TABLE `articles`;
+TRUNCATE TABLE `categories`;
+TRUNCATE TABLE `users`[0m
+  [1m[36mTruncate Tables (4690.0ms)[0m  [1m[35mTRUNCATE TABLE `action_text_rich_texts`;
+TRUNCATE TABLE `active_storage_attachments`;
+TRUNCATE TABLE `active_storage_blobs`;
+TRUNCATE TABLE `active_storage_variant_records`;
+TRUNCATE TABLE `articles`;
+TRUNCATE TABLE `categories`;
+TRUNCATE TABLE `users`[0m
+  [1m[36mTruncate Tables (5019.2ms)[0m  [1m[35mTRUNCATE TABLE `action_text_rich_texts`;
+TRUNCATE TABLE `active_storage_attachments`;
+TRUNCATE TABLE `active_storage_blobs`;
+TRUNCATE TABLE `active_storage_variant_records`;
+TRUNCATE TABLE `articles`;
+TRUNCATE TABLE `categories`;
+TRUNCATE TABLE `users`[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mFixtures Load (0.7ms)[0m  [1m[31mDELETE FROM `articles`;
+INSERT INTO `articles` (`id`, `title`, `description`, `created_at`, `updated_at`, `user_id`) VALUES (980190962, 'MyString', 'MyText', '2022-03-17 07:08:06.415320', '2022-03-17 07:08:06.415320', DEFAULT), (298486374, 'MyString', 'MyText', '2022-03-17 07:08:06.415320', '2022-03-17 07:08:06.415320', DEFAULT)[0m
+  [1m[36mTRANSACTION (1262.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+---------------------------------------------
+CategoriesControllerTest: test_should_get_new
+---------------------------------------------
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mFixtures Load (0.6ms)[0m  [1m[31mDELETE FROM `articles`;
+INSERT INTO `articles` (`id`, `title`, `description`, `created_at`, `updated_at`, `user_id`) VALUES (980190962, 'MyString', 'MyText', '2022-03-17 07:08:07.703221', '2022-03-17 07:08:07.703221', DEFAULT), (298486374, 'MyString', 'MyText', '2022-03-17 07:08:07.703221', '2022-03-17 07:08:07.703221', DEFAULT)[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCategory Exists? (0.7ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` WHERE `categories`.`name` = 'Sports' LIMIT 1[0m
+  [1m[36mCategory Create (0.3ms)[0m  [1m[32mINSERT INTO `categories` (`name`, `created_at`, `updated_at`) VALUES ('Sports', '2022-03-17 07:08:07.734909', '2022-03-17 07:08:07.734909')[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists? (0.7ms)[0m  [1m[34mSELECT 1 AS one FROM `users` WHERE `users`.`username` = 'Harsh' LIMIT 1[0m
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO `users` (`username`, `email`, `created_at`, `updated_at`, `password_digest`, `admin`) VALUES ('Harsh', 'harshpatelvi.dev@gmail.com', '2022-03-17 07:08:07.747582', '2022-03-17 07:08:07.747582', '$2a$04$v5EPARBSrhYOjULOeTySp.luWq3/s2qt1gRNzDDRaqReP/OVMzvGy', TRUE)[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started POST "/login" for 127.0.0.1 at 2022-03-17 12:38:07 +0530
+Processing by SessionsController#create as HTML
+  Parameters: {"session"=>{"email"=>"harshpatelvi.dev@gmail.com", "password"=>"[FILTERED]"}}
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 1823)
+  [1m[36mTRANSACTION (161.5ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+-----------------------------------------------------
+CategoriesControllerTest: test_should_create_category
+-----------------------------------------------------
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCategory Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` WHERE `categories`.`name` = 'Sports' LIMIT 1[0m
+  [1m[36mCategory Create (0.4ms)[0m  [1m[32mINSERT INTO `categories` (`name`, `created_at`, `updated_at`) VALUES ('Sports', '2022-03-17 07:08:07.930533', '2022-03-17 07:08:07.930533')[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM `users` WHERE `users`.`username` = 'Harsh' LIMIT 1[0m
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO `users` (`username`, `email`, `created_at`, `updated_at`, `password_digest`, `admin`) VALUES ('Harsh', 'harshpatelvi.dev@gmail.com', '2022-03-17 07:08:07.935267', '2022-03-17 07:08:07.935267', '$2a$04$NKYMAyQVVY39G2cuehzpc.zYOCmMBAiVvzSbugB/ZNQVNztaMd6ue', TRUE)[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started POST "/login" for 127.0.0.1 at 2022-03-17 12:38:07 +0530
+Processing by SessionsController#create as HTML
+  Parameters: {"session"=>{"email"=>"harshpatelvi.dev@gmail.com", "password"=>"[FILTERED]"}}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 710)
+  [1m[36mTRANSACTION (283.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+----------------------------------------------------------------------
+CategoriesControllerTest: test_should_not_create_category_if_not_admin
+----------------------------------------------------------------------
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mFixtures Load (0.5ms)[0m  [1m[31mDELETE FROM `articles`;
+INSERT INTO `articles` (`id`, `title`, `description`, `created_at`, `updated_at`, `user_id`) VALUES (980190962, 'MyString', 'MyText', '2022-03-17 07:08:08.009667', '2022-03-17 07:08:08.009667', DEFAULT), (298486374, 'MyString', 'MyText', '2022-03-17 07:08:08.009667', '2022-03-17 07:08:08.009667', DEFAULT)[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCategory Exists? (0.7ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` WHERE `categories`.`name` = 'Sports' LIMIT 1[0m
+  [1m[36mCategory Create (0.5ms)[0m  [1m[32mINSERT INTO `categories` (`name`, `created_at`, `updated_at`) VALUES ('Sports', '2022-03-17 07:08:08.041710', '2022-03-17 07:08:08.041710')[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists? (0.6ms)[0m  [1m[34mSELECT 1 AS one FROM `users` WHERE `users`.`username` = 'Harsh' LIMIT 1[0m
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO `users` (`username`, `email`, `created_at`, `updated_at`, `password_digest`, `admin`) VALUES ('Harsh', 'harshpatelvi.dev@gmail.com', '2022-03-17 07:08:08.054967', '2022-03-17 07:08:08.054967', '$2a$04$hFWkAN8PdpiRekMGK04O2OkTcSrMHbEtas/umPqaOICZpd3N7qtY6', TRUE)[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT COUNT(*) FROM `categories`[0m
+  [1m[36mTRANSACTION (117.8ms)[0m  [1m[31mROLLBACK[0m
+Started POST "/categories" for 127.0.0.1 at 2022-03-17 12:38:08 +0530
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+---------------------------------------------------
+CategoriesControllerTest: test_should_show_category
+---------------------------------------------------
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCategory Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` WHERE `categories`.`name` = 'Sports' LIMIT 1[0m
+  [1m[36mCategory Create (0.2ms)[0m  [1m[32mINSERT INTO `categories` (`name`, `created_at`, `updated_at`) VALUES ('Sports', '2022-03-17 07:08:08.063973', '2022-03-17 07:08:08.063973')[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM `users` WHERE `users`.`username` = 'Harsh' LIMIT 1[0m
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO `users` (`username`, `email`, `created_at`, `updated_at`, `password_digest`, `admin`) VALUES ('Harsh', 'harshpatelvi.dev@gmail.com', '2022-03-17 07:08:08.067565', '2022-03-17 07:08:08.067565', '$2a$04$BFBNFx5HNhPw5jYkgKiB2OqW.UYbaEs.B/BohwJ1sL7DkCqfAG1cO', TRUE)[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Processing by CategoriesController#create as HTML
+  Parameters: {"category"=>{"name"=>"Travel"}}
+Started GET "/categories/3" for 127.0.0.1 at 2022-03-17 12:38:08 +0530
+Processing by CategoriesController#show as HTML
+  Parameters: {"id"=>"3"}
+Redirected to http://www.example.com/categories
+Filter chain halted as :require_admin rendered or redirected
+Completed 302 Found in 5ms (ActiveRecord: 0.0ms | Allocations: 1364)
+  [1m[36mCategory Load (0.4ms)[0m  [1m[34mSELECT `categories`.* FROM `categories` WHERE `categories`.`id` = 3 LIMIT 1[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT COUNT(*) FROM `categories`[0m
+  Rendering layout layouts/application.html.erb
+  Rendering categories/show.html.erb within layouts/application
+  Rendered categories/show.html.erb within layouts/application (Duration: 2.3ms | Allocations: 1498)
+  [1m[36mTRANSACTION (174.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (114.9ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 1[0m
+-----------------------------------------------
+CategoriesControllerTest: test_should_get_index
+-----------------------------------------------
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCategory Exists? (0.8ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` WHERE `categories`.`name` = 'Sports' LIMIT 1[0m
+  [1m[36mCategory Create (0.3ms)[0m  [1m[32mINSERT INTO `categories` (`name`, `created_at`, `updated_at`) VALUES ('Sports', '2022-03-17 07:08:08.265985', '2022-03-17 07:08:08.265985')[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists? (0.6ms)[0m  [1m[34mSELECT 1 AS one FROM `users` WHERE `users`.`username` = 'Harsh' LIMIT 1[0m
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO `users` (`username`, `email`, `created_at`, `updated_at`, `password_digest`, `admin`) VALUES ('Harsh', 'harshpatelvi.dev@gmail.com', '2022-03-17 07:08:08.281348', '2022-03-17 07:08:08.281348', '$2a$04$q6tzlUmEmdWl4iueyhzaGO4b.UNYa9UivyyHMSRKuNiONLsH7Epuy', TRUE)[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/categories" for 127.0.0.1 at 2022-03-17 12:38:08 +0530
+Processing by CategoriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering categories/index.html.erb within layouts/application
+  [1m[36mCategory Load (0.4ms)[0m  [1m[34mSELECT `categories`.* FROM `categories`[0m
+  Rendered categories/index.html.erb within layouts/application (Duration: 3.6ms | Allocations: 1802)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 0.9ms | Allocations: 696)
+  Rendered layouts/_messages.html.erb (Duration: 1.0ms | Allocations: 191)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 84)
+  Rendered layout layouts/application.html.erb (Duration: 1023.6ms | Allocations: 32507)
+Completed 200 OK in 1029ms (Views: 1026.4ms | ActiveRecord: 0.4ms | Allocations: 34850)
+  [1m[36mTRANSACTION (112.1ms)[0m  [1m[31mROLLBACK[0m
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 0.6ms | Allocations: 636)
+  Rendered layouts/_messages.html.erb (Duration: 0.2ms | Allocations: 191)
+  Rendered layouts/_footer.html.erb (Duration: 0.4ms | Allocations: 84)
+  Rendered layout layouts/application.html.erb (Duration: 1011.5ms | Allocations: 32760)
+Completed 200 OK in 1019ms (Views: 1012.9ms | ActiveRecord: 0.4ms | Allocations: 35774)
+  [1m[36mTRANSACTION (55.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `ar_internal_metadata`.`value` FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'schema_sha1'[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT `ar_internal_metadata`.`value` FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'schema_sha1'[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT `ar_internal_metadata`.`value` FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'schema_sha1'[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT `ar_internal_metadata`.`value` FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'schema_sha1'[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT `ar_internal_metadata`.`value` FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'schema_sha1'[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[36mTruncate Tables (2685.3ms)[0m  [1m[35mTRUNCATE TABLE `action_text_rich_texts`;
+TRUNCATE TABLE `active_storage_attachments`;
+TRUNCATE TABLE `active_storage_blobs`;
+TRUNCATE TABLE `active_storage_variant_records`;
+TRUNCATE TABLE `articles`;
+TRUNCATE TABLE `categories`;
+TRUNCATE TABLE `users`[0m
+  [1m[36mTruncate Tables (3054.2ms)[0m  [1m[35mTRUNCATE TABLE `action_text_rich_texts`;
+TRUNCATE TABLE `active_storage_attachments`;
+TRUNCATE TABLE `active_storage_blobs`;
+TRUNCATE TABLE `active_storage_variant_records`;
+TRUNCATE TABLE `articles`;
+TRUNCATE TABLE `categories`;
+TRUNCATE TABLE `users`[0m
+  [1m[36mTruncate Tables (3190.3ms)[0m  [1m[35mTRUNCATE TABLE `action_text_rich_texts`;
+TRUNCATE TABLE `active_storage_attachments`;
+TRUNCATE TABLE `active_storage_blobs`;
+TRUNCATE TABLE `active_storage_variant_records`;
+TRUNCATE TABLE `articles`;
+TRUNCATE TABLE `categories`;
+TRUNCATE TABLE `users`[0m
+  [1m[36mTruncate Tables (3801.4ms)[0m  [1m[35mTRUNCATE TABLE `action_text_rich_texts`;
+TRUNCATE TABLE `active_storage_attachments`;
+TRUNCATE TABLE `active_storage_blobs`;
+TRUNCATE TABLE `active_storage_variant_records`;
+TRUNCATE TABLE `articles`;
+TRUNCATE TABLE `categories`;
+TRUNCATE TABLE `users`[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mFixtures Load (0.6ms)[0m  [1m[31mDELETE FROM `articles`;
+INSERT INTO `articles` (`id`, `title`, `description`, `created_at`, `updated_at`, `user_id`) VALUES (980190962, 'MyString', 'MyText', '2022-03-17 07:16:16.285146', '2022-03-17 07:16:16.285146', DEFAULT), (298486374, 'MyString', 'MyText', '2022-03-17 07:16:16.285146', '2022-03-17 07:16:16.285146', DEFAULT)[0m
+  [1m[36mTRANSACTION (1329.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+-----------------------------------------------------
+CategoriesControllerTest: test_should_create_category
+-----------------------------------------------------
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCategory Exists? (93.6ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` WHERE `categories`.`name` = 'Sports' LIMIT 1[0m
+  [1m[36mCategory Create (0.6ms)[0m  [1m[32mINSERT INTO `categories` (`name`, `created_at`, `updated_at`) VALUES ('Sports', '2022-03-17 07:16:17.781766', '2022-03-17 07:16:17.781766')[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists? (1.0ms)[0m  [1m[34mSELECT 1 AS one FROM `users` WHERE `users`.`username` = 'Harsh' LIMIT 1[0m
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO `users` (`username`, `email`, `created_at`, `updated_at`, `password_digest`, `admin`) VALUES ('Harsh', 'harshpatelvi.dev@gmail.com', '2022-03-17 07:16:17.809324', '2022-03-17 07:16:17.809324', '$2a$04$bsynjzfmrhj2GZHSwLb5Iuv6TOF.8/oDT0TB7y1SEOkOf17cNwBD6', TRUE)[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started POST "/login" for 127.0.0.1 at 2022-03-17 12:46:17 +0530
+Processing by SessionsController#create as HTML
+  Parameters: {"session"=>{"email"=>"harshpatelvi.dev@gmail.com", "password"=>"[FILTERED]"}}
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.0ms | Allocations: 1824)
+  [1m[36mTRANSACTION (95.9ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+-----------------------------------------------
+CategoriesControllerTest: test_should_get_index
+-----------------------------------------------
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCategory Exists? (0.8ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` WHERE `categories`.`name` = 'Sports' LIMIT 1[0m
+  [1m[36mCategory Create (0.8ms)[0m  [1m[32mINSERT INTO `categories` (`name`, `created_at`, `updated_at`) VALUES ('Sports', '2022-03-17 07:16:18.003505', '2022-03-17 07:16:18.003505')[0m
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists? (1.4ms)[0m  [1m[34mSELECT 1 AS one FROM `users` WHERE `users`.`username` = 'Harsh' LIMIT 1[0m
+  [1m[36mUser Create (1.5ms)[0m  [1m[32mINSERT INTO `users` (`username`, `email`, `created_at`, `updated_at`, `password_digest`, `admin`) VALUES ('Harsh', 'harshpatelvi.dev@gmail.com', '2022-03-17 07:16:18.014980', '2022-03-17 07:16:18.014980', '$2a$04$FeWTndU8261H0HGsUUPTG.EB835FO6LWcPWm0aIW/xG2maqLB00b2', TRUE)[0m
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/categories" for 127.0.0.1 at 2022-03-17 12:46:18 +0530
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.9ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 0[0m
+Processing by CategoriesController#index as HTML
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mFixtures Load (2.3ms)[0m  [1m[31mDELETE FROM `articles`;
+INSERT INTO `articles` (`id`, `title`, `description`, `created_at`, `updated_at`, `user_id`) VALUES (980190962, 'MyString', 'MyText', '2022-03-17 07:16:18.015535', '2022-03-17 07:16:18.015535', DEFAULT), (298486374, 'MyString', 'MyText', '2022-03-17 07:16:18.015535', '2022-03-17 07:16:18.015535', DEFAULT)[0m
+  Rendering layout layouts/application.html.erb
+  Rendering categories/index.html.erb within layouts/application
+  [1m[36mCategory Load (0.5ms)[0m  [1m[34mSELECT `categories`.* FROM `categories`[0m
+  Rendered categories/index.html.erb within layouts/application (Duration: 7.3ms | Allocations: 1800)
+  [1m[36mTRANSACTION (171.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+---------------------------------------------------
+CategoriesControllerTest: test_should_show_category
+---------------------------------------------------
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mFixtures Load (0.7ms)[0m  [1m[31mDELETE FROM `articles`;
+INSERT INTO `articles` (`id`, `title`, `description`, `created_at`, `updated_at`, `user_id`) VALUES (980190962, 'MyString', 'MyText', '2022-03-17 07:16:18.223689', '2022-03-17 07:16:18.223689', DEFAULT), (298486374, 'MyString', 'MyText', '2022-03-17 07:16:18.223689', '2022-03-17 07:16:18.223689', DEFAULT)[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCategory Exists? (0.7ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` WHERE `categories`.`name` = 'Sports' LIMIT 1[0m
+  [1m[36mCategory Create (0.3ms)[0m  [1m[32mINSERT INTO `categories` (`name`, `created_at`, `updated_at`) VALUES ('Sports', '2022-03-17 07:16:18.276494', '2022-03-17 07:16:18.276494')[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists? (0.6ms)[0m  [1m[34mSELECT 1 AS one FROM `users` WHERE `users`.`username` = 'Harsh' LIMIT 1[0m
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO `users` (`username`, `email`, `created_at`, `updated_at`, `password_digest`, `admin`) VALUES ('Harsh', 'harshpatelvi.dev@gmail.com', '2022-03-17 07:16:18.293994', '2022-03-17 07:16:18.293994', '$2a$04$uahyZmkn7O4Nd.cmJ2PFG.96kOL7oXH10.8BJBJ/up2D/TypoZUdq', TRUE)[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/categories/1" for 127.0.0.1 at 2022-03-17 12:46:18 +0530
+Processing by CategoriesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mCategory Load (0.6ms)[0m  [1m[34mSELECT `categories`.* FROM `categories` WHERE `categories`.`id` = 1 LIMIT 1[0m
+  Rendering layout layouts/application.html.erb
+  Rendering categories/show.html.erb within layouts/application
+  Rendered categories/show.html.erb within layouts/application (Duration: 2.7ms | Allocations: 1499)
+  [1m[36mTRANSACTION (205.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+---------------------------------------------
+CategoriesControllerTest: test_should_get_new
+---------------------------------------------
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCategory Exists? (0.7ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` WHERE `categories`.`name` = 'Sports' LIMIT 1[0m
+  [1m[36mCategory Create (0.6ms)[0m  [1m[32mINSERT INTO `categories` (`name`, `created_at`, `updated_at`) VALUES ('Sports', '2022-03-17 07:16:18.493265', '2022-03-17 07:16:18.493265')[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists? (1.3ms)[0m  [1m[34mSELECT 1 AS one FROM `users` WHERE `users`.`username` = 'Harsh' LIMIT 1[0m
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO `users` (`username`, `email`, `created_at`, `updated_at`, `password_digest`, `admin`) VALUES ('Harsh', 'harshpatelvi.dev@gmail.com', '2022-03-17 07:16:18.514591', '2022-03-17 07:16:18.514591', '$2a$04$cOIdON9bBLkFRx1e4EmmXeXNx4qzlj9m.EvAi14IY19ljhOA9nMsK', TRUE)[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started POST "/login" for 127.0.0.1 at 2022-03-17 12:46:18 +0530
+Processing by SessionsController#create as HTML
+  Parameters: {"session"=>{"email"=>"harshpatelvi.dev@gmail.com", "password"=>"[FILTERED]"}}
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms | Allocations: 1824)
+  [1m[36mTRANSACTION (1219.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+----------------------------------------------------------------------
+CategoriesControllerTest: test_should_not_create_category_if_not_admin
+----------------------------------------------------------------------
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCategory Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` WHERE `categories`.`name` = 'Sports' LIMIT 1[0m
+  [1m[36mCategory Create (0.5ms)[0m  [1m[32mINSERT INTO `categories` (`name`, `created_at`, `updated_at`) VALUES ('Sports', '2022-03-17 07:16:19.785043', '2022-03-17 07:16:19.785043')[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM `users` WHERE `users`.`username` = 'Harsh' LIMIT 1[0m
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO `users` (`username`, `email`, `created_at`, `updated_at`, `password_digest`, `admin`) VALUES ('Harsh', 'harshpatelvi.dev@gmail.com', '2022-03-17 07:16:19.790572', '2022-03-17 07:16:19.790572', '$2a$04$Gyk6IWvdFSH9QQFspYKX5uEhxfl2y1q/p.CopWekXy1BogHyO4du2', TRUE)[0m
+  [1m[36mTRANSACTION (3.3ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `categories`[0m
+Started POST "/categories" for 127.0.0.1 at 2022-03-17 12:46:19 +0530
+Processing by CategoriesController#create as HTML
+  Parameters: {"category"=>{"name"=>"Travel"}}
+Redirected to http://www.example.com/categories
+Filter chain halted as :require_admin rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 392)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 1.7ms | Allocations: 633)
+  Rendered layouts/_messages.html.erb (Duration: 1.5ms | Allocations: 191)
+  Rendered layouts/_footer.html.erb (Duration: 1.1ms | Allocations: 84)
+  Rendered layout layouts/application.html.erb (Duration: 1776.8ms | Allocations: 32831)
+  [1m[35m (11.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `categories`[0m
+Completed 200 OK in 1788ms (Views: 1782.6ms | ActiveRecord: 0.5ms | Allocations: 34862)
+  [1m[36mTRANSACTION (234.4ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (235.3ms)[0m  [1m[31mROLLBACK[0m
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 2.1ms | Allocations: 694)
+  Rendered layouts/_messages.html.erb (Duration: 1.4ms | Allocations: 191)
+  Rendered layouts/_footer.html.erb (Duration: 0.3ms | Allocations: 84)
+  Rendered layout layouts/application.html.erb (Duration: 2293.8ms | Allocations: 32658)
+Completed 200 OK in 2307ms (Views: 2296.0ms | ActiveRecord: 0.6ms | Allocations: 35998)
+  [1m[36mTRANSACTION (111.5ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `ar_internal_metadata`.`value` FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'schema_sha1'[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `ar_internal_metadata`.`value` FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'schema_sha1'[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `ar_internal_metadata`.`value` FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'schema_sha1'[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `ar_internal_metadata`.`value` FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'schema_sha1'[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT `ar_internal_metadata`.`value` FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'schema_sha1'[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[36mTruncate Tables (5995.6ms)[0m  [1m[35mTRUNCATE TABLE `action_text_rich_texts`;
+TRUNCATE TABLE `active_storage_attachments`;
+TRUNCATE TABLE `active_storage_blobs`;
+TRUNCATE TABLE `active_storage_variant_records`;
+TRUNCATE TABLE `articles`;
+TRUNCATE TABLE `categories`;
+TRUNCATE TABLE `users`[0m
+  [1m[36mTruncate Tables (6584.3ms)[0m  [1m[35mTRUNCATE TABLE `action_text_rich_texts`;
+TRUNCATE TABLE `active_storage_attachments`;
+TRUNCATE TABLE `active_storage_blobs`;
+TRUNCATE TABLE `active_storage_variant_records`;
+TRUNCATE TABLE `articles`;
+TRUNCATE TABLE `categories`;
+TRUNCATE TABLE `users`[0m
+  [1m[36mTruncate Tables (8618.3ms)[0m  [1m[35mTRUNCATE TABLE `action_text_rich_texts`;
+TRUNCATE TABLE `active_storage_attachments`;
+TRUNCATE TABLE `active_storage_blobs`;
+TRUNCATE TABLE `active_storage_variant_records`;
+TRUNCATE TABLE `articles`;
+TRUNCATE TABLE `categories`;
+TRUNCATE TABLE `users`[0m
+  [1m[36mTruncate Tables (10394.1ms)[0m  [1m[35mTRUNCATE TABLE `action_text_rich_texts`;
+TRUNCATE TABLE `active_storage_attachments`;
+TRUNCATE TABLE `active_storage_blobs`;
+TRUNCATE TABLE `active_storage_variant_records`;
+TRUNCATE TABLE `articles`;
+TRUNCATE TABLE `categories`;
+TRUNCATE TABLE `users`[0m
+  [1m[35m (0.4ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mFixtures Load (0.4ms)[0m  [1m[31mDELETE FROM `articles`;
+INSERT INTO `articles` (`id`, `title`, `description`, `created_at`, `updated_at`, `user_id`) VALUES (980190962, 'MyString', 'MyText', '2022-03-17 07:17:34.385191', '2022-03-17 07:17:34.385191', DEFAULT), (298486374, 'MyString', 'MyText', '2022-03-17 07:17:34.385191', '2022-03-17 07:17:34.385191', DEFAULT)[0m
+  [1m[36mTRANSACTION (177.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+---------------------------------------------------
+CategoriesControllerTest: test_should_show_category
+---------------------------------------------------
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mFixtures Load (0.6ms)[0m  [1m[31mDELETE FROM `articles`;
+INSERT INTO `articles` (`id`, `title`, `description`, `created_at`, `updated_at`, `user_id`) VALUES (980190962, 'MyString', 'MyText', '2022-03-17 07:17:34.578574', '2022-03-17 07:17:34.578574', DEFAULT), (298486374, 'MyString', 'MyText', '2022-03-17 07:17:34.578574', '2022-03-17 07:17:34.578574', DEFAULT)[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCategory Exists? (0.7ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` WHERE `categories`.`name` = 'Sports' LIMIT 1[0m
+  [1m[36mCategory Create (0.3ms)[0m  [1m[32mINSERT INTO `categories` (`name`, `created_at`, `updated_at`) VALUES ('Sports', '2022-03-17 07:17:34.609464', '2022-03-17 07:17:34.609464')[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists? (0.7ms)[0m  [1m[34mSELECT 1 AS one FROM `users` WHERE `users`.`username` = 'Harsh' LIMIT 1[0m
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO `users` (`username`, `email`, `created_at`, `updated_at`, `password_digest`, `admin`) VALUES ('Harsh', 'harshpatelvi.dev@gmail.com', '2022-03-17 07:17:34.622604', '2022-03-17 07:17:34.622604', '$2a$04$kgQlH/0YeKg97mwIKl.btOF8N8taOkhFFKgSJ.Bchv98xRf7HVTjq', TRUE)[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/categories/1" for 127.0.0.1 at 2022-03-17 12:47:34 +0530
+Processing by CategoriesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mCategory Load (0.5ms)[0m  [1m[34mSELECT `categories`.* FROM `categories` WHERE `categories`.`id` = 1 LIMIT 1[0m
+  Rendering layout layouts/application.html.erb
+  Rendering categories/show.html.erb within layouts/application
+  Rendered categories/show.html.erb within layouts/application (Duration: 2.0ms | Allocations: 1499)
+  [1m[36mTRANSACTION (458.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+-----------------------------------------------
+CategoriesControllerTest: test_should_get_index
+-----------------------------------------------
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mFixtures Load (0.6ms)[0m  [1m[31mDELETE FROM `articles`;
+INSERT INTO `articles` (`id`, `title`, `description`, `created_at`, `updated_at`, `user_id`) VALUES (980190962, 'MyString', 'MyText', '2022-03-17 07:17:35.054489', '2022-03-17 07:17:35.054489', DEFAULT), (298486374, 'MyString', 'MyText', '2022-03-17 07:17:35.054489', '2022-03-17 07:17:35.054489', DEFAULT)[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCategory Exists? (0.5ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` WHERE `categories`.`name` = 'Sports' LIMIT 1[0m
+  [1m[36mCategory Create (0.2ms)[0m  [1m[32mINSERT INTO `categories` (`name`, `created_at`, `updated_at`) VALUES ('Sports', '2022-03-17 07:17:35.084643', '2022-03-17 07:17:35.084643')[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists? (0.5ms)[0m  [1m[34mSELECT 1 AS one FROM `users` WHERE `users`.`username` = 'Harsh' LIMIT 1[0m
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO `users` (`username`, `email`, `created_at`, `updated_at`, `password_digest`, `admin`) VALUES ('Harsh', 'harshpatelvi.dev@gmail.com', '2022-03-17 07:17:35.096396', '2022-03-17 07:17:35.096396', '$2a$04$p23z1RfGfHmicVUq/Z6P6um7XRRMaCP92biEHvXnT9cqB23tPp7u2', TRUE)[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/categories" for 127.0.0.1 at 2022-03-17 12:47:35 +0530
+Processing by CategoriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering categories/index.html.erb within layouts/application
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT `categories`.* FROM `categories`[0m
+  Rendered categories/index.html.erb within layouts/application (Duration: 3.0ms | Allocations: 1802)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 1.1ms | Allocations: 694)
+  Rendered layouts/_messages.html.erb (Duration: 0.4ms | Allocations: 191)
+  Rendered layouts/_footer.html.erb (Duration: 0.3ms | Allocations: 84)
+  Rendered layout layouts/application.html.erb (Duration: 1412.5ms | Allocations: 32733)
+Completed 200 OK in 1421ms (Views: 1414.3ms | ActiveRecord: 0.5ms | Allocations: 36070)
+  [1m[36mTRANSACTION (311.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (1303.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+---------------------------------------------
+CategoriesControllerTest: test_should_get_new
+---------------------------------------------
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+-----------------------------------------------------
+CategoriesControllerTest: test_should_create_category
+-----------------------------------------------------
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCategory Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` WHERE `categories`.`name` = 'Sports' LIMIT 1[0m
+  [1m[36mCategory Create (0.2ms)[0m  [1m[32mINSERT INTO `categories` (`name`, `created_at`, `updated_at`) VALUES ('Sports', '2022-03-17 07:17:36.370412', '2022-03-17 07:17:36.370412')[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM `users` WHERE `users`.`username` = 'Harsh' LIMIT 1[0m
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO `users` (`username`, `email`, `created_at`, `updated_at`, `password_digest`, `admin`) VALUES ('Harsh', 'harshpatelvi.dev@gmail.com', '2022-03-17 07:17:36.374591', '2022-03-17 07:17:36.374591', '$2a$04$E.c7QckWWgSCS2ZeR8PnG./Q49adz2sUjTlu0ET4S6n5sFiPHwJwm', TRUE)[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started POST "/login" for 127.0.0.1 at 2022-03-17 12:47:36 +0530
+Processing by SessionsController#create as HTML
+  Parameters: {"session"=>{"email"=>"harshpatelvi.dev@gmail.com", "password"=>"[FILTERED]"}}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 826)
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCategory Exists? (0.8ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` WHERE `categories`.`name` = 'Sports' LIMIT 1[0m
+  [1m[36mCategory Create (0.4ms)[0m  [1m[32mINSERT INTO `categories` (`name`, `created_at`, `updated_at`) VALUES ('Sports', '2022-03-17 07:17:36.410335', '2022-03-17 07:17:36.410335')[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists? (0.9ms)[0m  [1m[34mSELECT 1 AS one FROM `users` WHERE `users`.`username` = 'Harsh' LIMIT 1[0m
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO `users` (`username`, `email`, `created_at`, `updated_at`, `password_digest`, `admin`) VALUES ('Harsh', 'harshpatelvi.dev@gmail.com', '2022-03-17 07:17:36.426668', '2022-03-17 07:17:36.426668', '$2a$04$R50vrWiHFmqfeEnRlyashOo4MdiTnEF2Xt2snPgXKnqmXzJglKx7.', TRUE)[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started POST "/login" for 127.0.0.1 at 2022-03-17 12:47:36 +0530
+  [1m[35m (0.2ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 1[0m
+Processing by SessionsController#create as HTML
+  Parameters: {"session"=>{"email"=>"harshpatelvi.dev@gmail.com", "password"=>"[FILTERED]"}}
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms | Allocations: 1823)
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mFixtures Load (0.5ms)[0m  [1m[31mDELETE FROM `articles`;
+INSERT INTO `articles` (`id`, `title`, `description`, `created_at`, `updated_at`, `user_id`) VALUES (980190962, 'MyString', 'MyText', '2022-03-17 07:17:36.445903', '2022-03-17 07:17:36.445903', DEFAULT), (298486374, 'MyString', 'MyText', '2022-03-17 07:17:36.445903', '2022-03-17 07:17:36.445903', DEFAULT)[0m
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 1.4ms | Allocations: 633)
+  Rendered layouts/_messages.html.erb (Duration: 1.0ms | Allocations: 191)
+  Rendered layouts/_footer.html.erb (Duration: 0.4ms | Allocations: 84)
+  Rendered layout layouts/application.html.erb (Duration: 1414.6ms | Allocations: 32991)
+Completed 200 OK in 1421ms (Views: 1415.8ms | ActiveRecord: 0.3ms | Allocations: 36005)
+  [1m[36mTRANSACTION (185.5ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (126.4ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (210.6ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (376.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+----------------------------------------------------------------------
+CategoriesControllerTest: test_should_not_create_category_if_not_admin
+----------------------------------------------------------------------
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCategory Exists? (0.7ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` WHERE `categories`.`name` = 'Sports' LIMIT 1[0m
+  [1m[36mCategory Create (0.4ms)[0m  [1m[32mINSERT INTO `categories` (`name`, `created_at`, `updated_at`) VALUES ('Sports', '2022-03-17 07:17:36.866169', '2022-03-17 07:17:36.866169')[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists? (0.7ms)[0m  [1m[34mSELECT 1 AS one FROM `users` WHERE `users`.`username` = 'Harsh' LIMIT 1[0m
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO `users` (`username`, `email`, `created_at`, `updated_at`, `password_digest`, `admin`) VALUES ('Harsh', 'harshpatelvi.dev@gmail.com', '2022-03-17 07:17:36.880279', '2022-03-17 07:17:36.880279', '$2a$04$.3xIcNBohfdXKe6KEdDay.ME.b7WZntj28n6.MZcFFdzqNUp4IOtm', TRUE)[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT COUNT(*) FROM `categories`[0m
+Started POST "/categories" for 127.0.0.1 at 2022-03-17 12:47:36 +0530
+Processing by CategoriesController#create as HTML
+  Parameters: {"category"=>{"name"=>"Travel"}}
+Redirected to http://www.example.com/categories
+Filter chain halted as :require_admin rendered or redirected
+Completed 302 Found in 4ms (ActiveRecord: 0.0ms | Allocations: 1364)
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT COUNT(*) FROM `categories`[0m
+  [1m[36mTRANSACTION (115.0ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT `ar_internal_metadata`.`value` FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'schema_sha1'[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT `ar_internal_metadata`.`value` FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'schema_sha1'[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT `ar_internal_metadata`.`value` FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'schema_sha1'[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT `ar_internal_metadata`.`value` FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'schema_sha1'[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `ar_internal_metadata`.`value` FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'schema_sha1'[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[36mTruncate Tables (7739.4ms)[0m  [1m[35mTRUNCATE TABLE `action_text_rich_texts`;
+TRUNCATE TABLE `active_storage_attachments`;
+TRUNCATE TABLE `active_storage_blobs`;
+TRUNCATE TABLE `active_storage_variant_records`;
+TRUNCATE TABLE `articles`;
+TRUNCATE TABLE `categories`;
+TRUNCATE TABLE `users`[0m
+  [1m[36mTruncate Tables (8170.4ms)[0m  [1m[35mTRUNCATE TABLE `action_text_rich_texts`;
+TRUNCATE TABLE `active_storage_attachments`;
+TRUNCATE TABLE `active_storage_blobs`;
+TRUNCATE TABLE `active_storage_variant_records`;
+TRUNCATE TABLE `articles`;
+TRUNCATE TABLE `categories`;
+TRUNCATE TABLE `users`[0m
+  [1m[36mTruncate Tables (8302.6ms)[0m  [1m[35mTRUNCATE TABLE `action_text_rich_texts`;
+TRUNCATE TABLE `active_storage_attachments`;
+TRUNCATE TABLE `active_storage_blobs`;
+TRUNCATE TABLE `active_storage_variant_records`;
+TRUNCATE TABLE `articles`;
+TRUNCATE TABLE `categories`;
+TRUNCATE TABLE `users`[0m
+  [1m[36mTruncate Tables (11472.3ms)[0m  [1m[35mTRUNCATE TABLE `action_text_rich_texts`;
+TRUNCATE TABLE `active_storage_attachments`;
+TRUNCATE TABLE `active_storage_blobs`;
+TRUNCATE TABLE `active_storage_variant_records`;
+TRUNCATE TABLE `articles`;
+TRUNCATE TABLE `categories`;
+TRUNCATE TABLE `users`[0m
+  [1m[35m (0.4ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mFixtures Load (0.9ms)[0m  [1m[31mDELETE FROM `articles`;
+INSERT INTO `articles` (`id`, `title`, `description`, `created_at`, `updated_at`, `user_id`) VALUES (980190962, 'MyString', 'MyText', '2022-03-17 07:18:33.519753', '2022-03-17 07:18:33.519753', DEFAULT), (298486374, 'MyString', 'MyText', '2022-03-17 07:18:33.519753', '2022-03-17 07:18:33.519753', DEFAULT)[0m
+  [1m[36mTRANSACTION (168.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+----------------------------------------------------------------------
+CategoriesControllerTest: test_should_not_create_category_if_not_admin
+----------------------------------------------------------------------
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCategory Exists? (0.6ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` WHERE `categories`.`name` = 'Sports' LIMIT 1[0m
+  [1m[36mCategory Create (0.3ms)[0m  [1m[32mINSERT INTO `categories` (`name`, `created_at`, `updated_at`) VALUES ('Sports', '2022-03-17 07:18:33.738809', '2022-03-17 07:18:33.738809')[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists? (0.6ms)[0m  [1m[34mSELECT 1 AS one FROM `users` WHERE `users`.`username` = 'Harsh' LIMIT 1[0m
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO `users` (`username`, `email`, `created_at`, `updated_at`, `password_digest`, `admin`) VALUES ('Harsh', 'harshpatelvi.dev@gmail.com', '2022-03-17 07:18:33.752109', '2022-03-17 07:18:33.752109', '$2a$04$wDukDiCQfo0PqzZLM6UTM.Y2df92uXFydhG9vjl29HR99ApeKe6Ca', TRUE)[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT COUNT(*) FROM `categories`[0m
+Started POST "/categories" for 127.0.0.1 at 2022-03-17 12:48:33 +0530
+Processing by CategoriesController#create as HTML
+  Parameters: {"category"=>{"name"=>"Travel"}}
+Redirected to http://www.example.com/categories
+Filter chain halted as :require_admin rendered or redirected
+Completed 302 Found in 4ms (ActiveRecord: 0.0ms | Allocations: 1364)
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT COUNT(*) FROM `categories`[0m
+  [1m[36mTRANSACTION (90.5ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+-----------------------------------------------
+CategoriesControllerTest: test_should_get_index
+-----------------------------------------------
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCategory Exists? (0.5ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` WHERE `categories`.`name` = 'Sports' LIMIT 1[0m
+  [1m[36mCategory Create (0.4ms)[0m  [1m[32mINSERT INTO `categories` (`name`, `created_at`, `updated_at`) VALUES ('Sports', '2022-03-17 07:18:33.868931', '2022-03-17 07:18:33.868931')[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM `users` WHERE `users`.`username` = 'Harsh' LIMIT 1[0m
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO `users` (`username`, `email`, `created_at`, `updated_at`, `password_digest`, `admin`) VALUES ('Harsh', 'harshpatelvi.dev@gmail.com', '2022-03-17 07:18:33.873981', '2022-03-17 07:18:33.873981', '$2a$04$51IoGBU2mrVk4Pc5kH.xLuVyK7e0VUydnGpItqRLke3jgP0Uit7TG', TRUE)[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/categories" for 127.0.0.1 at 2022-03-17 12:48:33 +0530
+Processing by CategoriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering categories/index.html.erb within layouts/application
+  [1m[36mCategory Load (0.5ms)[0m  [1m[34mSELECT `categories`.* FROM `categories`[0m
+  Rendered categories/index.html.erb within layouts/application (Duration: 3.4ms | Allocations: 1758)
+  [1m[35m (0.2ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mFixtures Load (0.6ms)[0m  [1m[31mDELETE FROM `articles`;
+INSERT INTO `articles` (`id`, `title`, `description`, `created_at`, `updated_at`, `user_id`) VALUES (980190962, 'MyString', 'MyText', '2022-03-17 07:18:34.199416', '2022-03-17 07:18:34.199416', DEFAULT), (298486374, 'MyString', 'MyText', '2022-03-17 07:18:34.199416', '2022-03-17 07:18:34.199416', DEFAULT)[0m
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 0.6ms | Allocations: 636)
+  Rendered layouts/_messages.html.erb (Duration: 0.2ms | Allocations: 181)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 84)
+  Rendered layout layouts/application.html.erb (Duration: 1046.1ms | Allocations: 33045)
+Completed 200 OK in 1049ms (Views: 1047.7ms | ActiveRecord: 0.5ms | Allocations: 34990)
+  [1m[36mTRANSACTION (644.4ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[35mBEGIN[0m
+---------------------------------------------------
+CategoriesControllerTest: test_should_show_category
+---------------------------------------------------
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCategory Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` WHERE `categories`.`name` = 'Sports' LIMIT 1[0m
+  [1m[36mCategory Create (0.4ms)[0m  [1m[32mINSERT INTO `categories` (`name`, `created_at`, `updated_at`) VALUES ('Sports', '2022-03-17 07:18:35.580016', '2022-03-17 07:18:35.580016')[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM `users` WHERE `users`.`username` = 'Harsh' LIMIT 1[0m
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO `users` (`username`, `email`, `created_at`, `updated_at`, `password_digest`, `admin`) VALUES ('Harsh', 'harshpatelvi.dev@gmail.com', '2022-03-17 07:18:35.587493', '2022-03-17 07:18:35.587493', '$2a$04$Db1KFU2IyynoWHkKa0JTqOvkiYSyr9XMWxC/iCaXAZUjFcLBBuHO2', TRUE)[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/categories/3" for 127.0.0.1 at 2022-03-17 12:48:35 +0530
+Processing by CategoriesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mCategory Load (0.4ms)[0m  [1m[34mSELECT `categories`.* FROM `categories` WHERE `categories`.`id` = 3 LIMIT 1[0m
+  Rendering layout layouts/application.html.erb
+  Rendering categories/show.html.erb within layouts/application
+  Rendered categories/show.html.erb within layouts/application (Duration: 0.8ms | Allocations: 279)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 0.2ms | Allocations: 141)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 18)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered layout layouts/application.html.erb (Duration: 4.4ms | Allocations: 2673)
+Completed 200 OK in 7ms (Views: 4.8ms | ActiveRecord: 0.4ms | Allocations: 3444)
+  [1m[36mTRANSACTION (111.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (1505.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+---------------------------------------------
+CategoriesControllerTest: test_should_get_new
+---------------------------------------------
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+-----------------------------------------------------
+CategoriesControllerTest: test_should_create_category
+-----------------------------------------------------
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCategory Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` WHERE `categories`.`name` = 'Sports' LIMIT 1[0m
+  [1m[36mCategory Create (0.4ms)[0m  [1m[32mINSERT INTO `categories` (`name`, `created_at`, `updated_at`) VALUES ('Sports', '2022-03-17 07:18:35.716259', '2022-03-17 07:18:35.716259')[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM `users` WHERE `users`.`username` = 'Harsh' LIMIT 1[0m
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO `users` (`username`, `email`, `created_at`, `updated_at`, `password_digest`, `admin`) VALUES ('Harsh', 'harshpatelvi.dev@gmail.com', '2022-03-17 07:18:35.720480', '2022-03-17 07:18:35.720480', '$2a$04$PRBEwoy1Ns8kM9ZbCUKDyO86Hk44X5Fuwzzi0u91ibgqiMsPqJsX.', TRUE)[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started POST "/login" for 127.0.0.1 at 2022-03-17 12:48:35 +0530
+Processing by SessionsController#create as HTML
+  Parameters: {"session"=>{"email"=>"harshpatelvi.dev@gmail.com", "password"=>"[FILTERED]"}}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 826)
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCategory Exists? (0.7ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` WHERE `categories`.`name` = 'Sports' LIMIT 1[0m
+  [1m[36mCategory Create (0.3ms)[0m  [1m[32mINSERT INTO `categories` (`name`, `created_at`, `updated_at`) VALUES ('Sports', '2022-03-17 07:18:35.754698', '2022-03-17 07:18:35.754698')[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists? (0.7ms)[0m  [1m[34mSELECT 1 AS one FROM `users` WHERE `users`.`username` = 'Harsh' LIMIT 1[0m
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO `users` (`username`, `email`, `created_at`, `updated_at`, `password_digest`, `admin`) VALUES ('Harsh', 'harshpatelvi.dev@gmail.com', '2022-03-17 07:18:35.768938', '2022-03-17 07:18:35.768938', '$2a$04$L5NxGWFjwq3PZJlDJTn4m.stpKfH/XMy4tXN8WglY.tzDb4pI0q06', TRUE)[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started POST "/login" for 127.0.0.1 at 2022-03-17 12:48:35 +0530
+Processing by SessionsController#create as HTML
+  Parameters: {"session"=>{"email"=>"harshpatelvi.dev@gmail.com", "password"=>"[FILTERED]"}}
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 1823)
+  [1m[36mTRANSACTION (183.7ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (123.5ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.5ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[35m (0.4ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT `ar_internal_metadata`.`value` FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'schema_sha1'[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `ar_internal_metadata`.`value` FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'schema_sha1'[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `ar_internal_metadata`.`value` FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'schema_sha1'[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT `ar_internal_metadata`.`value` FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'schema_sha1'[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT `ar_internal_metadata`.`value` FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'schema_sha1'[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[36mTruncate Tables (3044.2ms)[0m  [1m[35mTRUNCATE TABLE `action_text_rich_texts`;
+TRUNCATE TABLE `active_storage_attachments`;
+TRUNCATE TABLE `active_storage_blobs`;
+TRUNCATE TABLE `active_storage_variant_records`;
+TRUNCATE TABLE `articles`;
+TRUNCATE TABLE `categories`;
+TRUNCATE TABLE `users`[0m
+  [1m[36mTruncate Tables (4628.2ms)[0m  [1m[35mTRUNCATE TABLE `action_text_rich_texts`;
+TRUNCATE TABLE `active_storage_attachments`;
+TRUNCATE TABLE `active_storage_blobs`;
+TRUNCATE TABLE `active_storage_variant_records`;
+TRUNCATE TABLE `articles`;
+TRUNCATE TABLE `categories`;
+TRUNCATE TABLE `users`[0m
+  [1m[36mTruncate Tables (4815.6ms)[0m  [1m[35mTRUNCATE TABLE `action_text_rich_texts`;
+TRUNCATE TABLE `active_storage_attachments`;
+TRUNCATE TABLE `active_storage_blobs`;
+TRUNCATE TABLE `active_storage_variant_records`;
+TRUNCATE TABLE `articles`;
+TRUNCATE TABLE `categories`;
+TRUNCATE TABLE `users`[0m
+  [1m[36mTruncate Tables (5536.5ms)[0m  [1m[35mTRUNCATE TABLE `action_text_rich_texts`;
+TRUNCATE TABLE `active_storage_attachments`;
+TRUNCATE TABLE `active_storage_blobs`;
+TRUNCATE TABLE `active_storage_variant_records`;
+TRUNCATE TABLE `articles`;
+TRUNCATE TABLE `categories`;
+TRUNCATE TABLE `users`[0m
+  [1m[35m (1.2ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mFixtures Load (0.6ms)[0m  [1m[31mDELETE FROM `articles`;
+INSERT INTO `articles` (`id`, `title`, `description`, `created_at`, `updated_at`, `user_id`) VALUES (980190962, 'MyString', 'MyText', '2022-03-17 07:29:06.328841', '2022-03-17 07:29:06.328841', DEFAULT), (298486374, 'MyString', 'MyText', '2022-03-17 07:29:06.328841', '2022-03-17 07:29:06.328841', DEFAULT)[0m
+  [1m[36mTRANSACTION (1455.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+-----------------------------------------------------
+CategoriesControllerTest: test_should_create_category
+-----------------------------------------------------
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCategory Exists? (0.7ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` WHERE `categories`.`name` = 'Sports' LIMIT 1[0m
+  [1m[36mCategory Create (0.2ms)[0m  [1m[32mINSERT INTO `categories` (`name`, `created_at`, `updated_at`) VALUES ('Sports', '2022-03-17 07:29:07.838929', '2022-03-17 07:29:07.838929')[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists? (0.6ms)[0m  [1m[34mSELECT 1 AS one FROM `users` WHERE `users`.`username` = 'Harsh' LIMIT 1[0m
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO `users` (`username`, `email`, `created_at`, `updated_at`, `password_digest`, `admin`) VALUES ('Harsh', 'harshpatelvi.dev@gmail.com', '2022-03-17 07:29:07.852347', '2022-03-17 07:29:07.852347', '$2a$04$D4AQz9QXc8GaXZtHEjFJ8OaNOpZ0hA8pFw.GiHncrHj8qz3wj8AFC', TRUE)[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started POST "/login" for 127.0.0.1 at 2022-03-17 12:59:07 +0530
+Processing by SessionsController#create as HTML
+  Parameters: {"session"=>{"email"=>"harshpatelvi.dev@gmail.com", "password"=>"[FILTERED]"}}
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms | Allocations: 1838)
+  [1m[36mTRANSACTION (230.0ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+----------------------------------------------------------------------
+CategoriesControllerTest: test_should_not_create_category_if_not_admin
+----------------------------------------------------------------------
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCategory Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` WHERE `categories`.`name` = 'Sports' LIMIT 1[0m
+  [1m[36mCategory Create (0.6ms)[0m  [1m[32mINSERT INTO `categories` (`name`, `created_at`, `updated_at`) VALUES ('Sports', '2022-03-17 07:29:08.108055', '2022-03-17 07:29:08.108055')[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM `users` WHERE `users`.`username` = 'Harsh' LIMIT 1[0m
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO `users` (`username`, `email`, `created_at`, `updated_at`, `password_digest`, `admin`) VALUES ('Harsh', 'harshpatelvi.dev@gmail.com', '2022-03-17 07:29:08.113351', '2022-03-17 07:29:08.113351', '$2a$04$xOF7X9nbwMeKBz6dJx.47e.MYXVvrMCbL8xnhQRjBYeuVqPDn4uGm', TRUE)[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started POST "/login" for 127.0.0.1 at 2022-03-17 12:59:08 +0530
+Processing by SessionsController#create as HTML
+  Parameters: {"session"=>{"email"=>"harshpatelvi.dev@gmail.com", "password"=>"[FILTERED]"}}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 726)
+  [1m[35m (0.3ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mFixtures Load (0.5ms)[0m  [1m[31mDELETE FROM `articles`;
+INSERT INTO `articles` (`id`, `title`, `description`, `created_at`, `updated_at`, `user_id`) VALUES (980190962, 'MyString', 'MyText', '2022-03-17 07:29:08.181744', '2022-03-17 07:29:08.181744', DEFAULT), (298486374, 'MyString', 'MyText', '2022-03-17 07:29:08.181744', '2022-03-17 07:29:08.181744', DEFAULT)[0m
+  [1m[36mTRANSACTION (101.5ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+---------------------------------------------
+CategoriesControllerTest: test_should_get_new
+---------------------------------------------
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCategory Exists? (0.5ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` WHERE `categories`.`name` = 'Sports' LIMIT 1[0m
+  [1m[36mCategory Create (0.6ms)[0m  [1m[32mINSERT INTO `categories` (`name`, `created_at`, `updated_at`) VALUES ('Sports', '2022-03-17 07:29:08.248452', '2022-03-17 07:29:08.248452')[0m
+  [1m[36mTRANSACTION (1.3ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM `users` WHERE `users`.`username` = 'Harsh' LIMIT 1[0m
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO `users` (`username`, `email`, `created_at`, `updated_at`, `password_digest`, `admin`) VALUES ('Harsh', 'harshpatelvi.dev@gmail.com', '2022-03-17 07:29:08.257481', '2022-03-17 07:29:08.257481', '$2a$04$kom.ols7a4CQ6xKz3Wj54.7AO6YUdZ6d9hjzB5C4PERgiTTRnejuO', TRUE)[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started POST "/login" for 127.0.0.1 at 2022-03-17 12:59:08 +0530
+Processing by SessionsController#create as HTML
+  Parameters: {"session"=>{"email"=>"harshpatelvi.dev@gmail.com", "password"=>"[FILTERED]"}}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 725)
+  [1m[36mTRANSACTION (122.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (193.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+-----------------------------------------------
+CategoriesControllerTest: test_should_get_index
+-----------------------------------------------
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+---------------------------------------------------
+CategoriesControllerTest: test_should_show_category
+---------------------------------------------------
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCategory Exists? (0.5ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` WHERE `categories`.`name` = 'Sports' LIMIT 1[0m
+  [1m[36mCategory Create (0.4ms)[0m  [1m[32mINSERT INTO `categories` (`name`, `created_at`, `updated_at`) VALUES ('Sports', '2022-03-17 07:29:08.394373', '2022-03-17 07:29:08.394373')[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM `users` WHERE `users`.`username` = 'Harsh' LIMIT 1[0m
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO `users` (`username`, `email`, `created_at`, `updated_at`, `password_digest`, `admin`) VALUES ('Harsh', 'harshpatelvi.dev@gmail.com', '2022-03-17 07:29:08.400975', '2022-03-17 07:29:08.400975', '$2a$04$hSHUEjBHVWcsK4p/vcPwaueoc01OFxqBA31czx5Az1x.vH3WwhNgS', TRUE)[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started POST "/login" for 127.0.0.1 at 2022-03-17 12:59:08 +0530
+Processing by SessionsController#create as HTML
+  Parameters: {"session"=>{"email"=>"harshpatelvi.dev@gmail.com", "password"=>"[FILTERED]"}}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 725)
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCategory Exists? (0.6ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` WHERE `categories`.`name` = 'Sports' LIMIT 1[0m
+  [1m[36mCategory Create (0.3ms)[0m  [1m[32mINSERT INTO `categories` (`name`, `created_at`, `updated_at`) VALUES ('Sports', '2022-03-17 07:29:08.438716', '2022-03-17 07:29:08.438716')[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists? (0.7ms)[0m  [1m[34mSELECT 1 AS one FROM `users` WHERE `users`.`username` = 'Harsh' LIMIT 1[0m
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO `users` (`username`, `email`, `created_at`, `updated_at`, `password_digest`, `admin`) VALUES ('Harsh', 'harshpatelvi.dev@gmail.com', '2022-03-17 07:29:08.454724', '2022-03-17 07:29:08.454724', '$2a$04$s.TZJIfebYiUaSP9G6/vIeVCPrFGV.p9Naxc0uKXqsu0sJtjyvdU6', TRUE)[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started POST "/login" for 127.0.0.1 at 2022-03-17 12:59:08 +0530
+Processing by SessionsController#create as HTML
+  Parameters: {"session"=>{"email"=>"harshpatelvi.dev@gmail.com", "password"=>"[FILTERED]"}}
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms | Allocations: 1838)
+  [1m[36mTRANSACTION (148.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (80.4ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[35m (0.4ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT `ar_internal_metadata`.`value` FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'schema_sha1'[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT `ar_internal_metadata`.`value` FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'schema_sha1'[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT `ar_internal_metadata`.`value` FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'schema_sha1'[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `ar_internal_metadata`.`value` FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'schema_sha1'[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `ar_internal_metadata`.`value` FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'schema_sha1'[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.4ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[36mTruncate Tables (2932.7ms)[0m  [1m[35mTRUNCATE TABLE `action_text_rich_texts`;
+TRUNCATE TABLE `active_storage_attachments`;
+TRUNCATE TABLE `active_storage_blobs`;
+TRUNCATE TABLE `active_storage_variant_records`;
+TRUNCATE TABLE `articles`;
+TRUNCATE TABLE `categories`;
+TRUNCATE TABLE `users`[0m
+  [1m[36mTruncate Tables (3160.3ms)[0m  [1m[35mTRUNCATE TABLE `action_text_rich_texts`;
+TRUNCATE TABLE `active_storage_attachments`;
+TRUNCATE TABLE `active_storage_blobs`;
+TRUNCATE TABLE `active_storage_variant_records`;
+TRUNCATE TABLE `articles`;
+TRUNCATE TABLE `categories`;
+TRUNCATE TABLE `users`[0m
+  [1m[36mTruncate Tables (3909.1ms)[0m  [1m[35mTRUNCATE TABLE `action_text_rich_texts`;
+TRUNCATE TABLE `active_storage_attachments`;
+TRUNCATE TABLE `active_storage_blobs`;
+TRUNCATE TABLE `active_storage_variant_records`;
+TRUNCATE TABLE `articles`;
+TRUNCATE TABLE `categories`;
+TRUNCATE TABLE `users`[0m
+  [1m[36mTruncate Tables (5901.4ms)[0m  [1m[35mTRUNCATE TABLE `action_text_rich_texts`;
+TRUNCATE TABLE `active_storage_attachments`;
+TRUNCATE TABLE `active_storage_blobs`;
+TRUNCATE TABLE `active_storage_variant_records`;
+TRUNCATE TABLE `articles`;
+TRUNCATE TABLE `categories`;
+TRUNCATE TABLE `users`[0m
+  [1m[35m (0.4ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mFixtures Load (0.8ms)[0m  [1m[31mDELETE FROM `articles`;
+INSERT INTO `articles` (`id`, `title`, `description`, `created_at`, `updated_at`, `user_id`) VALUES (980190962, 'MyString', 'MyText', '2022-03-17 07:38:35.795380', '2022-03-17 07:38:35.795380', DEFAULT), (298486374, 'MyString', 'MyText', '2022-03-17 07:38:35.795380', '2022-03-17 07:38:35.795380', DEFAULT)[0m
+  [1m[36mTRANSACTION (783.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+-----------------------------------------------------
+CategoriesControllerTest: test_should_create_category
+-----------------------------------------------------
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCategory Exists? (0.6ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` WHERE `categories`.`name` = 'Sports' LIMIT 1[0m
+  [1m[36mCategory Create (0.3ms)[0m  [1m[32mINSERT INTO `categories` (`name`, `created_at`, `updated_at`) VALUES ('Sports', '2022-03-17 07:38:36.627428', '2022-03-17 07:38:36.627428')[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists? (0.6ms)[0m  [1m[34mSELECT 1 AS one FROM `users` WHERE `users`.`username` = 'Harsh' LIMIT 1[0m
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO `users` (`username`, `email`, `created_at`, `updated_at`, `password_digest`, `admin`) VALUES ('Harsh', 'harshpatelvi.dev@gmail.com', '2022-03-17 07:38:36.639742', '2022-03-17 07:38:36.639742', '$2a$04$zRn5kz1zfdjlQSC2jwxOIeggmjz5jxYjxSGbeGJj9grcYJT0hnT5.', TRUE)[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started POST "/login" for 127.0.0.1 at 2022-03-17 13:08:36 +0530
+Processing by SessionsController#create as HTML
+  Parameters: {"session"=>{"email"=>"harshpatelvi.dev@gmail.com", "password"=>"[FILTERED]"}}
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 1823)
+  [1m[36mTRANSACTION (2210.6ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+----------------------------------------------------------------------
+CategoriesControllerTest: test_should_not_create_category_if_not_admin
+----------------------------------------------------------------------
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCategory Exists? (0.5ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` WHERE `categories`.`name` = 'Sports' LIMIT 1[0m
+  [1m[36mCategory Create (0.5ms)[0m  [1m[32mINSERT INTO `categories` (`name`, `created_at`, `updated_at`) VALUES ('Sports', '2022-03-17 07:38:38.879231', '2022-03-17 07:38:38.879231')[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists? (0.5ms)[0m  [1m[34mSELECT 1 AS one FROM `users` WHERE `users`.`username` = 'Harsh' LIMIT 1[0m
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO `users` (`username`, `email`, `created_at`, `updated_at`, `password_digest`, `admin`) VALUES ('Harsh', 'harshpatelvi.dev@gmail.com', '2022-03-17 07:38:38.886964', '2022-03-17 07:38:38.886964', '$2a$04$bXKIYsl9nhoXnPXPOHXQ7ejvTnJTm0E72h6DY6GdZGoxFpWQp2qxK', TRUE)[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT COUNT(*) FROM `categories`[0m
+Started POST "/categories" for 127.0.0.1 at 2022-03-17 13:08:38 +0530
+Processing by CategoriesController#create as HTML
+  Parameters: {"category"=>{"name"=>"Travel"}}
+Redirected to http://www.example.com/categories
+Filter chain halted as :require_admin rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 392)
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `categories`[0m
+  [1m[36mTRANSACTION (158.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+---------------------------------------------
+CategoriesControllerTest: test_should_get_new
+---------------------------------------------
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCategory Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` WHERE `categories`.`name` = 'Sports' LIMIT 1[0m
+  [1m[36mCategory Create (0.3ms)[0m  [1m[32mINSERT INTO `categories` (`name`, `created_at`, `updated_at`) VALUES ('Sports', '2022-03-17 07:38:39.094391', '2022-03-17 07:38:39.094391')[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM `users` WHERE `users`.`username` = 'Harsh' LIMIT 1[0m
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO `users` (`username`, `email`, `created_at`, `updated_at`, `password_digest`, `admin`) VALUES ('Harsh', 'harshpatelvi.dev@gmail.com', '2022-03-17 07:38:39.098630', '2022-03-17 07:38:39.098630', '$2a$04$i7rJHC7RlueblRxJXBvyN.LZNQfUSMknwTAMdbKvigNserWNx7qFe', TRUE)[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started POST "/login" for 127.0.0.1 at 2022-03-17 13:08:39 +0530
+Processing by SessionsController#create as HTML
+  Parameters: {"session"=>{"email"=>"harshpatelvi.dev@gmail.com", "password"=>"[FILTERED]"}}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 710)
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mFixtures Load (0.5ms)[0m  [1m[31mDELETE FROM `articles`;
+INSERT INTO `articles` (`id`, `title`, `description`, `created_at`, `updated_at`, `user_id`) VALUES (980190962, 'MyString', 'MyText', '2022-03-17 07:38:39.099699', '2022-03-17 07:38:39.099699', DEFAULT), (298486374, 'MyString', 'MyText', '2022-03-17 07:38:39.099699', '2022-03-17 07:38:39.099699', DEFAULT)[0m
+  [1m[36mTRANSACTION (115.4ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+-----------------------------------------------
+CategoriesControllerTest: test_should_get_index
+-----------------------------------------------
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCategory Exists? (0.5ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` WHERE `categories`.`name` = 'Sports' LIMIT 1[0m
+  [1m[36mCategory Create (0.4ms)[0m  [1m[32mINSERT INTO `categories` (`name`, `created_at`, `updated_at`) VALUES ('Sports', '2022-03-17 07:38:39.226252', '2022-03-17 07:38:39.226252')[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM `users` WHERE `users`.`username` = 'Harsh' LIMIT 1[0m
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO `users` (`username`, `email`, `created_at`, `updated_at`, `password_digest`, `admin`) VALUES ('Harsh', 'harshpatelvi.dev@gmail.com', '2022-03-17 07:38:39.233413', '2022-03-17 07:38:39.233413', '$2a$04$Z7uSwAXlmnsmjr6/lNLaO.E.oiKhSjOSkPzt2fFht4KLU3UVF3Tw.', TRUE)[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/categories" for 127.0.0.1 at 2022-03-17 13:08:39 +0530
+Processing by CategoriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering categories/index.html.erb within layouts/application
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT `categories`.* FROM `categories`[0m
+  Rendered categories/index.html.erb within layouts/application (Duration: 4.0ms | Allocations: 1758)
+  [1m[36mTRANSACTION (239.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+---------------------------------------------------
+CategoriesControllerTest: test_should_show_category
+---------------------------------------------------
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCategory Exists? (0.8ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` WHERE `categories`.`name` = 'Sports' LIMIT 1[0m
+  [1m[36mCategory Create (0.4ms)[0m  [1m[32mINSERT INTO `categories` (`name`, `created_at`, `updated_at`) VALUES ('Sports', '2022-03-17 07:38:39.385365', '2022-03-17 07:38:39.385365')[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists? (0.9ms)[0m  [1m[34mSELECT 1 AS one FROM `users` WHERE `users`.`username` = 'Harsh' LIMIT 1[0m
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO `users` (`username`, `email`, `created_at`, `updated_at`, `password_digest`, `admin`) VALUES ('Harsh', 'harshpatelvi.dev@gmail.com', '2022-03-17 07:38:39.401161', '2022-03-17 07:38:39.401161', '$2a$04$d1OsyetrAoSW45UVtLS3xeqp1A9WVZv7LJIeQDeK6NSroBKITEAam', TRUE)[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/categories/1" for 127.0.0.1 at 2022-03-17 13:08:39 +0530
+Processing by CategoriesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT `categories`.* FROM `categories` WHERE `categories`.`id` = 1 LIMIT 1[0m
+  Rendering layout layouts/application.html.erb
+  Rendering categories/show.html.erb within layouts/application
+  Rendered categories/show.html.erb within layouts/application (Duration: 2.2ms | Allocations: 1499)
+  [1m[35m (0.2ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 1[0m
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 0.7ms | Allocations: 633)
+  Rendered layouts/_messages.html.erb (Duration: 0.3ms | Allocations: 181)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 84)
+  Rendered layout layouts/application.html.erb (Duration: 969.0ms | Allocations: 33078)
+Completed 200 OK in 973ms (Views: 970.8ms | ActiveRecord: 0.3ms | Allocations: 35007)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 1.4ms | Allocations: 694)
+  Rendered layouts/_messages.html.erb (Duration: 0.3ms | Allocations: 191)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 84)
+  Rendered layout layouts/application.html.erb (Duration: 965.6ms | Allocations: 32933)
+Completed 200 OK in 975ms (Views: 967.8ms | ActiveRecord: 0.3ms | Allocations: 36270)
+  [1m[36mTRANSACTION (1275.4ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (1383.6ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT `ar_internal_metadata`.`value` FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'schema_sha1'[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `ar_internal_metadata`.`value` FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'schema_sha1'[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT `ar_internal_metadata`.`value` FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'schema_sha1'[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT `ar_internal_metadata`.`value` FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'schema_sha1'[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT `ar_internal_metadata`.`value` FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'schema_sha1'[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[36mTruncate Tables (1898.9ms)[0m  [1m[35mTRUNCATE TABLE `action_text_rich_texts`;
+TRUNCATE TABLE `active_storage_attachments`;
+TRUNCATE TABLE `active_storage_blobs`;
+TRUNCATE TABLE `active_storage_variant_records`;
+TRUNCATE TABLE `articles`;
+TRUNCATE TABLE `categories`;
+TRUNCATE TABLE `users`[0m
+  [1m[36mTruncate Tables (3385.0ms)[0m  [1m[35mTRUNCATE TABLE `action_text_rich_texts`;
+TRUNCATE TABLE `active_storage_attachments`;
+TRUNCATE TABLE `active_storage_blobs`;
+TRUNCATE TABLE `active_storage_variant_records`;
+TRUNCATE TABLE `articles`;
+TRUNCATE TABLE `categories`;
+TRUNCATE TABLE `users`[0m
+  [1m[36mTruncate Tables (3895.4ms)[0m  [1m[35mTRUNCATE TABLE `action_text_rich_texts`;
+TRUNCATE TABLE `active_storage_attachments`;
+TRUNCATE TABLE `active_storage_blobs`;
+TRUNCATE TABLE `active_storage_variant_records`;
+TRUNCATE TABLE `articles`;
+TRUNCATE TABLE `categories`;
+TRUNCATE TABLE `users`[0m
+  [1m[36mTruncate Tables (3941.2ms)[0m  [1m[35mTRUNCATE TABLE `action_text_rich_texts`;
+TRUNCATE TABLE `active_storage_attachments`;
+TRUNCATE TABLE `active_storage_blobs`;
+TRUNCATE TABLE `active_storage_variant_records`;
+TRUNCATE TABLE `articles`;
+TRUNCATE TABLE `categories`;
+TRUNCATE TABLE `users`[0m
+  [1m[35m (0.5ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mFixtures Load (0.9ms)[0m  [1m[31mDELETE FROM `articles`;
+INSERT INTO `articles` (`id`, `title`, `description`, `created_at`, `updated_at`, `user_id`) VALUES (980190962, 'MyString', 'MyText', '2022-03-17 07:44:00.413468', '2022-03-17 07:44:00.413468', DEFAULT), (298486374, 'MyString', 'MyText', '2022-03-17 07:44:00.413468', '2022-03-17 07:44:00.413468', DEFAULT)[0m
+  [1m[36mTRANSACTION (232.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+-----------------------------------------------------
+CategoriesControllerTest: test_should_create_category
+-----------------------------------------------------
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mFixtures Load (0.5ms)[0m  [1m[31mDELETE FROM `articles`;
+INSERT INTO `articles` (`id`, `title`, `description`, `created_at`, `updated_at`, `user_id`) VALUES (980190962, 'MyString', 'MyText', '2022-03-17 07:44:00.672691', '2022-03-17 07:44:00.672691', DEFAULT), (298486374, 'MyString', 'MyText', '2022-03-17 07:44:00.672691', '2022-03-17 07:44:00.672691', DEFAULT)[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCategory Exists? (0.7ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` WHERE `categories`.`name` = 'Sports' LIMIT 1[0m
+  [1m[36mCategory Create (0.4ms)[0m  [1m[32mINSERT INTO `categories` (`name`, `created_at`, `updated_at`) VALUES ('Sports', '2022-03-17 07:44:00.713333', '2022-03-17 07:44:00.713333')[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists? (0.6ms)[0m  [1m[34mSELECT 1 AS one FROM `users` WHERE `users`.`username` = 'Harsh' LIMIT 1[0m
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO `users` (`username`, `email`, `created_at`, `updated_at`, `password_digest`, `admin`) VALUES ('Harsh', 'harshpatelvi.dev@gmail.com', '2022-03-17 07:44:00.726655', '2022-03-17 07:44:00.726655', '$2a$04$vfCPKZL74raGqYmRhvM2/eV4sqopAv0/1X8lbMgxh81bbdINInTNK', TRUE)[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started POST "/login" for 127.0.0.1 at 2022-03-17 13:14:00 +0530
+Processing by SessionsController#create as HTML
+  Parameters: {"session"=>{"email"=>"harshpatelvi.dev@gmail.com", "password"=>"[FILTERED]"}}
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 1824)
+  [1m[36mTRANSACTION (108.0ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+-----------------------------------------------
+CategoriesControllerTest: test_should_get_index
+-----------------------------------------------
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCategory Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` WHERE `categories`.`name` = 'Sports' LIMIT 1[0m
+  [1m[36mCategory Create (0.4ms)[0m  [1m[32mINSERT INTO `categories` (`name`, `created_at`, `updated_at`) VALUES ('Sports', '2022-03-17 07:44:00.854757', '2022-03-17 07:44:00.854757')[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM `users` WHERE `users`.`username` = 'Harsh' LIMIT 1[0m
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO `users` (`username`, `email`, `created_at`, `updated_at`, `password_digest`, `admin`) VALUES ('Harsh', 'harshpatelvi.dev@gmail.com', '2022-03-17 07:44:00.858900', '2022-03-17 07:44:00.858900', '$2a$04$a.l98LbzvyE/ExObYsS/ueoUV3Idd.dUHlDW9BhBU9KAyR95u38Ze', TRUE)[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/categories" for 127.0.0.1 at 2022-03-17 13:14:00 +0530
+Processing by CategoriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering categories/index.html.erb within layouts/application
+  [1m[36mCategory Load (0.4ms)[0m  [1m[34mSELECT `categories`.* FROM `categories`[0m
+  Rendered categories/index.html.erb within layouts/application (Duration: 3.6ms | Allocations: 1800)
+  [1m[36mTRANSACTION (233.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+---------------------------------------------
+CategoriesControllerTest: test_should_get_new
+---------------------------------------------
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mFixtures Load (0.6ms)[0m  [1m[31mDELETE FROM `articles`;
+INSERT INTO `articles` (`id`, `title`, `description`, `created_at`, `updated_at`, `user_id`) VALUES (980190962, 'MyString', 'MyText', '2022-03-17 07:44:00.925140', '2022-03-17 07:44:00.925140', DEFAULT), (298486374, 'MyString', 'MyText', '2022-03-17 07:44:00.925140', '2022-03-17 07:44:00.925140', DEFAULT)[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCategory Exists? (0.7ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` WHERE `categories`.`name` = 'Sports' LIMIT 1[0m
+  [1m[36mCategory Create (0.4ms)[0m  [1m[32mINSERT INTO `categories` (`name`, `created_at`, `updated_at`) VALUES ('Sports', '2022-03-17 07:44:00.969875', '2022-03-17 07:44:00.969875')[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists? (0.6ms)[0m  [1m[34mSELECT 1 AS one FROM `users` WHERE `users`.`username` = 'Harsh' LIMIT 1[0m
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO `users` (`username`, `email`, `created_at`, `updated_at`, `password_digest`, `admin`) VALUES ('Harsh', 'harshpatelvi.dev@gmail.com', '2022-03-17 07:44:00.985042', '2022-03-17 07:44:00.985042', '$2a$04$lkCpg/D4UJcYA2XGyWCxxO3tiVfjCeoACImu/I9bxGF9xKafzqSFe', TRUE)[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started POST "/login" for 127.0.0.1 at 2022-03-17 13:14:00 +0530
+Processing by SessionsController#create as HTML
+  Parameters: {"session"=>{"email"=>"harshpatelvi.dev@gmail.com", "password"=>"[FILTERED]"}}
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms | Allocations: 1824)
+  [1m[36mTRANSACTION (391.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (320.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+----------------------------------------------------------------------
+CategoriesControllerTest: test_should_not_create_category_if_not_admin
+----------------------------------------------------------------------
+---------------------------------------------------
+CategoriesControllerTest: test_should_show_category
+---------------------------------------------------
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCategory Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` WHERE `categories`.`name` = 'Sports' LIMIT 1[0m
+  [1m[36mCategory Create (0.7ms)[0m  [1m[32mINSERT INTO `categories` (`name`, `created_at`, `updated_at`) VALUES ('Sports', '2022-03-17 07:44:01.543667', '2022-03-17 07:44:01.543667')[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM `users` WHERE `users`.`username` = 'Harsh' LIMIT 1[0m
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO `users` (`username`, `email`, `created_at`, `updated_at`, `password_digest`, `admin`) VALUES ('Harsh', 'harshpatelvi.dev@gmail.com', '2022-03-17 07:44:01.549074', '2022-03-17 07:44:01.549074', '$2a$04$dpoJPFnceur4r4qbkfjJOOYouccSlSv1dEIIXAy04T9k4UqnTmJZK', TRUE)[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (1.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `categories`[0m
+Started POST "/categories" for 127.0.0.1 at 2022-03-17 13:14:01 +0530
+Processing by CategoriesController#create as HTML
+  Parameters: {"category"=>{"name"=>"Travel"}}
+Redirected to http://www.example.com/categories
+Filter chain halted as :require_admin rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 392)
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT COUNT(*) FROM `categories`[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCategory Exists? (0.6ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` WHERE `categories`.`name` = 'Sports' LIMIT 1[0m
+  [1m[36mCategory Create (0.4ms)[0m  [1m[32mINSERT INTO `categories` (`name`, `created_at`, `updated_at`) VALUES ('Sports', '2022-03-17 07:44:01.622507', '2022-03-17 07:44:01.622507')[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists? (0.7ms)[0m  [1m[34mSELECT 1 AS one FROM `users` WHERE `users`.`username` = 'Harsh' LIMIT 1[0m
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO `users` (`username`, `email`, `created_at`, `updated_at`, `password_digest`, `admin`) VALUES ('Harsh', 'harshpatelvi.dev@gmail.com', '2022-03-17 07:44:01.640975', '2022-03-17 07:44:01.640975', '$2a$04$h1BH1Ir/0CfrLNMTweyBhuTio6fnNOWeNToWlor.NwP1hlm0xd47i', TRUE)[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/categories/1" for 127.0.0.1 at 2022-03-17 13:14:01 +0530
+Processing by CategoriesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mCategory Load (0.4ms)[0m  [1m[34mSELECT `categories`.* FROM `categories` WHERE `categories`.`id` = 1 LIMIT 1[0m
+  Rendering layout layouts/application.html.erb
+  Rendering categories/show.html.erb within layouts/application
+  Rendered categories/show.html.erb within layouts/application (Duration: 2.2ms | Allocations: 1499)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 0.7ms | Allocations: 633)
+  Rendered layouts/_messages.html.erb (Duration: 0.3ms | Allocations: 191)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 84)
+  Rendered layout layouts/application.html.erb (Duration: 1215.4ms | Allocations: 33256)
+Completed 200 OK in 1219ms (Views: 1217.0ms | ActiveRecord: 0.4ms | Allocations: 35286)
+  [1m[35m (0.2ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[36mTRANSACTION (1166.8ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (644.6ms)[0m  [1m[31mROLLBACK[0m
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 0.9ms | Allocations: 694)
+  Rendered layouts/_messages.html.erb (Duration: 0.3ms | Allocations: 191)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 84)
+  Rendered layout layouts/application.html.erb (Duration: 1250.0ms | Allocations: 33103)
+Completed 200 OK in 1259ms (Views: 1252.2ms | ActiveRecord: 0.4ms | Allocations: 36442)
+  [1m[36mTRANSACTION (90.7ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT `ar_internal_metadata`.`value` FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'schema_sha1'[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT `ar_internal_metadata`.`value` FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'schema_sha1'[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT `ar_internal_metadata`.`value` FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'schema_sha1'[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT `ar_internal_metadata`.`value` FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'schema_sha1'[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT `ar_internal_metadata`.`value` FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'schema_sha1'[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[36mTruncate Tables (1461.1ms)[0m  [1m[35mTRUNCATE TABLE `action_text_rich_texts`;
+TRUNCATE TABLE `active_storage_attachments`;
+TRUNCATE TABLE `active_storage_blobs`;
+TRUNCATE TABLE `active_storage_variant_records`;
+TRUNCATE TABLE `articles`;
+TRUNCATE TABLE `categories`;
+TRUNCATE TABLE `users`[0m
+  [1m[36mTruncate Tables (1980.2ms)[0m  [1m[35mTRUNCATE TABLE `action_text_rich_texts`;
+TRUNCATE TABLE `active_storage_attachments`;
+TRUNCATE TABLE `active_storage_blobs`;
+TRUNCATE TABLE `active_storage_variant_records`;
+TRUNCATE TABLE `articles`;
+TRUNCATE TABLE `categories`;
+TRUNCATE TABLE `users`[0m
+  [1m[36mTruncate Tables (2813.7ms)[0m  [1m[35mTRUNCATE TABLE `action_text_rich_texts`;
+TRUNCATE TABLE `active_storage_attachments`;
+TRUNCATE TABLE `active_storage_blobs`;
+TRUNCATE TABLE `active_storage_variant_records`;
+TRUNCATE TABLE `articles`;
+TRUNCATE TABLE `categories`;
+TRUNCATE TABLE `users`[0m
+  [1m[36mTruncate Tables (2969.1ms)[0m  [1m[35mTRUNCATE TABLE `action_text_rich_texts`;
+TRUNCATE TABLE `active_storage_attachments`;
+TRUNCATE TABLE `active_storage_blobs`;
+TRUNCATE TABLE `active_storage_variant_records`;
+TRUNCATE TABLE `articles`;
+TRUNCATE TABLE `categories`;
+TRUNCATE TABLE `users`[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mFixtures Load (0.9ms)[0m  [1m[31mDELETE FROM `articles`;
+INSERT INTO `articles` (`id`, `title`, `description`, `created_at`, `updated_at`, `user_id`) VALUES (980190962, 'MyString', 'MyText', '2022-03-17 07:50:32.449905', '2022-03-17 07:50:32.449905', DEFAULT), (298486374, 'MyString', 'MyText', '2022-03-17 07:50:32.449905', '2022-03-17 07:50:32.449905', DEFAULT)[0m
+  [1m[35m (0.4ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mFixtures Load (0.7ms)[0m  [1m[31mDELETE FROM `articles`;
+INSERT INTO `articles` (`id`, `title`, `description`, `created_at`, `updated_at`, `user_id`) VALUES (980190962, 'MyString', 'MyText', '2022-03-17 07:50:32.785001', '2022-03-17 07:50:32.785001', DEFAULT), (298486374, 'MyString', 'MyText', '2022-03-17 07:50:32.785001', '2022-03-17 07:50:32.785001', DEFAULT)[0m
+  [1m[36mTRANSACTION (358.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+----------------------------------------------------------------------
+CategoriesControllerTest: test_should_not_create_category_if_not_admin
+----------------------------------------------------------------------
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCategory Exists? (0.6ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` WHERE `categories`.`name` = 'Sports' LIMIT 1[0m
+  [1m[36mCategory Create (0.4ms)[0m  [1m[32mINSERT INTO `categories` (`name`, `created_at`, `updated_at`) VALUES ('Sports', '2022-03-17 07:50:32.864950', '2022-03-17 07:50:32.864950')[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists? (0.8ms)[0m  [1m[34mSELECT 1 AS one FROM `users` WHERE `users`.`username` = 'Harsh' LIMIT 1[0m
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO `users` (`username`, `email`, `created_at`, `updated_at`, `password_digest`, `admin`) VALUES ('Harsh', 'harshpatelvi.dev@gmail.com', '2022-03-17 07:50:32.882380', '2022-03-17 07:50:32.882380', '$2a$04$whNvEM7Yc1reE0plF3k0sexk8tNJWHB1/HsULMjp85menhy7P70DC', TRUE)[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT COUNT(*) FROM `categories`[0m
+Started POST "/categories" for 127.0.0.1 at 2022-03-17 13:20:32 +0530
+Processing by CategoriesController#create as HTML
+  Parameters: {"category"=>{"name"=>"Travel"}}
+Redirected to http://www.example.com/categories
+Filter chain halted as :require_admin rendered or redirected
+Completed 302 Found in 11ms (ActiveRecord: 0.0ms | Allocations: 1365)
+  [1m[35m (20.4ms)[0m  [1m[34mSELECT COUNT(*) FROM `categories`[0m
+  [1m[36mTRANSACTION (203.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[35m (0.5ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mBEGIN[0m
+-----------------------------------------------
+CategoriesControllerTest: test_should_get_index
+-----------------------------------------------
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.4ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mFixtures Load (1.8ms)[0m  [1m[31mDELETE FROM `articles`;
+INSERT INTO `articles` (`id`, `title`, `description`, `created_at`, `updated_at`, `user_id`) VALUES (980190962, 'MyString', 'MyText', '2022-03-17 07:50:33.019901', '2022-03-17 07:50:33.019901', DEFAULT), (298486374, 'MyString', 'MyText', '2022-03-17 07:50:33.019901', '2022-03-17 07:50:33.019901', DEFAULT)[0m
+  [1m[36mTRANSACTION (63.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+-----------------------------------------------------
+CategoriesControllerTest: test_should_create_category
+-----------------------------------------------------
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCategory Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` WHERE `categories`.`name` = 'Sports' LIMIT 1[0m
+  [1m[36mCategory Create (0.7ms)[0m  [1m[32mINSERT INTO `categories` (`name`, `created_at`, `updated_at`) VALUES ('Sports', '2022-03-17 07:50:33.060029', '2022-03-17 07:50:33.060029')[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists? (1.2ms)[0m  [1m[34mSELECT 1 AS one FROM `users` WHERE `users`.`username` = 'Harsh' LIMIT 1[0m
+  [1m[36mUser Create (1.1ms)[0m  [1m[32mINSERT INTO `users` (`username`, `email`, `created_at`, `updated_at`, `password_digest`, `admin`) VALUES ('Harsh', 'harshpatelvi.dev@gmail.com', '2022-03-17 07:50:33.069185', '2022-03-17 07:50:33.069185', '$2a$04$w5vEYRBURgKnUk0SkQ6m/eM2UIbxBS.OPOTyp0exRFIY5mA6Exr7S', TRUE)[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started POST "/login" for 127.0.0.1 at 2022-03-17 13:20:33 +0530
+Processing by SessionsController#create as HTML
+  Parameters: {"sessions"=>{"email"=>"harshpatelvi.dev@gmail.com", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`email` = 'harshpatelvi.dev@gmail.com' LIMIT 1[0m
+Redirected to http://www.example.com/users
+Completed 302 Found in 9ms (ActiveRecord: 1.2ms | Allocations: 693)
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCategory Exists? (1.7ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` WHERE `categories`.`name` = 'Sports' LIMIT 1[0m
+  [1m[36mCategory Create (0.5ms)[0m  [1m[32mINSERT INTO `categories` (`name`, `created_at`, `updated_at`) VALUES ('Sports', '2022-03-17 07:50:33.106462', '2022-03-17 07:50:33.106462')[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (14.7ms)[0m  [1m[34mSELECT COUNT(*) FROM `categories`[0m
+Started POST "/categories" for 127.0.0.1 at 2022-03-17 13:20:33 +0530
+Processing by CategoriesController#create as HTML
+  Parameters: {"category"=>{"name"=>"Travel"}}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCategory Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` WHERE `categories`.`name` = 'Travel' LIMIT 1[0m
+  [1m[36mCategory Create (0.4ms)[0m  [1m[32mINSERT INTO `categories` (`name`, `created_at`, `updated_at`) VALUES ('Travel', '2022-03-17 07:50:33.121653', '2022-03-17 07:50:33.121653')[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/categories/3
+Completed 302 Found in 7ms (ActiveRecord: 1.6ms | Allocations: 1322)
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT COUNT(*) FROM `categories`[0m
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT `categories`.* FROM `categories` ORDER BY `categories`.`id` DESC LIMIT 1[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists? (0.8ms)[0m  [1m[34mSELECT 1 AS one FROM `users` WHERE `users`.`username` = 'Harsh' LIMIT 1[0m
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO `users` (`username`, `email`, `created_at`, `updated_at`, `password_digest`, `admin`) VALUES ('Harsh', 'harshpatelvi.dev@gmail.com', '2022-03-17 07:50:33.131065', '2022-03-17 07:50:33.131065', '$2a$04$HS6ooxzqUTsW2TCiIK8PrOXLt9AxTSZaCVEumRMjdrGeq7O9NQC3C', TRUE)[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/categories" for 127.0.0.1 at 2022-03-17 13:20:33 +0530
+Processing by CategoriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering categories/index.html.erb within layouts/application
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT `categories`.* FROM `categories`[0m
+  Rendered categories/index.html.erb within layouts/application (Duration: 3.6ms | Allocations: 1802)
+  [1m[36mTRANSACTION (1218.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (1136.6ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+---------------------------------------------------
+CategoriesControllerTest: test_should_show_category
+---------------------------------------------------
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mFixtures Load (0.5ms)[0m  [1m[31mDELETE FROM `articles`;
+INSERT INTO `articles` (`id`, `title`, `description`, `created_at`, `updated_at`, `user_id`) VALUES (980190962, 'MyString', 'MyText', '2022-03-17 07:50:34.274935', '2022-03-17 07:50:34.274935', DEFAULT), (298486374, 'MyString', 'MyText', '2022-03-17 07:50:34.274935', '2022-03-17 07:50:34.274935', DEFAULT)[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCategory Exists? (0.8ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` WHERE `categories`.`name` = 'Sports' LIMIT 1[0m
+  [1m[36mCategory Create (0.4ms)[0m  [1m[32mINSERT INTO `categories` (`name`, `created_at`, `updated_at`) VALUES ('Sports', '2022-03-17 07:50:34.308455', '2022-03-17 07:50:34.308455')[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists? (0.8ms)[0m  [1m[34mSELECT 1 AS one FROM `users` WHERE `users`.`username` = 'Harsh' LIMIT 1[0m
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO `users` (`username`, `email`, `created_at`, `updated_at`, `password_digest`, `admin`) VALUES ('Harsh', 'harshpatelvi.dev@gmail.com', '2022-03-17 07:50:34.323508', '2022-03-17 07:50:34.323508', '$2a$04$G1bpGQegLTCtXLTOMySKX../hiIcz77GFoU6pxUB31SYow0tbqVfC', TRUE)[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/categories/1" for 127.0.0.1 at 2022-03-17 13:20:34 +0530
+Processing by CategoriesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT `categories`.* FROM `categories` WHERE `categories`.`id` = 1 LIMIT 1[0m
+  Rendering layout layouts/application.html.erb
+  Rendering categories/show.html.erb within layouts/application
+  Rendered categories/show.html.erb within layouts/application (Duration: 2.1ms | Allocations: 1499)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 3.3ms | Allocations: 633)
+  Rendered layouts/_messages.html.erb (Duration: 1.0ms | Allocations: 191)
+  Rendered layouts/_footer.html.erb (Duration: 1.8ms | Allocations: 84)
+  Rendered layout layouts/application.html.erb (Duration: 1524.4ms | Allocations: 33411)
+Completed 200 OK in 1533ms (Views: 1527.1ms | ActiveRecord: 0.3ms | Allocations: 36428)
+  [1m[36mTRANSACTION (513.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+---------------------------------------------
+CategoriesControllerTest: test_should_get_new
+---------------------------------------------
+  [1m[36mTRANSACTION (111.5ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCategory Exists? (0.7ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` WHERE `categories`.`name` = 'Sports' LIMIT 1[0m
+  [1m[36mCategory Create (0.4ms)[0m  [1m[32mINSERT INTO `categories` (`name`, `created_at`, `updated_at`) VALUES ('Sports', '2022-03-17 07:50:34.858421', '2022-03-17 07:50:34.858421')[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists? (0.7ms)[0m  [1m[34mSELECT 1 AS one FROM `users` WHERE `users`.`username` = 'Harsh' LIMIT 1[0m
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO `users` (`username`, `email`, `created_at`, `updated_at`, `password_digest`, `admin`) VALUES ('Harsh', 'harshpatelvi.dev@gmail.com', '2022-03-17 07:50:34.873928', '2022-03-17 07:50:34.873928', '$2a$04$SpsI4XresDtndU/fUwiqu.DZGse7YsiAniiQqLP41EPBEwLUOzbdq', TRUE)[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started POST "/login" for 127.0.0.1 at 2022-03-17 13:20:34 +0530
+Processing by SessionsController#create as HTML
+  Parameters: {"sessions"=>{"email"=>"harshpatelvi.dev@gmail.com", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`email` = 'harshpatelvi.dev@gmail.com' LIMIT 1[0m
+Redirected to http://www.example.com/users
+Completed 302 Found in 8ms (ActiveRecord: 0.4ms | Allocations: 1770)
+Started GET "/categories/new" for 127.0.0.1 at 2022-03-17 13:20:34 +0530
+Processing by CategoriesController#new as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  Rendering layout layouts/application.html.erb
+  Rendering categories/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (Duration: 0.3ms | Allocations: 205)
+  Rendered categories/new.html.erb within layouts/application (Duration: 4.7ms | Allocations: 2788)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 2.1ms | Allocations: 694)
+  Rendered layouts/_messages.html.erb (Duration: 0.6ms | Allocations: 191)
+  Rendered layouts/_footer.html.erb (Duration: 0.4ms | Allocations: 84)
+  Rendered layout layouts/application.html.erb (Duration: 1302.9ms | Allocations: 33238)
+Completed 200 OK in 1311ms (Views: 1304.9ms | ActiveRecord: 0.3ms | Allocations: 36578)
+  [1m[36mTRANSACTION (101.2ms)[0m  [1m[31mROLLBACK[0m
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 1.8ms | Allocations: 772)
+  Rendered layouts/_messages.html.erb (Duration: 0.5ms | Allocations: 187)
+  Rendered layouts/_footer.html.erb (Duration: 0.3ms | Allocations: 84)
+  Rendered layout layouts/application.html.erb (Duration: 1186.6ms | Allocations: 34557)
+Completed 200 OK in 1192ms (Views: 1188.6ms | ActiveRecord: 0.4ms | Allocations: 36928)
+  [1m[36mTRANSACTION (215.6ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT `ar_internal_metadata`.`value` FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'schema_sha1'[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT `ar_internal_metadata`.`value` FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'schema_sha1'[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT `ar_internal_metadata`.`value` FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'schema_sha1'[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `ar_internal_metadata`.`value` FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'schema_sha1'[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT `ar_internal_metadata`.`value` FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'schema_sha1'[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[36mTruncate Tables (2674.1ms)[0m  [1m[35mTRUNCATE TABLE `action_text_rich_texts`;
+TRUNCATE TABLE `active_storage_attachments`;
+TRUNCATE TABLE `active_storage_blobs`;
+TRUNCATE TABLE `active_storage_variant_records`;
+TRUNCATE TABLE `articles`;
+TRUNCATE TABLE `categories`;
+TRUNCATE TABLE `users`[0m
+  [1m[36mTruncate Tables (3261.2ms)[0m  [1m[35mTRUNCATE TABLE `action_text_rich_texts`;
+TRUNCATE TABLE `active_storage_attachments`;
+TRUNCATE TABLE `active_storage_blobs`;
+TRUNCATE TABLE `active_storage_variant_records`;
+TRUNCATE TABLE `articles`;
+TRUNCATE TABLE `categories`;
+TRUNCATE TABLE `users`[0m
+  [1m[36mTruncate Tables (4781.7ms)[0m  [1m[35mTRUNCATE TABLE `action_text_rich_texts`;
+TRUNCATE TABLE `active_storage_attachments`;
+TRUNCATE TABLE `active_storage_blobs`;
+TRUNCATE TABLE `active_storage_variant_records`;
+TRUNCATE TABLE `articles`;
+TRUNCATE TABLE `categories`;
+TRUNCATE TABLE `users`[0m
+  [1m[36mTruncate Tables (5820.0ms)[0m  [1m[35mTRUNCATE TABLE `action_text_rich_texts`;
+TRUNCATE TABLE `active_storage_attachments`;
+TRUNCATE TABLE `active_storage_blobs`;
+TRUNCATE TABLE `active_storage_variant_records`;
+TRUNCATE TABLE `articles`;
+TRUNCATE TABLE `categories`;
+TRUNCATE TABLE `users`[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mFixtures Load (0.7ms)[0m  [1m[31mDELETE FROM `articles`;
+INSERT INTO `articles` (`id`, `title`, `description`, `created_at`, `updated_at`, `user_id`) VALUES (980190962, 'MyString', 'MyText', '2022-03-17 07:54:06.645108', '2022-03-17 07:54:06.645108', DEFAULT), (298486374, 'MyString', 'MyText', '2022-03-17 07:54:06.645108', '2022-03-17 07:54:06.645108', DEFAULT)[0m
+  [1m[36mTRANSACTION (275.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+-----------------------------------------------------
+CategoriesControllerTest: test_should_create_category
+-----------------------------------------------------
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCategory Exists? (0.7ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` WHERE `categories`.`name` = 'Sports' LIMIT 1[0m
+  [1m[36mCategory Create (0.4ms)[0m  [1m[32mINSERT INTO `categories` (`name`, `created_at`, `updated_at`) VALUES ('Sports', '2022-03-17 07:54:06.998156', '2022-03-17 07:54:06.998156')[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists? (0.6ms)[0m  [1m[34mSELECT 1 AS one FROM `users` WHERE `users`.`username` = 'Harsh' LIMIT 1[0m
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO `users` (`username`, `email`, `created_at`, `updated_at`, `password_digest`, `admin`) VALUES ('Harsh', 'harshpatelvi.dev@gmail.com', '2022-03-17 07:54:07.016907', '2022-03-17 07:54:07.016907', '$2a$04$rLTD4natYf9ZpYYY6rCwWerEybokZ4JzOJsTauja.f75Seew.t50O', TRUE)[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started POST "/login" for 127.0.0.1 at 2022-03-17 13:24:07 +0530
+Processing by SessionsController#create as HTML
+  Parameters: {"sessions"=>{"email"=>"harshpatelvi.dev@gmail.com", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`email` = 'harshpatelvi.dev@gmail.com' LIMIT 1[0m
+Redirected to http://www.example.com/users
+Completed 302 Found in 10ms (ActiveRecord: 0.4ms | Allocations: 1770)
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT COUNT(*) FROM `categories`[0m
+Started POST "/categories" for 127.0.0.1 at 2022-03-17 13:24:07 +0530
+Processing by CategoriesController#create as HTML
+  Parameters: {"category"=>{"name"=>"Travel"}}
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCategory Exists? (0.9ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` WHERE `categories`.`name` = 'Travel' LIMIT 1[0m
+  [1m[36mCategory Create (1.0ms)[0m  [1m[32mINSERT INTO `categories` (`name`, `created_at`, `updated_at`) VALUES ('Travel', '2022-03-17 07:54:07.056495', '2022-03-17 07:54:07.056495')[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/categories/2
+Completed 302 Found in 10ms (ActiveRecord: 3.3ms | Allocations: 1408)
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT COUNT(*) FROM `categories`[0m
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT `categories`.* FROM `categories` ORDER BY `categories`.`id` DESC LIMIT 1[0m
+  [1m[36mTRANSACTION (150.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+-----------------------------------------------
+CategoriesControllerTest: test_should_get_index
+-----------------------------------------------
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCategory Exists? (0.5ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` WHERE `categories`.`name` = 'Sports' LIMIT 1[0m
+  [1m[36mCategory Create (0.6ms)[0m  [1m[32mINSERT INTO `categories` (`name`, `created_at`, `updated_at`) VALUES ('Sports', '2022-03-17 07:54:07.221718', '2022-03-17 07:54:07.221718')[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM `users` WHERE `users`.`username` = 'Harsh' LIMIT 1[0m
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO `users` (`username`, `email`, `created_at`, `updated_at`, `password_digest`, `admin`) VALUES ('Harsh', 'harshpatelvi.dev@gmail.com', '2022-03-17 07:54:07.228113', '2022-03-17 07:54:07.228113', '$2a$04$dsl.AKveYtNX4eWKJ/mj4.eiiA5mz6JaR3KgbKkZTuJ7/5lLygMSW', TRUE)[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/categories" for 127.0.0.1 at 2022-03-17 13:24:07 +0530
+Processing by CategoriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering categories/index.html.erb within layouts/application
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT `categories`.* FROM `categories`[0m
+  Rendered categories/index.html.erb within layouts/application (Duration: 5.1ms | Allocations: 1678)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 0.8ms | Allocations: 633)
+  Rendered layouts/_messages.html.erb (Duration: 0.3ms | Allocations: 181)
+  Rendered layouts/_footer.html.erb (Duration: 0.3ms | Allocations: 84)
+  Rendered layout layouts/application.html.erb (Duration: 1297.2ms | Allocations: 33424)
+Completed 200 OK in 1301ms (Views: 1299.0ms | ActiveRecord: 0.3ms | Allocations: 35350)
+  [1m[36mTRANSACTION (190.9ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+---------------------------------------------
+CategoriesControllerTest: test_should_get_new
+---------------------------------------------
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCategory Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` WHERE `categories`.`name` = 'Sports' LIMIT 1[0m
+  [1m[36mCategory Create (0.4ms)[0m  [1m[32mINSERT INTO `categories` (`name`, `created_at`, `updated_at`) VALUES ('Sports', '2022-03-17 07:54:08.730722', '2022-03-17 07:54:08.730722')[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists? (0.5ms)[0m  [1m[34mSELECT 1 AS one FROM `users` WHERE `users`.`username` = 'Harsh' LIMIT 1[0m
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO `users` (`username`, `email`, `created_at`, `updated_at`, `password_digest`, `admin`) VALUES ('Harsh', 'harshpatelvi.dev@gmail.com', '2022-03-17 07:54:08.738742', '2022-03-17 07:54:08.738742', '$2a$04$/ZgHru9MMMzc4Ktx21TZx.NE0hE.pZ/QJxtsAVw0k6TLPMwxOgF/m', TRUE)[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started POST "/login" for 127.0.0.1 at 2022-03-17 13:24:08 +0530
+Processing by SessionsController#create as HTML
+  Parameters: {"sessions"=>{"email"=>"harshpatelvi.dev@gmail.com", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (1.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`email` = 'harshpatelvi.dev@gmail.com' LIMIT 1[0m
+Redirected to http://www.example.com/users
+Completed 302 Found in 6ms (ActiveRecord: 1.4ms | Allocations: 363)
+Started GET "/categories/new" for 127.0.0.1 at 2022-03-17 13:24:08 +0530
+Processing by CategoriesController#new as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 3 LIMIT 1[0m
+  Rendering layout layouts/application.html.erb
+  Rendering categories/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (Duration: 0.3ms | Allocations: 198)
+  Rendered categories/new.html.erb within layouts/application (Duration: 2.3ms | Allocations: 1476)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 0.3ms | Allocations: 278)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 23)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered layout layouts/application.html.erb (Duration: 6.6ms | Allocations: 4017)
+Completed 200 OK in 9ms (Views: 7.0ms | ActiveRecord: 0.4ms | Allocations: 4745)
+  [1m[36mTRANSACTION (59.8ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+---------------------------------------------------
+CategoriesControllerTest: test_should_show_category
+---------------------------------------------------
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCategory Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` WHERE `categories`.`name` = 'Sports' LIMIT 1[0m
+  [1m[36mCategory Create (0.4ms)[0m  [1m[32mINSERT INTO `categories` (`name`, `created_at`, `updated_at`) VALUES ('Sports', '2022-03-17 07:54:08.832781', '2022-03-17 07:54:08.832781')[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM `users` WHERE `users`.`username` = 'Harsh' LIMIT 1[0m
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO `users` (`username`, `email`, `created_at`, `updated_at`, `password_digest`, `admin`) VALUES ('Harsh', 'harshpatelvi.dev@gmail.com', '2022-03-17 07:54:08.838709', '2022-03-17 07:54:08.838709', '$2a$04$tlp/8BbTcsn46234GqICte4GBeOPGPoYmyVLIDQXOZagNewyRV5JO', TRUE)[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/categories/5" for 127.0.0.1 at 2022-03-17 13:24:08 +0530
+Processing by CategoriesController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mCategory Load (0.4ms)[0m  [1m[34mSELECT `categories`.* FROM `categories` WHERE `categories`.`id` = 5 LIMIT 1[0m
+  Rendering layout layouts/application.html.erb
+  Rendering categories/show.html.erb within layouts/application
+  Rendered categories/show.html.erb within layouts/application (Duration: 1.0ms | Allocations: 279)
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mFixtures Load (1.0ms)[0m  [1m[31mDELETE FROM `articles`;
+INSERT INTO `articles` (`id`, `title`, `description`, `created_at`, `updated_at`, `user_id`) VALUES (980190962, 'MyString', 'MyText', '2022-03-17 07:54:08.840358', '2022-03-17 07:54:08.840358', DEFAULT), (298486374, 'MyString', 'MyText', '2022-03-17 07:54:08.840358', '2022-03-17 07:54:08.840358', DEFAULT)[0m
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 0.5ms | Allocations: 141)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 18)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered layout layouts/application.html.erb (Duration: 7.8ms | Allocations: 2673)
+Completed 200 OK in 11ms (Views: 8.4ms | ActiveRecord: 0.4ms | Allocations: 3400)
+  [1m[36mTRANSACTION (75.4ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (133.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+----------------------------------------------------------------------
+CategoriesControllerTest: test_should_not_create_category_if_not_admin
+----------------------------------------------------------------------
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCategory Exists? (2.1ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` WHERE `categories`.`name` = 'Sports' LIMIT 1[0m
+  [1m[36mCategory Create (0.4ms)[0m  [1m[32mINSERT INTO `categories` (`name`, `created_at`, `updated_at`) VALUES ('Sports', '2022-03-17 07:54:09.057811', '2022-03-17 07:54:09.057811')[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists? (0.8ms)[0m  [1m[34mSELECT 1 AS one FROM `users` WHERE `users`.`username` = 'Harsh' LIMIT 1[0m
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO `users` (`username`, `email`, `created_at`, `updated_at`, `password_digest`, `admin`) VALUES ('Harsh', 'harshpatelvi.dev@gmail.com', '2022-03-17 07:54:09.075328', '2022-03-17 07:54:09.075328', '$2a$04$dKsYM3f44BejiCAPtn4YiOHHOHmsXor62BVm6/cgUK6MLy0OZpEwa', TRUE)[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT COUNT(*) FROM `categories`[0m
+Started POST "/categories" for 127.0.0.1 at 2022-03-17 13:24:09 +0530
+Processing by CategoriesController#create as HTML
+  Parameters: {"category"=>{"name"=>"Travel"}}
+Redirected to http://www.example.com/categories
+Filter chain halted as :require_admin rendered or redirected
+Completed 302 Found in 5ms (ActiveRecord: 0.0ms | Allocations: 1365)
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT COUNT(*) FROM `categories`[0m
+  [1m[36mTRANSACTION (136.6ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT `ar_internal_metadata`.`value` FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'schema_sha1'[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `ar_internal_metadata`.`value` FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'schema_sha1'[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `ar_internal_metadata`.`value` FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'schema_sha1'[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `ar_internal_metadata`.`value` FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'schema_sha1'[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `ar_internal_metadata`.`value` FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'schema_sha1'[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[36mTruncate Tables (2935.0ms)[0m  [1m[35mTRUNCATE TABLE `action_text_rich_texts`;
+TRUNCATE TABLE `active_storage_attachments`;
+TRUNCATE TABLE `active_storage_blobs`;
+TRUNCATE TABLE `active_storage_variant_records`;
+TRUNCATE TABLE `articles`;
+TRUNCATE TABLE `categories`;
+TRUNCATE TABLE `users`[0m
+  [1m[36mTruncate Tables (3073.5ms)[0m  [1m[35mTRUNCATE TABLE `action_text_rich_texts`;
+TRUNCATE TABLE `active_storage_attachments`;
+TRUNCATE TABLE `active_storage_blobs`;
+TRUNCATE TABLE `active_storage_variant_records`;
+TRUNCATE TABLE `articles`;
+TRUNCATE TABLE `categories`;
+TRUNCATE TABLE `users`[0m
+  [1m[36mTruncate Tables (3227.9ms)[0m  [1m[35mTRUNCATE TABLE `action_text_rich_texts`;
+TRUNCATE TABLE `active_storage_attachments`;
+TRUNCATE TABLE `active_storage_blobs`;
+TRUNCATE TABLE `active_storage_variant_records`;
+TRUNCATE TABLE `articles`;
+TRUNCATE TABLE `categories`;
+TRUNCATE TABLE `users`[0m
+  [1m[36mTruncate Tables (3533.7ms)[0m  [1m[35mTRUNCATE TABLE `action_text_rich_texts`;
+TRUNCATE TABLE `active_storage_attachments`;
+TRUNCATE TABLE `active_storage_blobs`;
+TRUNCATE TABLE `active_storage_variant_records`;
+TRUNCATE TABLE `articles`;
+TRUNCATE TABLE `categories`;
+TRUNCATE TABLE `users`[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mFixtures Load (0.6ms)[0m  [1m[31mDELETE FROM `articles`;
+INSERT INTO `articles` (`id`, `title`, `description`, `created_at`, `updated_at`, `user_id`) VALUES (980190962, 'MyString', 'MyText', '2022-03-17 07:56:11.814098', '2022-03-17 07:56:11.814098', DEFAULT), (298486374, 'MyString', 'MyText', '2022-03-17 07:56:11.814098', '2022-03-17 07:56:11.814098', DEFAULT)[0m
+  [1m[36mTRANSACTION (1295.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+------------------------------------------------------------------
+CreateCategoryTest: test_get_new_category_form_and_create_category
+------------------------------------------------------------------
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mFixtures Load (0.9ms)[0m  [1m[31mDELETE FROM `articles`;
+INSERT INTO `articles` (`id`, `title`, `description`, `created_at`, `updated_at`, `user_id`) VALUES (980190962, 'MyString', 'MyText', '2022-03-17 07:56:13.132396', '2022-03-17 07:56:13.132396', DEFAULT), (298486374, 'MyString', 'MyText', '2022-03-17 07:56:13.132396', '2022-03-17 07:56:13.132396', DEFAULT)[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists? (1.1ms)[0m  [1m[34mSELECT 1 AS one FROM `users` WHERE `users`.`username` = 'Harsh' LIMIT 1[0m
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO `users` (`username`, `email`, `created_at`, `updated_at`, `password_digest`, `admin`) VALUES ('Harsh', 'harshpatelvi.dev@gmail.com', '2022-03-17 07:56:13.180274', '2022-03-17 07:56:13.180274', '$2a$04$obAM8xLsQHYn/.8P6m4yK.PG8x6BsYmXboAqtzt.sta4XOpYQlFey', TRUE)[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started POST "/login" for 127.0.0.1 at 2022-03-17 13:26:13 +0530
+Processing by SessionsController#create as HTML
+  Parameters: {"sessions"=>{"email"=>"harshpatelvi.dev@gmail.com", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`email` = 'harshpatelvi.dev@gmail.com' LIMIT 1[0m
+Redirected to http://www.example.com/users
+Completed 302 Found in 9ms (ActiveRecord: 0.5ms | Allocations: 1769)
+Started GET "/categories/new" for 127.0.0.1 at 2022-03-17 13:26:13 +0530
+Processing by CategoriesController#new as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  Rendering layout layouts/application.html.erb
+  Rendering categories/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (Duration: 0.3ms | Allocations: 205)
+  Rendered categories/new.html.erb within layouts/application (Duration: 7.0ms | Allocations: 2798)
+  [1m[36mTRANSACTION (264.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+--------------------------------------------------------------------------
+CreateCategoryTest: test_get_new_category_form_and_reject_invalid_category
+--------------------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists? (1.0ms)[0m  [1m[34mSELECT 1 AS one FROM `users` WHERE `users`.`username` = 'Harsh' LIMIT 1[0m
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO `users` (`username`, `email`, `created_at`, `updated_at`, `password_digest`, `admin`) VALUES ('Harsh', 'harshpatelvi.dev@gmail.com', '2022-03-17 07:56:13.487303', '2022-03-17 07:56:13.487303', '$2a$04$vW9baNTliDfzYw48RG8dOe4m/UCHhpVh57iLwi95ozFGdpscaeMv.', TRUE)[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started POST "/login" for 127.0.0.1 at 2022-03-17 13:26:13 +0530
+Processing by SessionsController#create as HTML
+  Parameters: {"sessions"=>{"email"=>"harshpatelvi.dev@gmail.com", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`email` = 'harshpatelvi.dev@gmail.com' LIMIT 1[0m
+Redirected to http://www.example.com/users
+Completed 302 Found in 11ms (ActiveRecord: 0.5ms | Allocations: 1769)
+Started GET "/categories/new" for 127.0.0.1 at 2022-03-17 13:26:13 +0530
+Processing by CategoriesController#new as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  Rendering layout layouts/application.html.erb
+  Rendering categories/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (Duration: 0.8ms | Allocations: 205)
+  Rendered categories/new.html.erb within layouts/application (Duration: 11.9ms | Allocations: 2798)
+  [1m[35m (0.2ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 1[0m
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 2.1ms | Allocations: 775)
+  Rendered layouts/_messages.html.erb (Duration: 0.7ms | Allocations: 187)
+  Rendered layouts/_footer.html.erb (Duration: 0.6ms | Allocations: 84)
+  Rendered layout layouts/application.html.erb (Duration: 1331.0ms | Allocations: 34742)
+Completed 200 OK in 1343ms (Views: 1333.3ms | ActiveRecord: 2.8ms | Allocations: 39242)
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `categories`[0m
+Started POST "/categories" for 127.0.0.1 at 2022-03-17 13:26:14 +0530
+Processing by CategoriesController#create as HTML
+  Parameters: {"category"=>{"name"=>"Sports"}}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCategory Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` WHERE `categories`.`name` = 'Sports' LIMIT 1[0m
+  [1m[36mCategory Create (0.4ms)[0m  [1m[32mINSERT INTO `categories` (`name`, `created_at`, `updated_at`) VALUES ('Sports', '2022-03-17 07:56:14.564783', '2022-03-17 07:56:14.564783')[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/categories/1
+Completed 302 Found in 4ms (ActiveRecord: 1.4ms | Allocations: 1280)
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT COUNT(*) FROM `categories`[0m
+Started GET "/categories/1" for 127.0.0.1 at 2022-03-17 13:26:14 +0530
+Processing by CategoriesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mCategory Load (0.5ms)[0m  [1m[34mSELECT `categories`.* FROM `categories` WHERE `categories`.`id` = 1 LIMIT 1[0m
+  Rendering layout layouts/application.html.erb
+  Rendering categories/show.html.erb within layouts/application
+  Rendered categories/show.html.erb within layouts/application (Duration: 0.9ms | Allocations: 321)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  Rendered layouts/_navigation.html.erb (Duration: 1.0ms | Allocations: 367)
+  Rendered layouts/_messages.html.erb (Duration: 0.1ms | Allocations: 23)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered layout layouts/application.html.erb (Duration: 5.3ms | Allocations: 2946)
+Completed 200 OK in 8ms (Views: 5.4ms | ActiveRecord: 0.8ms | Allocations: 3781)
+  [1m[36mTRANSACTION (144.9ms)[0m  [1m[31mROLLBACK[0m
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 1.0ms | Allocations: 775)
+  Rendered layouts/_messages.html.erb (Duration: 0.4ms | Allocations: 187)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 84)
+  Rendered layout layouts/application.html.erb (Duration: 1263.0ms | Allocations: 34752)
+Completed 200 OK in 1275ms (Views: 1265.2ms | ActiveRecord: 3.4ms | Allocations: 39256)
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT COUNT(*) FROM `categories`[0m
+Started POST "/categories" for 127.0.0.1 at 2022-03-17 13:26:14 +0530
+Processing by CategoriesController#create as HTML
+  Parameters: {"category"=>{"name"=>" "}}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCategory Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM `categories` WHERE `categories`.`name` = ' ' LIMIT 1[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK TO SAVEPOINT active_record_1[0m
+  Rendering layout layouts/application.html.erb
+  Rendering categories/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (Duration: 1.2ms | Allocations: 1001)
+  Rendered categories/new.html.erb within layouts/application (Duration: 3.6ms | Allocations: 2527)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 0.2ms | Allocations: 254)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 18)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered layout layouts/application.html.erb (Duration: 6.7ms | Allocations: 5032)
+Completed 200 OK in 14ms (Views: 7.1ms | ActiveRecord: 1.3ms | Allocations: 6298)
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `categories`[0m
+  [1m[36mTRANSACTION (155.7ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `ar_internal_metadata`.`value` FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'schema_sha1'[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `ar_internal_metadata`.`value` FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'schema_sha1'[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT `ar_internal_metadata`.`value` FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'schema_sha1'[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT `ar_internal_metadata`.`value` FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'schema_sha1'[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `ar_internal_metadata`.`value` FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'schema_sha1'[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[36mTruncate Tables (2965.2ms)[0m  [1m[35mTRUNCATE TABLE `action_text_rich_texts`;
+TRUNCATE TABLE `active_storage_attachments`;
+TRUNCATE TABLE `active_storage_blobs`;
+TRUNCATE TABLE `active_storage_variant_records`;
+TRUNCATE TABLE `articles`;
+TRUNCATE TABLE `categories`;
+TRUNCATE TABLE `users`[0m
+  [1m[36mTruncate Tables (3471.7ms)[0m  [1m[35mTRUNCATE TABLE `action_text_rich_texts`;
+TRUNCATE TABLE `active_storage_attachments`;
+TRUNCATE TABLE `active_storage_blobs`;
+TRUNCATE TABLE `active_storage_variant_records`;
+TRUNCATE TABLE `articles`;
+TRUNCATE TABLE `categories`;
+TRUNCATE TABLE `users`[0m
+  [1m[36mTruncate Tables (4956.9ms)[0m  [1m[35mTRUNCATE TABLE `action_text_rich_texts`;
+TRUNCATE TABLE `active_storage_attachments`;
+TRUNCATE TABLE `active_storage_blobs`;
+TRUNCATE TABLE `active_storage_variant_records`;
+TRUNCATE TABLE `articles`;
+TRUNCATE TABLE `categories`;
+TRUNCATE TABLE `users`[0m
+  [1m[36mTruncate Tables (5448.4ms)[0m  [1m[35mTRUNCATE TABLE `action_text_rich_texts`;
+TRUNCATE TABLE `active_storage_attachments`;
+TRUNCATE TABLE `active_storage_blobs`;
+TRUNCATE TABLE `active_storage_variant_records`;
+TRUNCATE TABLE `articles`;
+TRUNCATE TABLE `categories`;
+TRUNCATE TABLE `users`[0m
